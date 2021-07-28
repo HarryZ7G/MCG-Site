@@ -13,9 +13,11 @@ function TopBar(props) {
 
   return (
     <div className="top-bar">
-      <div className="logo-group">
-        <img src={MCG_Logo} className="mcg-logo"/>
-      </div>
+      <a href="/">
+        <div className="logo-group">
+          <img src={MCG_Logo} className="mcg-logo"/>
+        </div>
+      </a>
       <div className="sections-group">
         <a href="/team">
           <h2 className="section-link white-font">Our Team</h2>
