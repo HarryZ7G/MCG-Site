@@ -1,16 +1,16 @@
 import React from 'react';
-import './Events.css';
+import './Team.css';
 
-function Events(props) {
+function Team(props) {
   return (
     <div className="root">
       <div>
         <h1 style={{zIndex: 5}}>
-          Events
+          Our Team
         </h1>
       </div>
     </div>
   )
 }
 
-export default React.memo(Events);
+export default React.memo(Team);
