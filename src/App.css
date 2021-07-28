@@ -1,0 +1,111 @@
+div {
+  display: flex;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+h2 {
+  margin: 0;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+h3 {
+  margin: 0;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.2s;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+a:active {
+  opacity: 0.3;
+}
+
+mark.purple {
+  color: #aa79d9;
+  background-color: transparent;
+}
+
+mark.darkPurple {
+  color: #852fd9;
+  background-color: transparent;
+}
+
+mark.orange {
+  color: #ff8678;
+  background-color: transparent;
+}
+
+mark.yellow {
+  color: #ffe2b5;
+  background-color: transparent;
+}
+
+mark.cyan {
+  color: #8ff4d0;
+  background-color: transparent;
+}
+
+.white-font {
+  color: white;
+  text-shadow: 2px 2px #23232311;
+}
+
+.purple-font {
+  color: #6070FF;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

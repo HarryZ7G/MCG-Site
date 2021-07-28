@@ -1,0 +1,12 @@
+.service-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 100px 0;
+}
+
+.service-block {
+  display: flex;
+  flex-direction: row;
+}

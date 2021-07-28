@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  background: rgb(95,214,181);
+  background: linear-gradient(30deg, rgba(95,214,181,1) 0%, rgba(103,109,240,1) 100%);
+}
+
+.contact-block {
+  margin: 10px 0 40px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  justify-content: space-between;
+}
