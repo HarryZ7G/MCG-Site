@@ -23,7 +23,9 @@ function TopBar(props) {
         <a href="/events">
           <h2 className="section-link white-font">Events</h2>
         </a>
-        <h2 className="section-link white-font last-link" onClick={scrollToBottom}>Contacts</h2>
+        <a>
+          <h2 className="section-link white-font last-link" onClick={scrollToBottom}>Contacts</h2>
+        </a>
       </div>
     </div>
   )
