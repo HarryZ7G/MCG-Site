@@ -22,7 +22,7 @@ function Footer(props) {
         </h3>
       </div>
       <h3 className="white-font">
-        (@) 2021 MCG - Management Consulting Group
+        (c) 2021 MCG - Management Consulting Group
       </h3>
     </div>
   )
