@@ -1,19 +1,10 @@
-.home-background {
-  position: absolute;
+.particles {
+  display: flex;
+  position: fixed;
   top: 0;
-  height: 100vh;
+  bottom: 0;
   width: 100%;
-}
-
-.top-stroke {
-  position: absolute;
-  right: 0;
-  width: max(100vw, 1400px);
-}
-
-.side-stroke {
-  position: absolute;
-  top: max(10vw, 200px);
-  right: 0;
-  height: 1100px;
+  /* height: 900px; */
+  height: 100%;
+  z-index: -5;
 }

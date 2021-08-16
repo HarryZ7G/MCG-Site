@@ -1,18 +1,24 @@
 .service-element {
-  width: 320px;
-  margin: 80px 60px 0 60px;
+  width: min(320px, 80vw);
+  /* margin-top: 80px; */
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: grey;
+  color: gray;
 }
 
 .service-image {
-  height: 260px;
-  width: 250px;
-  border-radius: 25%;
-  background-color: lightgray;
+  height: min(240px, 60vw);
+  width: min(240px, 60vw);
+  border-radius: 10%;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  padding: 10px;
+  /* background-color: lightgray; */
 }
 
 .service-title {

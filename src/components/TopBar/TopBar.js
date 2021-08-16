@@ -1,8 +1,27 @@
 import React from 'react';
-import MCG_Logo from '../../media/MCG_Logo_White.png';
+import MCG_Logo from '../../media/MCG_Logo_B.png';
 import './TopBar.css';
 
 function TopBar(props) {
+
+  const [show, setShow] = React.useState("hidden");
+  const [color, setColor] = React.useState("gray-border");
+  const [topActive, setTopActive] = React.useState(null);
+  const [botActive, setBotActive] = React.useState(null);
+
+  const handleClick = () => {
+    if (show === "hidden") {
+      setShow("show");
+      setTopActive("top-active");
+      setBotActive("bottom-active");
+      setColor("purple-border");
+    } else {
+      setShow("hidden");
+      setTopActive(null);
+      setBotActive(null);
+      setColor("gray-border");
+    }
+  }
 
   const scrollToBottom = () =>{ 
     window.scrollTo({ 
@@ -12,21 +31,34 @@ function TopBar(props) {
   };
 
   return (
-    <div className="top-bar">
+    <div className="top-bar animate__animated animate__fadeIn animate__delay-1s">
       <a href="/">
-        <div className="logo-group">
-          <img src={MCG_Logo} className="mcg-logo"/>
-        </div>
+        <img src={MCG_Logo} className="mcg-logo" alt="MCG Logo"/>
       </a>
-      <div className="sections-group">
-        <a href="/team">
-          <h2 className="section-link white-font">Our Team</h2>
+      <button className={`sections-selector ${color}`} onClick={handleClick}>
+        <div className={`inner-line ${topActive}`}/>
+        <div className={`inner-line bottom ${botActive}`}/>
+      </button>
+      <div className={`sections-popup ${show}`}>
+        <a href="/about">
+          <h2 className="section-link">About</h2>
         </a>
         <a href="/events">
-          <h2 className="section-link white-font">Events</h2>
+          <h2 className="section-link">Events</h2>
         </a>
         <a>
-          <h2 className="section-link white-font last-link" onClick={scrollToBottom}>Contacts</h2>
+          <h2 className="section-link" onClick={scrollToBottom}>Contacts</h2>
+        </a>
+      </div>
+      <div className="sections-group">
+        <a href="/about">
+          <h2 className="section-link">About</h2>
+        </a>
+        <a href="/events">
+          <h2 className="section-link">Events</h2>
+        </a>
+        <a>
+          <h2 className="section-link" onClick={scrollToBottom}>Contacts</h2>
         </a>
       </div>
     </div>

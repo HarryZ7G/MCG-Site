@@ -4,7 +4,8 @@ import './ServiceElement.css';
 function ServiceElement(props) {
   return (
     <div className="service-element">
-      <div className="service-image"/>
+      {/* <div className="service-image"/> */}
+      <img className="service-image" src={props.image} alt={props.title}/>
       <h2 className="service-title">
         {props.title}
       </h2>

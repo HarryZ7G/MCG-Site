@@ -4,7 +4,7 @@ div {
 
 h1 {
   margin: 0;
-  font-size: 40px;
+  font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
 }
@@ -38,9 +38,32 @@ a:active {
   opacity: 0.3;
 }
 
+button {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover:enabled {
+  opacity: 0.8;
+}
+
+button:active:enabled {
+  opacity: 0.6;
+}
+
+button:hover:disabled {
+  opacity: 1;
+}
+
+button:disabled {
+  cursor: default;
+  filter: brightness(50%);
+}
+
 mark.purple {
-  color: #aa79d9;
+  color: #6070FF;
   background-color: transparent;
+  text-shadow: 0 0 15px #6070FF55;
 }
 
 mark.darkPurple {
@@ -70,6 +93,17 @@ mark.cyan {
 
 .purple-font {
   color: #6070FF;
+  text-shadow: 0 0 15px #6070FF55;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
 }
 
 .App {

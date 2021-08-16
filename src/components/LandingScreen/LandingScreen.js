@@ -1,18 +1,17 @@
 import React from 'react';
 import './LandingScreen.css';
 
-// Media
-import organize from '../../media/OrganizeResume.svg';
-
 function LandingScreen(props) {
   return (
     <div className="landing-screen">
-      <text className="home-title landing-title white-font">
-        Making <mark className="cyan">meaningful impacts</mark> in the community — one consultation at a time
-      </text>
-      <text className="landing-sub-title white-font">
+      {/* <h1 className="landing-title white-font"> */}
+      <h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s">
+        Making <mark className="purple">meaningful impacts</mark> in the community — one consultation at a time
+      </h1>
+      {/* <h2 className="white-font"> */}
+      <h2 className="animate__animated animate__fadeIn animate__delay-1s">
         We are University of Toronto Scarborough’s premier consulting group.
-      </text>
+      </h2>
     </div>
   )
 }

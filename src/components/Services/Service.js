@@ -1,31 +1,51 @@
-import React from 'react';
-import './Service.css';
+import React from "react";
+import "./Service.css";
+
+// Media
+import Finance from "../../media/Finance.svg";
+import IT from "../../media/Programmer.svg";
+import Marketing from "../../media/Marketing.svg";
+import PR from "../../media/Feedback.svg";
 
 // Components
-import ServiceElement from './ServiceElement/ServiceElement';
+import ServiceElement from "./ServiceElement/ServiceElement";
 
 function Service(props) {
   return (
-    <div className="service-container">
-      <text className="home-title purple-font">
-        Services
-      </text>
-      <div className="services-block">
-        <ServiceElement
-          title="IT & Data Analytics"
-          description="Yes we do have IT & Data Analytics service, very impressive I know"
-        />
-        <ServiceElement
-          title="Financial Strategy"
-          description="Yes we also have Financial Strategy service, also very impressive right"
-        />
-        <ServiceElement
-          title="Marketing Strategy"
-          description="And we also have Marketing Strategy service, impressive huh"
-        />
+    <div className="service-blur animate__animated animate__fadeIn animate__delay-1s">
+      <div className="service-container">
+        <h1 className="purple-font animate__animated animate__fadeIn animate__delay-2s">
+          Services
+        </h1>
+        <div className="service-block animate__animated animate__fadeIn animate__delay-2s">
+          <div className="service-row">
+            <ServiceElement
+              title="Financial Strategy"
+              description="Insert description for Finance"
+              image={Finance}
+            />
+            <ServiceElement
+              title="IT & Data Analytics"
+              description="Provide insight and suggestion for coding and statistics"
+              image={IT}
+            />
+          </div>
+          <div className="service-row">
+            <ServiceElement
+              title="Marketing Strategy"
+              description="Insert description for Marketing"
+              image={Marketing}
+            />
+            <ServiceElement
+              title="Public Relations"
+              description="Insert description for Public Relations"
+              image={PR}
+            />
+          </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default React.memo(Service);
