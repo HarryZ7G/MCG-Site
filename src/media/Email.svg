@@ -1,5 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 383.94 329.15" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs><style type="text/css">
-   
-    .fil0 {fill:black;fill-rule:nonzero}
-   
-  </style></defs><g><path class="fil0" d="M3.58 251.72l118.22 -95.99 -121.8 -111.9 0 195.27c0,4.61 1.31,8.93 3.58,12.62z"/><path class="fil0" d="M262.29 155.58l118.18 95.96c2.2,-3.65 3.47,-7.9 3.47,-12.44l0 -195.27 -121.65 111.75z"/><path class="fil0" d="M359.71 0l-335.49 0c-16.61,0 -25.08,18.49 -13.04,29.58l170 156.19c6.26,5.75 15.31,5.75 21.57,0 56.71,-52.1 113.24,-104.02 170.01,-156.19 12.06,-11.08 3.57,-29.58 -13.05,-29.58z"/><path class="fil0" d="M365.5 262.62l-116.63 -94.7 -33.89 31.13c-13.22,12.15 -32.8,12.15 -46.03,0l-33.73 -30.99 -116.54 94.62c1.79,0.42 3.64,0.64 5.54,0.64l335.49 0c2,0 3.94,-0.24 5.79,-0.7z"/></g><text x="0" y="278.32" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Maniacco</text><text x="0" y="283.32" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
+<svg width="600" height="410" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null">
+
+   <g stroke="null">
+    <path stroke="null" fill-rule="nonzero" fill="white" d="m8.44445,391.31136l183.38632,-148.90249l-188.93972,-173.58255l0,302.90853c0,7.15117 2.03211,13.85248 5.5534,19.57651z" class="fil0"/>
+    <path stroke="null" fill-rule="nonzero" fill="white" d="m409.76297,242.17618l183.32427,148.85596c3.4127,-5.66199 5.38277,-12.25471 5.38277,-19.29729l0,-302.90853l-188.70704,173.34987z" class="fil0"/>
+    <path stroke="null" fill-rule="nonzero" fill="white" d="m560.88372,0.83594l-520.4219,0c-25.76592,0 -38.90483,28.68223 -20.22803,45.88536l263.70897,242.28649c9.7107,8.91957 23.74932,8.91957 33.46001,0c87.97021,-80.81904 175.6612,-161.35887 263.72448,-242.28649c18.70782,-17.18762 5.53789,-45.88536 -20.24354,-45.88536z" class="fil0"/>
+    <path stroke="null" fill-rule="nonzero" fill="white" d="m569.86534,408.21976l-180.91987,-146.90141l-52.57116,48.28977c-20.50725,18.84744 -50.88032,18.84744 -71.40308,0l-52.32296,-48.07259l-180.78026,146.77731c2.7767,0.65152 5.64647,0.99279 8.59381,0.99279l520.4219,0c3.10246,0 6.11184,-0.3723 8.98162,-1.08586z" class="fil0"/>
+   </g>
+  </g>
+ </g>
+
+</svg>
