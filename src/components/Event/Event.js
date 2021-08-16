@@ -28,7 +28,7 @@ function Event(props) {
   }, []);
 
   return (
-    <div className="event-element animate__animated animate__fadeIn animate__delay-2s">
+    <div className="event-element animate__animated animate__fadeIn animate__delay-1s">
       <div className="event-left">
         <div className="event-date">
           <h2>{props.day}</h2>

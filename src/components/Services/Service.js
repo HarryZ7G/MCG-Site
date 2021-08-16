@@ -12,12 +12,12 @@ import ServiceElement from "./ServiceElement/ServiceElement";
 
 function Service(props) {
   return (
-    <div className="service-blur animate__animated animate__fadeIn animate__delay-1s">
+    <div className="service-blur animate__animated animate__fadeIn animate__delay-05s">
       <div className="service-container">
-        <h1 className="purple-font animate__animated animate__fadeIn animate__delay-2s">
+        <h1 className="purple-font animate__animated animate__fadeIn animate__delay-1s">
           Services
         </h1>
-        <div className="service-block animate__animated animate__fadeIn animate__delay-2s">
+        <div className="service-block animate__animated animate__fadeIn animate__delay-1s">
           <div className="service-row">
             <ServiceElement
               title="Financial Strategy"

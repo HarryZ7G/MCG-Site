@@ -225,7 +225,7 @@ function About(props) {
       <TopBar />
       <PageTitle title="About" intro={about} />
       {/* <MemberPopup show={popup} close={handleClose} name={name} intro={intro} /> */}
-      <div className="members-wrapper animate__animated animate__fadeIn animate__delay-2s">
+      <div className="members-wrapper animate__animated animate__fadeIn animate__delay-1s">
         <h1 className={`purple-font ${width}`}>Executives</h1>
         {exec}
         <h1 className={`purple-font ${width}`}>Consultants</h1>
