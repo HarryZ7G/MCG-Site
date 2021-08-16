@@ -3,7 +3,7 @@ import "./Footer.css";
 
 // Media
 import Email from "../../media/Email.svg";
-import FaceBook from "../../media/FaceBook.svg";
+import FaceBook from "../../media/Facebook.svg";
 import Instagram from "../../media/Instagram.svg";
 import LinkedIn from "../../media/Linkedin.svg";
 
