@@ -1,0 +1,14 @@
+  .top-component-background {
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+
+  .header-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 150px;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+  }

@@ -1,13 +1,18 @@
 import React from 'react';
 import './Events.css';
 
+//Components
+import TopComponent from  "../../components/TopComponent/TomComponent.js";
+import TopBar from '../../components/TopBar/TopBar.js';
+
 function Events(props) {
   return (
     <div className="root">
       <div>
-        <h1 style={{zIndex: 5}}>
-          Events
-        </h1>
+        <TopComponent
+          header="Events"
+        />
+        <TopBar/>
       </div>
     </div>
   )
