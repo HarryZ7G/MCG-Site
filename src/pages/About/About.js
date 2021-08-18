@@ -9,10 +9,13 @@ import Harry from "../../media/Headshots/Harry Geng.jpeg";
 import Sooraj from "../../media/Headshots/Sooraj Ruparelia.jpg";
 import Sumedha from "../../media/Headshots/Sumedha Sampath.jpeg";
 import Alison from "../../media/Headshots/Alison Chan.jpg";
+import Revant from "../../media/Headshots/Revant Malani.jpg";
 import Safwan from "../../media/Headshots/Safwan Patel.jpeg";
+import Abdul from "../../media/Headshots/Abdulrahman Diab.jpg";
 import Belka from "../../media/Headshots/Belka Jafarova.jpeg";
 import Sharon from "../../media/Headshots/Sharon Xiao.jpg";
 import Khushi from "../../media/Headshots/Khushi Mansukhani.jpg";
+import Melody from "../../media/Headshots/Melody Chan.jpg";
 import Ahnaf from "../../media/Headshots/Ahnaf Rahman.jpeg";
 import Stephanie from "../../media/Headshots/Stephanie Wong.jpg";
 
@@ -109,6 +112,7 @@ function About(props) {
     <Member
       name="Revant Malani"
       title="Consultant, Finance Strategy"
+      picture={Revant}
       link="https://ca.linkedin.com/in/revantmalani"
     />,
     <Member
@@ -120,6 +124,7 @@ function About(props) {
     <Member
       name="Adulrahman Diab "
       title="Consultant, IT & Data Analytics"
+      picture={Abdul}
       link="https://www.linkedin.com/in/ardiab/"
     />,
     <Member
@@ -146,6 +151,7 @@ function About(props) {
     <Member
       name="Melody Chan"
       title="Marketing Specialist, Public Relations"
+      picture={Melody}
       link="https://www.linkedin.com/in/melody-chan-bb1b5b198/"
     />,
     <Member

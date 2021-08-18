@@ -21,7 +21,7 @@ function Service(props) {
           <div className="service-row">
             <ServiceElement
               title="Financial Strategy"
-              description="Insert description for Finance"
+              description="Analyze financial infrastructure of clients to optimize financial efficiency"
               image={Finance}
             />
             <ServiceElement
@@ -33,12 +33,12 @@ function Service(props) {
           <div className="service-row">
             <ServiceElement
               title="Marketing Strategy"
-              description="Insert description for Marketing"
+              description="Provide marketing strategy solutions and identify industry trends"
               image={Marketing}
             />
             <ServiceElement
               title="Public Relations"
-              description="Insert description for Public Relations"
+              description="Increase awareness about the club on campus and develop long lasting relationships with clients"
               image={PR}
             />
           </div>
