@@ -1,6 +1,5 @@
 .service-element {
   width: min(320px, 80vw);
-  /* margin-top: 80px; */
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -18,7 +17,6 @@
   border-width: 1px;
   background-color: white;
   padding: 10px;
-  /* background-color: lightgray; */
 }
 
 .service-title {

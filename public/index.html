@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script>
+    var host = "www.utscmcg.com" || "utscncg.com";
+    if ((host == window.location.host) && (window.location.protocol != "https:")){
+    window.location.protocol = "https";
+    }
+  </script>
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
