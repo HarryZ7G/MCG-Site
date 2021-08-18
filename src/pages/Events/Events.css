@@ -1,0 +1,17 @@
+.event-blur {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  backdrop-filter: blur(7px);
+  border-radius: 20px 20px 0 0;
+}
+
+.event-block {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0;
+}
+
+.event-month {
+  margin-top: 35px;
+}
