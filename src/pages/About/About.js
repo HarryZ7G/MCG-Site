@@ -5,6 +5,7 @@ import "./About.css";
 import Rohan from "../../media/Headshots/Rohan Chadha.jpg";
 import Julio from "../../media/Headshots/Julio Harza Lopez.jpg";
 import Emma from "../../media/Headshots/Emma Huang.jpg";
+import Ahmed from "../../media/Headshots/Ahmedullah Shah.jpg";
 import Harry from "../../media/Headshots/Harry Geng.jpeg";
 import Sooraj from "../../media/Headshots/Sooraj Ruparelia.jpg";
 import Sumedha from "../../media/Headshots/Sumedha Sampath.jpeg";
@@ -74,6 +75,7 @@ function About(props) {
     <Member
       name="Ahmedullah Shah"
       title="Marketing Strategy Senior Partner"
+      picture={Ahmed}
       link="https://www.linkedin.com/in/ahmedullah-shah-966650152/"
     />,
     <Member
