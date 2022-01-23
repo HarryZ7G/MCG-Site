@@ -117,6 +117,6 @@
   }
 
   .section-link {
-    width: 89px;
+    width: min(110px, 11vw);
   }
 }
