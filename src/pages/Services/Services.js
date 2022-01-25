@@ -9,7 +9,7 @@ import Footer from "../../components/Footer/Footer";
 import Service from "../../components/Service/Service";
 
 const serviceTexts = [
-  <h2 className="service-text">
+  <h2>
     MCG’s Financial Strategy team offers: Financial Analysis and Modelling (e.g.
     Valuation, Projections), Pricing Analysis (Optimal, Competitive,
     Sensitivity), Budgeting Strategy Data-driven strategic advisory, Target
@@ -24,7 +24,7 @@ const serviceTexts = [
     are maximizing their potential and capabilities through data-driven
     decisions.
   </h2>,
-  <h2 className="service-text">
+  <h2>
     MCG’s IT & Data Analytics team offers: insight and suggestions for coding
     and data analysis, Assist clients to select the optimum programming language
     and code structure, Offer insight into the tech field, industry trends and
@@ -39,7 +39,7 @@ const serviceTexts = [
     uses those tools to help the company to identify trends, issues, and tell
     stories.
   </h2>,
-  <h2 className="service-text">
+  <h2>
     MCG’s Marketing Strategy team offers: Market Research, Industry/ Competitive
     Analysis, Campaign Planning & Assistance, and Branding Guidelines &
     Strategy. <br /> <br /> The marketing strategy team specializes in marketing
@@ -50,7 +50,7 @@ const serviceTexts = [
     able to provide the latest research-backed recommendations in understanding
     market capacity, trends, growth, changes in consumers' preferences and more.
   </h2>,
-  <h2 className="service-text">
+  <h2>
     MCG’s Public Relations team helps MCG to increase awareness about the club
     on campus and develop long-lasting relationships with clients, provide
     practical experience and expand knowledge about the consulting industry
