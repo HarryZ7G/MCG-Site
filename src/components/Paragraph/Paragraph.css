@@ -1,0 +1,31 @@
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: min(1400px, 90vw);
+  margin-bottom: 35px;
+}
+
+.paragraph h1 {
+  font-size: max(min(40px, 4vw), 30px);
+  margin: max(min(35px, 3.5px), 25px) 0;
+}
+
+.paragraph h2 {
+  font-size: max(min(27px, 2.7vw), 17px);
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.paragraph ol {
+  margin: 0;
+}
+
+.paragraph ul {
+  margin: 0;
+}
+
+.paragraph hr {
+  height: 0px;
+  visibility: hidden;
+}
