@@ -407,7 +407,7 @@ function Career(props) {
     <div className="root">
       <TopBar />
       <Background />
-      <PageTitle title="Career" />
+      <PageTitle title="Hiring" />
       <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="career-block">{text}</div>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMzrV_hU9M_7OATsZ8lnc-48-24graV-OPr2rNOvZy0KjKzQ/viewform?usp=sf_link" target="_blank">

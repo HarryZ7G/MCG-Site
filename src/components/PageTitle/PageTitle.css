@@ -10,6 +10,7 @@
 }
 
 .page-title h1 {
+  font-size: min(40px, 6vw);
   margin-top: 100px;
 }
 

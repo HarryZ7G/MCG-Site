@@ -21,6 +21,13 @@
   position: absolute;
 }
 
+.top-bar h2 {
+  text-align: center;
+  font-size: min(28px, 4.2vw);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
 @media screen and (max-width: 800px) {
   .mcg-logo {
     margin-left: -10px;
@@ -91,13 +98,6 @@
     height: min(70px, 10vw);
     opacity: 0.9;
     transition: 0.2s;
-  }
-
-  .top-bar h2 {
-    text-align: center;
-    font-size: min(27px, 2.7vw);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
   }
 
   .sections-group {

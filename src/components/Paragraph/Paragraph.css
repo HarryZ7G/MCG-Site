@@ -7,12 +7,12 @@
 }
 
 .paragraph h1 {
-  font-size: max(min(40px, 4vw), 30px);
-  margin: max(min(35px, 3.5px), 25px) 0;
+  font-size: min(30px, 4.5vw);
+  margin: min(20px, 2vh) 0;
 }
 
 .paragraph h2 {
-  font-size: max(min(27px, 2.7vw), 17px);
+  font-size: min(20px, 3vw);
   text-align: left;
   line-height: 1.5;
 }
