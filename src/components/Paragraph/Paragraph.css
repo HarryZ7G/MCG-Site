@@ -13,7 +13,7 @@
 
 .paragraph h2 {
   font-size: max(min(27px, 2.7vw), 17px);
-  text-align: justify;
+  text-align: left;
   line-height: 1.5;
 }
 
