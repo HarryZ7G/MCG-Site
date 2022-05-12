@@ -39,7 +39,6 @@ const paragraphs = [
             spearheading the problem-solving process for our clients and
             assisting in growing MCG’s brand externally.
           </li>
-          <br />
           <li>
             As a Senior Partner, you will lead a team of 2-5
             consultants/analysts for your department and maintain a key position
@@ -47,7 +46,6 @@ const paragraphs = [
             satisfaction. You will also be able to gain exposure towards
             developing team leadership experiences necessary in the workplace.
           </li>
-          <br />
           <li>
             You will be responsible for delivering innovative solutions to our
             client’s needs and in doing so, gain exposure to working with new
