@@ -7,6 +7,7 @@ import Home from './pages/Home/Home.js';
 import About from './pages/About/About.js';
 import Events from './pages/Events/Events.js';
 import Career from './pages/Career/Career.js';
+import Resources from './pages/Resources/Resources.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/hiring" component={Career} />
         <Route exact path="/events" component={Events} />
+        <Route exact path="/resources" component={Resources} />
       </Switch>
     </Router>
   );

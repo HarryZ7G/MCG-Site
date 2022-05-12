@@ -7,6 +7,14 @@
   line-height: 1.5;
 }
 
+.paragraph a {
+  text-decoration: underline;
+}
+
+.links li {
+  margin-top: 10px;
+}
+
 @media screen and (min-width: 768px) {
   .paragraph h1 {
     font-size: 1.5rem;
@@ -21,22 +29,11 @@
   .paragraph h1 {
     font-size: 1.35rem;
   }
-  
+
   .paragraph h2 {
     font-size: 1.125rem;
   }
 }
-
-/* .paragraph h1 {
-  font-size: min(30px, 4.5vw);
-  margin: min(20px, 2vh) 0;
-}
-
-.paragraph h2 {
-  font-size: min(20px, 3vw);
-  text-align: left;
-  line-height: 1.5;
-} */
 
 .paragraph ol {
   margin: 0;

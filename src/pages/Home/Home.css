@@ -52,6 +52,10 @@
   align-items: center;
 }
 
+.service-container h1 {
+  font-size: min(40px, 8vw);;
+}
+
 @media screen and (max-width: 1350px) {
   .service-block {
     margin-top: 30px;
@@ -80,7 +84,7 @@
 }
 
 .landing-words {
-  width: min(1500px, 90%);
+  width: min(1500px, 80%);
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
@@ -88,7 +92,7 @@
 }
 
 .landing-words h1 {
-  font-size: min(50px, 8.5vw);
+  font-size: min(40px, 8vw);
 }
 
 @media screen and (max-width: 1650px) {

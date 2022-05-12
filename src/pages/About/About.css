@@ -18,6 +18,7 @@
 
 .members-wrapper h1 {
   margin-top: 30px;
+  font-size: min(40px, 8vw);
 }
 
 .members-wrapper .four {

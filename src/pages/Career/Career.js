@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./Career.css";
 import OrganizationalChart from "../../media/OrganizationalChart.png";
 
@@ -410,10 +410,14 @@ function Career(props) {
       <PageTitle title="Hiring" />
       <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="career-block">{text}</div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMzrV_hU9M_7OATsZ8lnc-48-24graV-OPr2rNOvZy0KjKzQ/viewform?usp=sf_link" target="_blank">
-        <button>
-          <h2 className="white-font">Apply now</h2>
-        </button>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfMzrV_hU9M_7OATsZ8lnc-48-24graV-OPr2rNOvZy0KjKzQ/viewform?usp=sf_link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>
+            <h2 className="white-font">Apply now</h2>
+          </button>
         </a>
       </div>
       <Footer />

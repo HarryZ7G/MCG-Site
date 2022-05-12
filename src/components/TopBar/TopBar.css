@@ -23,12 +23,17 @@
 
 .top-bar h2 {
   text-align: center;
-  font-size: min(28px, 5.6vw);
+  /* font-size: min(28px, 5.6vw); */
+  /* font-size: 28px; */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
+  .top-bar h2 {
+    font-size: 24px;
+  }
+
   .mcg-logo {
     margin-left: -10px;
     /* margin-top: -30px; */
@@ -91,7 +96,11 @@
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1100px) {
+  .top-bar h2 {
+    font-size: 28px;
+  }
+
   .mcg-logo {
     margin-left: 30px;
     filter: drop-shadow(0px 7px 30px #0005);
@@ -105,7 +114,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: min(40px, 2vw);
+    gap: 40px;
   }
 
   .sections-selector {
@@ -117,6 +126,7 @@
   }
 
   .section-link {
-    width: min(100px, 10vw);
+    min-width: 90px;
+    width: fit-content;
   }
 }

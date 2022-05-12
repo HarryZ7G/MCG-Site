@@ -12,6 +12,10 @@
   padding: 25px 0;
 }
 
+.event-block h1 {
+  font-size: min(40px, 8vw);
+}
+
 .event-month {
   margin-top: 35px;
 }

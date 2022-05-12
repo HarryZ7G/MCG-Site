@@ -8,9 +8,17 @@
   color: gray;
 }
 
+.service-element h2 {
+  font-size: min(30px, 6vw);
+}
+
+.service-element h3 {
+  font-size: min(18px, 3.6vw);;
+}
+
 .service-image {
-  height: min(240px, 60vw);
-  width: min(240px, 60vw);
+  height: min(240px, 50vw);
+  width: min(240px, 50vw);
   border-radius: 10%;
   border-color: lightgray;
   border-style: solid;
@@ -20,5 +28,5 @@
 }
 
 .service-title {
-  margin: 20px 0 10px 0;
+  margin: 10px 0 5px 0;
 }
