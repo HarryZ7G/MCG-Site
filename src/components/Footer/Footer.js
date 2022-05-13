@@ -12,7 +12,7 @@ function Footer(props) {
   const [size, setSize] = React.useState(null);
 
   const CopyEmail = () => {
-    setTitle("rohan.chadha@mail.utoronto.ca");
+    setTitle("mcg.utsc@gmail.com");
     setSize("small");
     setTimeout(() => {
       setTitle("Connect with us");
