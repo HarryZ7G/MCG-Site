@@ -5,9 +5,6 @@ import "./Member.css";
 import Profile from "../../media/Profile.svg";
 
 function Member(props) {
-  // const handleClick = () => {
-  //   props.open(props.name);
-  // }
 
   const [picture, setPicture] = React.useState(Profile);
   const [empty, setEmpty] = React.useState(null);
@@ -18,7 +15,6 @@ function Member(props) {
   }, []);
 
   return (
-    // <div className={`member-container animate__animated animate__fadeIn`} onClick={handleClick}>
     <div
       className={`member-container animate__animated animate__fadeIn`}
       onClick={() => window.open(props.link)}

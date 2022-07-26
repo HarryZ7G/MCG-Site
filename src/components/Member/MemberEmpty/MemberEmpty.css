@@ -1,3 +1,17 @@
-.member-empty {
-  width: 300px;
+@media screen and (min-width: 1300px) {
+  .member-empty {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 480px) {
+  .member-empty {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .member-empty {
+    width: 270px;
+  }
 }

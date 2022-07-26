@@ -2,23 +2,19 @@ import React, { useEffect } from "react";
 import "./About.css";
 
 // Media
-import Rohan from "../../media/Headshots/Rohan Chadha.jpg";
-import Julio from "../../media/Headshots/Julio Harza Lopez.jpg";
-import Emma from "../../media/Headshots/Emma Huang.jpg";
-import Ahmed from "../../media/Headshots/Ahmedullah Shah.jpg";
-import Harry from "../../media/Headshots/Harry Geng.jpeg";
-import Sooraj from "../../media/Headshots/Sooraj Ruparelia.jpg";
-import Sumedha from "../../media/Headshots/Sumedha Sampath.jpeg";
-import Alison from "../../media/Headshots/Alison Chan.jpg";
-import Revant from "../../media/Headshots/Revant Malani.jpg";
-import Safwan from "../../media/Headshots/Safwan Patel.jpeg";
-import Abdul from "../../media/Headshots/Abdulrahman Diab.jpg";
-import Belka from "../../media/Headshots/Belka Jafarova.jpeg";
-import Sharon from "../../media/Headshots/Sharon Xiao.jpg";
-import Khushi from "../../media/Headshots/Khushi Mansukhani.jpg";
-import Melody from "../../media/Headshots/Melody Chan.jpg";
-import Ahnaf from "../../media/Headshots/Ahnaf Rahman.jpeg";
-import Stephanie from "../../media/Headshots/Stephanie Wong.jpg";
+import Anushka from "../../media/Headshots/Anushka.jpg";
+import Bobby from "../../media/Headshots/Bobby.jpg";
+import Camilly from "../../media/Headshots/Camilly.jpg";
+import Chloe from "../../media/Headshots/Chloe.jpg";
+import Harry from "../../media/Headshots/Harry.jpeg";
+import Jaspreet from "../../media/Headshots/Jaspreet.jpg";
+import Justin from "../../media/Headshots/Justin.jpg";
+import Maiesha from "../../media/Headshots/Maiesha.jpg";
+import Rachel from "../../media/Headshots/Rachel.jpg";
+import Safwan from "../../media/Headshots/Safwan.jpeg";
+import Sooraj from "../../media/Headshots/Sooraj.jpg";
+import Tom from "../../media/Headshots/Tom.jpg";
+import Vraj from "../../media/Headshots/Vraj.jpg";
 
 // Components
 import Background from "../../components/Background/Background.js";
@@ -36,137 +32,74 @@ const about = [
 ];
 
 function About(props) {
-  // const handleOpen = (name) => {
-  //   setName(name);
-  //   setPopup("show");
-  //   if (intros[name]) setIntro(intros[name]);
-  //   else setIntro({ Bio: "None", Experiences: "None" });
-  // };
-
-  // const handleClose = () => {
-  //   setPopup("hidden");
-  // };
-
   const [exec, setExec] = React.useState(null);
-  const [consultant, setConsultant] = React.useState(null);
-  const [operation, setOperation] = React.useState(null);
-  const [width, setWidth] = React.useState(null);
-  // const [popup, setPopup] = React.useState("hidden");
-  // const [name, setName] = React.useState("hidden");
-  // const [intro, setIntro] = React.useState({
-  //   bio: "None",
-  //   experiences: "None",
-  //   title: "None",
-  // });
 
   const executives = [
+    <Member name="Safwan Patel" title="Managing Partner" picture={Safwan} />,
     <Member
-      name="Rohan Chadha"
+      name="Sooraj Ruparelia"
       title="Managing Partner"
-      picture={Rohan}
-      link="https://www.linkedin.com/in/rohanchadhaa/"
+      picture={Sooraj}
     />,
     <Member
-      name="Julio Garza Lopez"
-      title="Managing Partner"
-      picture={Julio}
-      link="https://www.linkedin.com/in/juliogarzal/"
+      name="Bobby Huang"
+      title="Senior Partner, Marketing Strategy"
+      picture={Bobby}
+      link="https://www.linkedin.com/in/qingtian-bobby-huang/"
     />,
     <Member
-      name="Ahmedullah Shah"
-      title="Marketing Strategy Senior Partner"
-      picture={Ahmed}
-      link="https://www.linkedin.com/in/ahmedullah-shah-966650152/"
+      name="Justin Ng"
+      title="Consultant, Marketing Strategy"
+      picture={Justin}
+      link="https://www.linkedin.com/in/ng-chun-yin-justin/"
     />,
     <Member
-      name="Emma Huang"
-      title="Marketing Strategy Senior Partner"
-      picture={Emma}
-      link="https://www.linkedin.com/in/emmahuang6"
+      name="Tom Nguyen"
+      title="Consultant, Marketing Strategy "
+      picture={Tom}
+      link="https://www.linkedin.com/in/tomnguyen00/"
+    />,
+    <Member
+      name="Rachel Wang"
+      title="Senior Partner, Financial Strategy"
+      picture={Rachel}
+      link="https://www.linkedin.com/in/xinyiw2024/"
+    />,
+    <Member
+      name="Camilly Fuentes"
+      title="Consultant , Financial Strategy"
+      picture={Camilly}
+      link="https://www.linkedin.com/in/camillyfuentes/"
+    />,
+    <Member
+      name="Jaspreet Johal"
+      title="Consultant, Financial Strategy "
+      picture={Jaspreet}
+      link="https://www.linkedin.com/in/jaspreet-johal-978a7a143/"
+    />,
+    <Member
+      name="Vraj Thakkar"
+      title="Analyst, Financial Strategy"
+      picture={Vraj}
+      link="www.linkedin.com/in/vraj-thakkar"
+    />,
+    <Member
+      name="Anushka Kaliyar"
+      title="Director, Marketing"
+      picture={Anushka}
+      link="https://www.linkedin.com/in/anushka-kaliyar-377427234/"
+    />,
+    <Member
+      name="Chloe Tai"
+      title="Director, Operations"
+      picture={Chloe}
+      link="https://www.linkedin.com/in/fumin-chloe-tai"
     />,
     <Member
       name="Harry Geng"
-      title="Information Technology Senior Partner"
+      title="Director, IT"
       picture={Harry}
-      link="https://www.linkedin.com/in/harry-geng"
-    />,
-    <Member
-      name="Sooraj Ruparelia"
-      title="Finance Strategy Senior Partner"
-      picture={Sooraj}
-      link="https://www.linkedin.com/in/soorajruparelia/"
-    />,
-    <Member
-      name="Sumedha Sampath"
-      title="Vice President Public Relations"
-      picture={Sumedha}
-      link="https://www.linkedin.com/in/sumedhasampath"
-    />,
-  ];
-
-  const consultants = [
-    <Member
-      name="Alison Chan"
-      title="Consultant, Finance Strategy"
-      picture={Alison}
-      link="https://www.linkedin.com/in/alisonchann"
-    />,
-    <Member
-      name="Revant Malani"
-      title="Consultant, Finance Strategy"
-      picture={Revant}
-      link="https://ca.linkedin.com/in/revantmalani"
-    />,
-    <Member
-      name="Safwan Patel"
-      title="Consultant, Finance Strategy"
-      picture={Safwan}
-      link="https://www.linkedin.com/in/safwan-patel-b389291b5/"
-    />,
-    <Member
-      name="Adulrahman Diab "
-      title="Consultant, IT & Data Analytics"
-      picture={Abdul}
-      link="https://www.linkedin.com/in/ardiab/"
-    />,
-    <Member
-      name="Belka Jafarova"
-      title="Consultant, IT & Data Analytics"
-      picture={Belka}
-      link="https://www.linkedin.com/in/beyim-jafarova/"
-    />,
-    <Member
-      name="Sharon Xiao"
-      title="Consultant, IT & Data Analytics"
-      picture={Sharon}
-      link="https://www.linkedin.com/in/sharxiao/"
-    />,
-    <Member
-      name="Khushi Mansukhani"
-      title="Consultant, Marketing Strategy"
-      picture={Khushi}
-      link="https://www.linkedin.com/in/khushimansukhani"
-    />,
-  ];
-
-  const operations = [
-    <Member
-      name="Melody Chan"
-      title="Marketing Specialist, Public Relations"
-      picture={Melody}
-      link="https://www.linkedin.com/in/melody-chan-bb1b5b198/"
-    />,
-    <Member
-      name="Ahnaf Rahman"
-      title="Operations Specialist, Public Relations"
-      picture={Ahnaf}
-      link="https://www.linkedin.com/in/ahnaf-r/"
-    />,
-    <Member
-      name="Stephanie Wong "
-      title="Operations Specialist, Public Relations"
-      picture={Stephanie}
-      link="https://www.linkedin.com/in/sstephwong/"
+      link="https://www.linkedin.com/in/harry-geng/"
     />,
   ];
 
@@ -188,42 +121,22 @@ function About(props) {
           row.push(<MemberEmpty />);
         }
       }
-      switch (number) {
-        case 4:
-          display.push(<div className="member-cluster-four">{row}</div>);
-          break;
-        case 3:
-          display.push(<div className="member-cluster-three">{row}</div>);
-          break;
-        case 2:
-          display.push(<div className="member-cluster-two">{row}</div>);
-          break;
-      }
+      display.push(<div className="member-cluster">{row}</div>);
     }
     setmembers(display);
   };
 
   const handleResize = () => {
-    if (window.innerWidth > 1500) {
-      setWidth("four");
+    if (window.innerWidth > 1700) {
+      resizeCalc(5, executives, setExec);
+    } else if (window.innerWidth > 970) {
       resizeCalc(4, executives, setExec);
-      resizeCalc(4, consultants, setConsultant);
-      resizeCalc(4, operations, setOperation);
-    } else if (window.innerWidth > 1100) {
-      setWidth("three");
-      resizeCalc(3, executives, setExec);
-      resizeCalc(3, consultants, setConsultant);
-      resizeCalc(3, operations, setOperation);
     } else if (window.innerWidth > 700) {
-      setWidth("two");
+      resizeCalc(3, executives, setExec);
+    } else if (window.innerWidth > 480) {
       resizeCalc(2, executives, setExec);
-      resizeCalc(2, consultants, setConsultant);
-      resizeCalc(2, operations, setOperation);
     } else {
-      setWidth("one");
       setExec(executives);
-      setConsultant(consultants);
-      setOperation(operations);
     }
   };
 
@@ -232,14 +145,9 @@ function About(props) {
       <Background />
       <TopBar />
       <PageTitle title="About" intro={about} />
-      {/* <MemberPopup show={popup} close={handleClose} name={name} intro={intro} /> */}
       <div className="members-wrapper animate__animated animate__fadeIn animate__delay-1s">
-        <h1 className={`purple-font ${width}`}>Executives</h1>
+        <h1 className={`purple-font title`}>Members</h1>
         {exec}
-        <h1 className={`purple-font ${width}`}>Consultants</h1>
-        {consultant}
-        <h1 className={`purple-font ${width}`}>Operations</h1>
-        {operation}
       </div>
       <Footer />
     </div>
