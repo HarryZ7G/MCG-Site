@@ -11,7 +11,7 @@ import Jaspreet from "../../media/Headshots/Jaspreet.jpg";
 import Justin from "../../media/Headshots/Justin.jpg";
 import Maiesha from "../../media/Headshots/Maiesha.jpg";
 import Rachel from "../../media/Headshots/Rachel.jpg";
-import Safwan from "../../media/Headshots/Safwan.jpeg";
+import Safwan from "../../media/Headshots/Safwan.png";
 import Sooraj from "../../media/Headshots/Sooraj.jpg";
 import Tom from "../../media/Headshots/Tom.jpg";
 import Vraj from "../../media/Headshots/Vraj.jpg";
@@ -35,67 +35,92 @@ function About(props) {
   const [exec, setExec] = React.useState(null);
 
   const executives = [
-    <Member name="Safwan Patel" title="Managing Partner" picture={Safwan} />,
     <Member
+      key={0}
+      name="Safwan Patel"
+      title="Managing Partner"
+      picture={Safwan}
+      link="https://www.linkedin.com/in/safwan-patel-b389291b5/"
+    />,
+    <Member
+      key={1}
       name="Sooraj Ruparelia"
       title="Managing Partner"
       picture={Sooraj}
+      link="https://www.linkedin.com/in/soorajruparelia/"
     />,
     <Member
+      key={2}
       name="Bobby Huang"
       title="Senior Partner, Marketing Strategy"
       picture={Bobby}
       link="https://www.linkedin.com/in/qingtian-bobby-huang/"
     />,
     <Member
+      key={3}
       name="Justin Ng"
       title="Consultant, Marketing Strategy"
       picture={Justin}
       link="https://www.linkedin.com/in/ng-chun-yin-justin/"
     />,
     <Member
+      key={4}
       name="Tom Nguyen"
       title="Consultant, Marketing Strategy "
       picture={Tom}
       link="https://www.linkedin.com/in/tomnguyen00/"
     />,
     <Member
+      key={5}
       name="Rachel Wang"
       title="Senior Partner, Financial Strategy"
       picture={Rachel}
       link="https://www.linkedin.com/in/xinyiw2024/"
     />,
     <Member
+      key={6}
       name="Camilly Fuentes"
       title="Consultant , Financial Strategy"
       picture={Camilly}
       link="https://www.linkedin.com/in/camillyfuentes/"
     />,
     <Member
+      key={7}
       name="Jaspreet Johal"
       title="Consultant, Financial Strategy "
       picture={Jaspreet}
       link="https://www.linkedin.com/in/jaspreet-johal-978a7a143/"
     />,
     <Member
+      key={8}
       name="Vraj Thakkar"
       title="Analyst, Financial Strategy"
       picture={Vraj}
       link="https://www.linkedin.com/in/vraj-thakkar/"
     />,
     <Member
+      key={9}
+      name="Maiesha Zahir"
+      title="VP of Public Relations"
+      picture={Maiesha}
+      link="https://www.linkedin.com/in/maieshazahir/"
+    />,
+    <Member
+      key={10}
       name="Anushka Kaliyar"
       title="Director, Marketing"
       picture={Anushka}
       link="https://www.linkedin.com/in/anushka-kaliyar-377427234/"
     />,
     <Member
+      key={11}
       name="Chloe Tai"
       title="Director, Operations"
       picture={Chloe}
       link="https://www.linkedin.com/in/fumin-chloe-tai"
     />,
     <Member
+      key={12}
       name="Harry Geng"
       title="Director, IT"
       picture={Harry}
@@ -118,25 +143,42 @@ function About(props) {
         row = members.slice(i - number, members.length);
         let remain = i - members.length;
         for (let j = 0; j < remain; j++) {
-          row.push(<MemberEmpty />);
+          row.push(<MemberEmpty key={j} />);
         }
       }
-      display.push(<div className="member-cluster">{row}</div>);
+      display.push(<div className="member-cluster" key={i}>{row}</div>);
     }
     setmembers(display);
   };
 
+  let currentWidth = 0;
+
   const handleResize = () => {
     if (window.innerWidth > 1700) {
-      resizeCalc(5, executives, setExec);
+      if (currentWidth !== 5) {
+        resizeCalc(5, executives, setExec);
+        currentWidth = 5;
+      }
     } else if (window.innerWidth > 970) {
-      resizeCalc(4, executives, setExec);
+      if (currentWidth !== 4) {
+        resizeCalc(4, executives, setExec);
+        currentWidth = 4;
+      }
     } else if (window.innerWidth > 700) {
-      resizeCalc(3, executives, setExec);
+      if (currentWidth !== 3) {
+        resizeCalc(3, executives, setExec);
+        currentWidth = 3;
+      }
     } else if (window.innerWidth > 480) {
-      resizeCalc(2, executives, setExec);
+      if (currentWidth !== 2) {
+        resizeCalc(2, executives, setExec);
+        currentWidth = 2;
+      }
     } else {
-      setExec(executives);
+      if (currentWidth !== 1) {
+        setExec(executives);
+        currentWidth = 1;
+      }
     }
   };
 

@@ -55,42 +55,49 @@ function Alumni(props) {
 
   const executives = [
     <Member
+      key={0}
       name="Rohan Chadha"
       title="Managing Partner"
       picture={Rohan}
       link="https://www.linkedin.com/in/rohanchadhaa/"
     />,
     <Member
+      key={1}
       name="Julio Garza Lopez"
       title="Managing Partner"
       picture={Julio}
       link="https://www.linkedin.com/in/juliogarzal/"
     />,
     <Member
+      key={2}
       name="Ahmedullah Shah"
       title="Marketing Strategy Senior Partner"
       picture={Ahmed}
       link="https://www.linkedin.com/in/ahmedullah-shah-966650152/"
     />,
     <Member
+      key={3}
       name="Emma Huang"
       title="Marketing Strategy Senior Partner"
       picture={Emma}
       link="https://www.linkedin.com/in/emmahuang6"
     />,
     <Member
+      key={4}
       name="Harry Geng"
       title="IT Senior Partner"
       picture={Harry}
       link="https://www.linkedin.com/in/harry-geng"
     />,
     <Member
+      key={5}
       name="Sooraj Ruparelia"
       title="Finance Strategy Senior Partner"
       picture={Sooraj}
       link="https://www.linkedin.com/in/soorajruparelia/"
     />,
     <Member
+      key={6}
       name="Sumedha Sampath"
       title="Vice President Public Relations"
       picture={Sumedha}
@@ -100,42 +107,49 @@ function Alumni(props) {
 
   const consultants = [
     <Member
+      key={0}
       name="Alison Chan"
       title="Consultant, Finance Strategy"
       picture={Alison}
       link="https://www.linkedin.com/in/alisonchann"
     />,
     <Member
+      key={1}
       name="Revant Malani"
       title="Consultant, Finance Strategy"
       picture={Revant}
       link="https://ca.linkedin.com/in/revantmalani"
     />,
     <Member
+      key={2}
       name="Safwan Patel"
       title="Consultant, Finance Strategy"
       picture={Safwan}
       link="https://www.linkedin.com/in/safwan-patel-b389291b5/"
     />,
     <Member
+      key={3}
       name="Adulrahman Diab "
       title="Consultant, IT & Data Analytics"
       picture={Abdul}
       link="https://www.linkedin.com/in/ardiab/"
     />,
     <Member
+      key={4}
       name="Belka Jafarova"
       title="Consultant, IT & Data Analytics"
       picture={Belka}
       link="https://www.linkedin.com/in/beyim-jafarova/"
     />,
     <Member
+      key={5}
       name="Sharon Xiao"
       title="Consultant, IT & Data Analytics"
       picture={Sharon}
       link="https://www.linkedin.com/in/sharxiao/"
     />,
     <Member
+      key={6}
       name="Khushi Mansukhani"
       title="Consultant, Marketing Strategy"
       picture={Khushi}
@@ -145,18 +159,21 @@ function Alumni(props) {
 
   const operations = [
     <Member
+      key={0}
       name="Melody Chan"
       title="Marketing Specialist"
       picture={Melody}
       link="https://www.linkedin.com/in/melody-chan-bb1b5b198/"
     />,
     <Member
+      key={1}
       name="Ahnaf Rahman"
       title="Operations Specialist"
       picture={Ahnaf}
       link="https://www.linkedin.com/in/ahnaf-r/"
     />,
     <Member
+      key={2}
       name="Stephanie Wong "
       title="Operations Specialist"
       picture={Stephanie}
