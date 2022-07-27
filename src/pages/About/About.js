@@ -81,7 +81,7 @@ function About(props) {
       name="Vraj Thakkar"
       title="Analyst, Financial Strategy"
       picture={Vraj}
-      link="www.linkedin.com/in/vraj-thakkar"
+      link="https://www.linkedin.com/in/vraj-thakkar/"
     />,
     <Member
       name="Anushka Kaliyar"
