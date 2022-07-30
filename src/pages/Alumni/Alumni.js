@@ -20,6 +20,17 @@ import Melody from "../../media/AlumniHeadshots/Melody Chan.jpg";
 import Ahnaf from "../../media/AlumniHeadshots/Ahnaf Rahman.jpeg";
 import Stephanie from "../../media/AlumniHeadshots/Stephanie Wong.jpg";
 
+import BCG from "../../media/Alumni Logos/BCG.png";
+import Caseware from "../../media/Alumni Logos/Caseware.png";
+import Citi from "../../media/Alumni Logos/Citi.png";
+import IBM from "../../media/Alumni Logos/IBM.png";
+import KPMG from "../../media/Alumni Logos/KPMG.png";
+import Microsoft from "../../media/Alumni Logos/Microsoft.png";
+import RBC from "../../media/Alumni Logos/RBC.png";
+import Scotiabank from "../../media/Alumni Logos/Scotiabank.png";
+import Snap from "../../media/Alumni Logos/Snap.png";
+import TD from "../../media/Alumni Logos/TD.png";
+
 // Components
 import Background from "../../components/Background/Background.js";
 import TopBar from "../../components/TopBar/TopBar.js";
@@ -30,17 +41,6 @@ import Footer from "../../components/Footer/Footer";
 // import MemberPopup from "../../components/Member/MemberPopup/MemberPopup";
 
 function Alumni(props) {
-  // const handleOpen = (name) => {
-  //   setName(name);
-  //   setPopup("show");
-  //   if (intros[name]) setIntro(intros[name]);
-  //   else setIntro({ Bio: "None", Experiences: "None" });
-  // };
-
-  // const handleClose = () => {
-  //   setPopup("hidden");
-  // };
-
   const [exec, setExec] = React.useState(null);
   const [consultant, setConsultant] = React.useState(null);
   const [operation, setOperation] = React.useState(null);
@@ -234,12 +234,37 @@ function Alumni(props) {
       <TopBar />
       <PageTitle title="Alumni" />
       <div className="members-wrapper animate__animated animate__fadeIn animate__delay-1s">
-        <h1 className={`purple-font title`}>Executives</h1>
+        <h1 className="purple-font title">Executives</h1>
         {exec}
-        <h1 className={`purple-font title`}>Consultants</h1>
+        <h1 className="purple-font title">Consultants</h1>
         {consultant}
-        <h1 className={`purple-font title`}>Operations</h1>
+        <h1 className="purple-font title">Operations</h1>
         {operation}
+        <h1 className="purple-font alumni-achievement">Alumni Achievement</h1>
+        <div className="alumni-wrapper">
+          <div className="alumni-row">
+            <div className="alumni-subrow">
+              <img src={BCG} />
+              <img src={Caseware} />
+            </div>
+            <div className="alumni-subrow">
+              <img src={Citi} />
+              <img src={IBM} />
+              <img src={KPMG} />
+            </div>
+          </div>
+          <div className="alumni-row">
+            <div className="alumni-subrow">
+              <img src={Microsoft} />
+              <img src={RBC} />
+            </div>
+            <div className="alumni-subrow">
+              <img src={Scotiabank} />
+              <img src={Snap} />
+              <img src={TD} />
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
