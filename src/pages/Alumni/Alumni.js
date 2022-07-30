@@ -40,6 +40,12 @@ import PageTitle from "../../components/PageTitle/PageTitle.js";
 import Footer from "../../components/Footer/Footer";
 // import MemberPopup from "../../components/Member/MemberPopup/MemberPopup";
 
+const alumni = [
+  `MCG members build on the skills and experience they have gained to join `,
+  <mark className="purple">top companies and institutions</mark>,
+  ` across all industries after graduation.`,
+];
+
 function Alumni(props) {
   const [exec, setExec] = React.useState(null);
   const [consultant, setConsultant] = React.useState(null);
@@ -232,7 +238,7 @@ function Alumni(props) {
     <div className="root">
       <Background />
       <TopBar />
-      <PageTitle title="Alumni" />
+      <PageTitle title="Alumni" intro={alumni} />
       <div className="members-wrapper animate__animated animate__fadeIn animate__delay-1s">
         <h1 className="purple-font title">Executives</h1>
         {exec}
