@@ -34,8 +34,7 @@ import TD from "../../media/Alumni Logos/TD.png";
 // Components
 import Background from "../../components/Background/Background.js";
 import TopBar from "../../components/TopBar/TopBar.js";
-import Member from "../../components/Member/Member.js";
-import MemberEmpty from "../../components/Member/MemberEmpty/MemberEmpty.js";
+import LegacyMember from "../../components/Member/LegacyMember/LegacyMember.js";
 import PageTitle from "../../components/PageTitle/PageTitle.js";
 import Footer from "../../components/Footer/Footer";
 // import MemberPopup from "../../components/Member/MemberPopup/MemberPopup";
@@ -47,62 +46,50 @@ const alumni = [
 ];
 
 function Alumni(props) {
-  const [exec, setExec] = React.useState(null);
-  const [consultant, setConsultant] = React.useState(null);
-  const [operation, setOperation] = React.useState(null);
-  const [width, setWidth] = React.useState(null);
-  // const [popup, setPopup] = React.useState("hidden");
-  // const [name, setName] = React.useState("hidden");
-  // const [intro, setIntro] = React.useState({
-  //   bio: "None",
-  //   experiences: "None",
-  //   title: "None",
-  // });
-
   const executives = [
-    <Member
+    <LegacyMember
       key={0}
       name="Rohan Chadha"
       title="Managing Partner"
       picture={Rohan}
       link="https://www.linkedin.com/in/rohanchadhaa/"
     />,
-    <Member
+    <LegacyMember
       key={1}
       name="Julio Garza Lopez"
       title="Managing Partner"
       picture={Julio}
       link="https://www.linkedin.com/in/juliogarzal/"
     />,
-    <Member
+    <LegacyMember
       key={2}
       name="Ahmedullah Shah"
       title="Marketing Strategy Senior Partner"
       picture={Ahmed}
       link="https://www.linkedin.com/in/ahmedullah-shah-966650152/"
     />,
-    <Member
+    <LegacyMember
       key={3}
       name="Emma Huang"
       title="Marketing Strategy Senior Partner"
       picture={Emma}
       link="https://www.linkedin.com/in/emmahuang6"
     />,
-    <Member
+    <LegacyMember
       key={4}
       name="Harry Geng"
       title="IT Senior Partner"
       picture={Harry}
       link="https://www.linkedin.com/in/harry-geng"
     />,
-    <Member
+    <LegacyMember
       key={5}
       name="Sooraj Ruparelia"
       title="Finance Strategy Senior Partner"
       picture={Sooraj}
       link="https://www.linkedin.com/in/soorajruparelia/"
     />,
-    <Member
+    <LegacyMember
       key={6}
       name="Sumedha Sampath"
       title="Vice President Public Relations"
@@ -112,49 +99,49 @@ function Alumni(props) {
   ];
 
   const consultants = [
-    <Member
+    <LegacyMember
       key={0}
       name="Alison Chan"
       title="Consultant, Finance Strategy"
       picture={Alison}
       link="https://www.linkedin.com/in/alisonchann"
     />,
-    <Member
+    <LegacyMember
       key={1}
       name="Revant Malani"
       title="Consultant, Finance Strategy"
       picture={Revant}
       link="https://ca.linkedin.com/in/revantmalani"
     />,
-    <Member
+    <LegacyMember
       key={2}
       name="Safwan Patel"
       title="Consultant, Finance Strategy"
       picture={Safwan}
       link="https://www.linkedin.com/in/safwan-patel-b389291b5/"
     />,
-    <Member
+    <LegacyMember
       key={3}
       name="Adulrahman Diab "
       title="Consultant, IT & Data Analytics"
       picture={Abdul}
       link="https://www.linkedin.com/in/ardiab/"
     />,
-    <Member
+    <LegacyMember
       key={4}
       name="Belka Jafarova"
       title="Consultant, IT & Data Analytics"
       picture={Belka}
       link="https://www.linkedin.com/in/beyim-jafarova/"
     />,
-    <Member
+    <LegacyMember
       key={5}
       name="Sharon Xiao"
       title="Consultant, IT & Data Analytics"
       picture={Sharon}
       link="https://www.linkedin.com/in/sharxiao/"
     />,
-    <Member
+    <LegacyMember
       key={6}
       name="Khushi Mansukhani"
       title="Consultant, Marketing Strategy"
@@ -164,21 +151,21 @@ function Alumni(props) {
   ];
 
   const operations = [
-    <Member
+    <LegacyMember
       key={0}
       name="Melody Chan"
       title="Marketing Specialist"
       picture={Melody}
       link="https://www.linkedin.com/in/melody-chan-bb1b5b198/"
     />,
-    <Member
+    <LegacyMember
       key={1}
       name="Ahnaf Rahman"
       title="Operations Specialist"
       picture={Ahnaf}
       link="https://www.linkedin.com/in/ahnaf-r/"
     />,
-    <Member
+    <LegacyMember
       key={2}
       name="Stephanie Wong "
       title="Operations Specialist"
@@ -187,53 +174,6 @@ function Alumni(props) {
     />,
   ];
 
-  useEffect(() => {
-    handleResize();
-    window.addEventListener("resize", handleResize);
-  }, []);
-
-  const resizeCalc = (number, members, setmembers) => {
-    let display = [];
-    let row = [];
-    for (let i = number; i < members.length + number; i += number) {
-      if (i <= members.length) {
-        row = members.slice(i - number, i);
-      } else {
-        row = members.slice(i - number, members.length);
-        let remain = i - members.length;
-        for (let j = 0; j < remain; j++) {
-          row.push(<MemberEmpty />);
-        }
-      }
-      display.push(<div className="member-cluster">{row}</div>);
-    }
-    setmembers(display);
-  };
-
-  const handleResize = () => {
-    if (window.innerWidth > 1700) {
-      resizeCalc(5, executives, setExec);
-      resizeCalc(5, consultants, setConsultant);
-      resizeCalc(5, operations, setOperation);
-    } else if (window.innerWidth > 970) {
-      resizeCalc(4, executives, setExec);
-      resizeCalc(4, consultants, setConsultant);
-      resizeCalc(4, operations, setOperation);
-    } else if (window.innerWidth > 700) {
-      resizeCalc(3, executives, setExec);
-      resizeCalc(3, consultants, setConsultant);
-      resizeCalc(3, operations, setOperation);
-    } else if (window.innerWidth > 480) {
-      resizeCalc(2, executives, setExec);
-      resizeCalc(2, consultants, setConsultant);
-      resizeCalc(2, operations, setOperation);
-    } else {
-      setExec(executives);
-      setConsultant(consultants);
-      setOperation(operations);
-    }
-  };
-
   return (
     <div className="root">
       <Background />
@@ -241,33 +181,36 @@ function Alumni(props) {
       <PageTitle title="Alumni" intro={alumni} />
       <div className="members-wrapper animate__animated animate__fadeIn animate__delay-1s">
         <h1 className="purple-font title">Executives</h1>
-        {exec}
+        <div className="members-grid">{executives}</div>
+
         <h1 className="purple-font title">Consultants</h1>
-        {consultant}
+        <div className="members-grid">{consultants}</div>
+
         <h1 className="purple-font title">Operations</h1>
-        {operation}
+        <div className="members-grid">{operations}</div>
+
         <h1 className="purple-font alumni-achievement">Alumni Achievement</h1>
         <div className="alumni-wrapper">
           <div className="alumni-row">
             <div className="alumni-subrow">
-              <img src={BCG} />
-              <img src={Caseware} />
+              <img src={BCG} alt="BCG" />
+              <img src={Caseware} alt="Caseware" />
             </div>
             <div className="alumni-subrow">
-              <img src={Citi} />
-              <img src={IBM} />
-              <img src={KPMG} />
+              <img src={Citi} alt="Citi" />
+              <img src={IBM} alt="IBM" />
+              <img src={KPMG} alt="KPMG" />
             </div>
           </div>
           <div className="alumni-row">
             <div className="alumni-subrow">
-              <img src={Microsoft} />
-              <img src={RBC} />
+              <img src={Microsoft} alt="Microsoft" />
+              <img src={RBC} alt="RBC" />
             </div>
             <div className="alumni-subrow">
-              <img src={Scotiabank} />
-              <img src={Snap} />
-              <img src={TD} />
+              <img src={Scotiabank} alt="Scotiabank" />
+              <img src={Snap} alt="Snap" />
+              <img src={TD} alt="TD" />
             </div>
           </div>
         </div>

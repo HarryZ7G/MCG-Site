@@ -10,35 +10,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   backdrop-filter: blur(7px);
   border-radius: 20px 20px 0 0;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
-.members-wrapper .five {
-  width: 1600px;
+.member-intro {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 80%;
+  background-color: white;
+  filter: blur(20px);
 }
 
-.members-wrapper .four {
-  width: 1200px;
-}
-
-.members-wrapper .three {
-  width: 900px;
-}
-
-.members-wrapper .two {
-  width: 580px;
-}
-
-.members-wrapper .one {
-  width: 300px;
-}
-
-.members-wrapper .title {
-  margin-top: 30px;
-  font-size: min(40px, 8vw);
+.members-grid {
+  display: grid;
+  width: 100%;
+  justify-content: space-between;
+  grid-template-rows: 1fr auto;
 }
 
 @media screen and (min-width: 1700px) {
@@ -46,12 +39,13 @@
     width: 1600px;
   }
 
-  .member-cluster {
-    flex-direction: row;
-    align-items: center;
-    width: 1600px;
-    margin-top: 10px;
-    justify-content: space-between;
+  .members-grid {
+    grid-template-columns: repeat(auto-fill, 270px);
+  }
+
+  .members-wrapper h1 {
+    margin-top: 30px;
+    font-size: 40px;
   }
 
   .alumni-row {
@@ -73,12 +67,13 @@
     width: 1200px;
   }
 
-  .member-cluster {
-    flex-direction: row;
-    align-items: center;
-    width: 1200px;
-    margin-top: 10px;
-    justify-content: space-between;
+  .members-grid {
+    grid-template-columns: repeat(auto-fill, 270px);
+  }
+
+  .members-wrapper h1 {
+    margin-top: 30px;
+    font-size: 40px;
   }
 
   .alumni-row {
@@ -95,17 +90,18 @@
   }
 }
 
-@media screen and (min-width: 970px) and (max-width: 1300px) {
+@media screen and (min-width: 990px) and (max-width: 1300px) {
   .members-wrapper .title {
-    width: 900px;
+    width: 940px;
+  }
+  
+  .members-grid {
+    grid-template-columns: repeat(auto-fill, 220px);
   }
 
-  .member-cluster {
-    flex-direction: row;
-    align-items: center;
-    width: 900px;
-    margin-top: 10px;
-    justify-content: space-between;
+  .members-wrapper h1 {
+    margin-top: 20px;
+    font-size: 30px;
   }
 
   .alumni-row {
@@ -122,17 +118,18 @@
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 970px) {
+@media screen and (min-width: 740px) and (max-width: 970px) {
   .members-wrapper .title {
-    width: 650px;
+    width: 700px;
+  }
+  
+  .members-grid {
+    grid-template-columns: repeat(auto-fill, 220px);
   }
 
-  .member-cluster {
-    flex-direction: row;
-    align-items: center;
-    width: 650px;
-    margin-top: 10px;
-    justify-content: space-between;
+  .members-wrapper h1 {
+    margin-top: 20px;
+    font-size: 30px;
   }
 
   .alumni-row {
@@ -149,17 +146,18 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 700px) {
+@media screen and (min-width: 500px) and (max-width: 700px) {
   .members-wrapper .title {
-    width: 425px;
+    width: 455px;
+  }
+  
+  .members-grid {
+    grid-template-columns: repeat(auto-fill, 220px);
   }
 
-  .member-cluster {
-    flex-direction: row;
-    align-items: center;
-    width: 425px;
-    margin-top: 10px;
-    justify-content: space-between;
+  .members-wrapper h1 {
+    margin-top: 20px;
+    font-size: 30px;
   }
 
   .alumni-row {
@@ -176,17 +174,18 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .members-wrapper .title {
     width: 270px;
   }
+  
+  .members-grid {
+    grid-template-columns: repeat(auto-fill, 270px);
+  }
 
-  .member-cluster {
-    flex-direction: row;
-    align-items: center;
-    width: 270px;
-    margin-top: 10px;
-    justify-content: space-between;
+  .members-wrapper h1 {
+    margin-top: 20px;
+    font-size: 30px;
   }
 
   .alumni-row {

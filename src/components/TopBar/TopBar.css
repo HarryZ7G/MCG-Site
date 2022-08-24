@@ -61,7 +61,7 @@
 
   .inner-line {
     height: 2px;
-    width: 35px;
+    width: 30px;
     background-color: #474747;
     transition: transform 0.3s;
   }
@@ -97,8 +97,31 @@
 }
 
 @media screen and (min-width: 1100px) {
-  .top-bar h2 {
-    font-size: 28px;
+  @media screen and (min-width: 1300px) {
+    .top-bar h2 {
+      font-size: 28px;
+    }
+
+    .sections-group {
+      height: stretch;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .top-bar h2 {
+      font-size: 24px;
+    }
+
+    .sections-group {
+      height: stretch;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
   }
 
   .mcg-logo {
@@ -107,14 +130,6 @@
     height: min(70px, 10vw);
     opacity: 0.9;
     transition: 0.2s;
-  }
-
-  .sections-group {
-    height: stretch;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
   }
 
   .sections-selector {
