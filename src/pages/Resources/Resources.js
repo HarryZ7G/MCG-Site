@@ -4,6 +4,9 @@ import Berkeley from "../../media/UC Berkeley - Haas 2019.pdf";
 import Rotman from "../../media/Rotman Case Book.pdf";
 import Columbia from "../../media/Columbia Casebook - 2002.pdf";
 import Tuck from "../../media/TuckCaseBook2009.pdf";
+import Partnership from "../../media/MCG 2022-2023 Partnership Package.pdf";
+import Structure from "../../media/MCG Project Structure.pdf";
+import Contract from "../../media/MCG Client Contract.pdf";
 
 // Components
 import Background from "../../components/Background/Background.js";
@@ -20,6 +23,30 @@ const intro = [
 ];
 
 const paragraphs = [
+  {
+    title: "Consultation Documents:",
+    content: (
+      <h2>
+        <ol className="links">
+          <li>
+            <a href={Partnership} target="_blank" rel="noreferrer">
+              MCG 2022-2023 Partnership Package
+            </a>
+          </li>
+          <li>
+            <a href={Structure} target="_blank" rel="noreferrer">
+              Typical Project Structure and Responsibilities
+            </a>
+          </li>
+          <li>
+            <a href={Contract} target="_blank" rel="noreferrer">
+              Consultation Contract
+            </a>
+          </li>
+        </ol>
+      </h2>
+    ),
+  },
   {
     title: "Consulting Industry Overview:",
     content: (
@@ -220,7 +247,7 @@ function Resources(props) {
     <div className="root">
       <TopBar />
       <Background />
-      <PageTitle title="Resources" intro={intro} />
+      <PageTitle title="Consulting Resources" intro={intro} />
       <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="career-block">{text}</div>
       </div>
