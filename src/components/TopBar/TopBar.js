@@ -53,7 +53,7 @@ function TopBar(props) {
           <h2 className="section-link">Resources</h2>
         </a>
         <a href="/alumni">
-          <h2 className="section-link">Alumni</h2>
+          <h2 className="section-link">Our Team</h2>
         </a>
         <a>
           <h2 className="section-link" onClick={scrollToBottom}>Contacts</h2>
@@ -73,7 +73,7 @@ function TopBar(props) {
           <h2 className="section-link">Resources</h2>
         </a>
         <a href="/alumni">
-          <h2 className="section-link">Alumni</h2>
+          <h2 className="section-link">Our Team</h2>
         </a>
         <a>
           <h2 className="section-link" onClick={scrollToBottom}>Contacts</h2>
