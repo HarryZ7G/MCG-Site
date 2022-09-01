@@ -59,7 +59,7 @@ const paragraphs = [
   },
   {
     title: "Organizational Chart:",
-    content: <img src={OrganizationalChart} width="100%" />,
+    content: <img src={OrganizationalChart} width="100%" alt="org-chart" />,
   },
   {
     title: "Partner, Financial Strategy (x1):",

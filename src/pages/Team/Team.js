@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Team.css";
 
 // Media
@@ -303,7 +303,7 @@ function Alumni(props) {
     <div className="root">
       <Background />
       <TopBar />
-      <PageTitle title="Our Teamt" intro={intro} />
+      <PageTitle title="Our Team" intro={intro} />
       <div className="members-wrapper animate__animated animate__fadeIn animate__delay-1s">
         <h1 className={`purple-font title`}>Members</h1>
         <div className="members-grid">{members}</div>

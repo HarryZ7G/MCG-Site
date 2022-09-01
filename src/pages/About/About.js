@@ -19,16 +19,63 @@ const paragraphs = [
     title: "About Us",
     content: (
       <h2>
-        MCG is the premier professional club within the field of consulting at
-        the University of Toronto Scarborough. MCG offers pro bono consulting
-        services to a wide variety of organizations. The team includes
-        departments in finance, marketing and information technology that
-        provide tailored, implementable solutions to challenging business
-        problems faced by our clients. In the past, MCG has worked with clients
-        from technology, legal, consumer packaged goods, and NGO’s. MCG is also
-        committed to contributing to student success in securing management
-        consulting career opportunities through case competitions, networking
-        events, recruitment preparation resources, etc.
+        The Management Consulting Group (MCG) is the premier student consulting
+        organization at the University of Toronto Scarborough (UTSC) campus. MCG
+        focuses on helping students get real consulting experiences while
+        enhancing their recruitment opportunities and skills. Students will have
+        the chance to assist in consulting projects within organizations of
+        different sizes and industries. MCG continuously focuses on building
+        mutually beneficial relationships between consulting alumni and BBA
+        students. Our engagements are filled by teams of highly talented student
+        consultants receiving practical industry training, experience, and
+        guidance from our advisors. Addtionally, MCG leverages talent and
+        resources to organize events on-campus in support of BBA students.
+      </h2>
+    ),
+  },
+  {
+    title: "Our Mission",
+    content: (
+      <h2>
+        Since its inception in 2015, the group's goal has been two-fold: to
+        provide students with a realistic glimpse of what consulting is like,
+        but also to equip them with hands on experience through working with
+        clients. MCG has worked with a variety of businesses from start-ups to
+        corporations to Universities, in order to create relevant short-term and
+        long-term marketing, data, and financial strategy-based solutions. Aside
+        from working with clients, MCG has hosted case competitions with BCG and
+        created mentorship programs with consultants from Monitor Deloitte, P&G,
+        EY, & BCG to create and cultivate a genuine interest in consulting at
+        the University of Toronto campus.
+      </h2>
+    ),
+  },
+  {
+    title: "Core Objectives",
+    content: (
+      <h2>
+        MCG strives to add value for both clients and students by:
+        <ol>
+          <li>
+            Solving clients toughest issues and helping to make a long-lasting
+            impact within the Community
+          </li>
+          <li>
+            Recruiting the brightest and most diverse talent from campus and
+            providing these students with valuable hands-on consulting
+            experience; via participating in all stages of the consulting
+            process, from strategic analysis and formulation to presentation and
+            implementation.
+          </li>
+          <li>
+            Enriching the student community through various educational events
+            and workshops.
+          </li>
+          <li>
+            Helping equip members with the necessary knowledge and tools needed
+            to successfully launch a career in consulting.
+          </li>
+        </ol>
       </h2>
     ),
   },

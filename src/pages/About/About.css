@@ -8,6 +8,19 @@
   padding-bottom: 35px;
 }
 
+
+@media screen and (max-width: 1300px) {
+  .about-blur {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .about-blur {
+    margin-top: 0;
+  }
+}
+
 .about-block {
   display: flex;
   flex-direction: column;
