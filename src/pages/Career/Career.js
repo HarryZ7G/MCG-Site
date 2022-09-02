@@ -62,99 +62,7 @@ const paragraphs = [
     content: <img src={OrganizationalChart} width="100%" alt="org-chart" />,
   },
   {
-    title: "Partner, Financial Strategy (x1):",
-    content: (
-      <h2>
-        As the Senior Partner of Financial Strategy at MCG, you will lead a team
-        of highly skilled consultants and analysts to develop financial models
-        to aid in the consulting projects. These models might include revenue
-        forecasting for a client’s future earnings and expansions, cost-benefit
-        analyses for a given strategy or project, identification and
-        optimization of relevant risks, and financial budgeting/planning. You
-        will develop strategies to help meet a client’s financial goals, such as
-        cost reductions or profit maximization for their businesses. Also, you
-        will guide students’ proposals and point them to the right resources to
-        advance their business projects from a financial perspective on an
-        ongoing basis.
-      </h2>
-    ),
-  },
-  {
-    title: "What we’re looking for:",
-    content: (
-      <h2>
-        <ol>
-          <li>
-            A keen interest in finance demonstrated through high academic
-            achievement in UTSC finance courses, relevant industry experience,
-            and personal projects.
-          </li>
-          <li>
-            Proficient in excel, python, R, or other data analysis tools and
-            motivated to learn new functionalities.
-          </li>
-          <li>
-            Supreme strategic problem-solving skills and structured, analytical
-            thinking.
-          </li>
-          <li>
-            Demonstrated high standard of communication skills and experience
-            working within management clubs is an asset.
-          </li>
-        </ol>
-      </h2>
-    ),
-  },
-  {
-    title: "Partner, Marketing Strategy (x1)",
-    content: (
-      <h2>
-        As the Senior Partner of Marketing Strategy, you will lead highly
-        skilled analysts and consultants to create and develop strategic plans
-        to assist the clients from a marketing perspective. Your role will guide
-        the market research, customer segmentation, and industry/competitive
-        analyses to provide creative and strategic solutions. You will gain
-        exposure to solving a variety of problems commonly seen within marketing
-        departments. This includes creating advertising, branding, and
-        go-to-market strategies, in addition to evaluating the success of a
-        project based on your teams’ research and the support of the other
-        functions.
-      </h2>
-    ),
-  },
-  {
-    title: "What we’re looking for:",
-    content: (
-      <h2>
-        <ol>
-          <li>
-            Creative ability to innovate and implement a new marketing strategy
-            to exploit commercial opportunities, in addition to being
-            well-versed with modern marketing trends.
-          </li>
-          <li>
-            Demonstrated interest in marketing through high academic achievement
-            in courses, relevant industry experience, and personal projects.
-          </li>
-          <li>
-            Proficient with analytical tools like excel, python, etc. to conduct
-            data-driven testing and extract applicable insights is considered an
-            asset.
-          </li>
-          <li>
-            Supreme strategic problem-solving skills, structured, analytical
-            thinking and research experience is an asset.
-          </li>
-          <li>
-            Demonstrated high standard of communication skills and experience
-            working within campus clubs is an asset.
-          </li>
-        </ol>
-      </h2>
-    ),
-  },
-  {
-    title: "Partner, Information Technology & Data Analytics (x1):",
+    title: "Partner, IT & Data Analytics (1)",
     content: (
       <h2>
         The Senior Partner of IT & Data Analytics will consult clients on
@@ -170,13 +78,8 @@ const paragraphs = [
         over time. You will also be able to develop your professional
         communication skills, and earn valuable experience, furthering
         developing the practical applicability of your technical skills.
-      </h2>
-    ),
-  },
-  {
-    title: "What we’re looking for:",
-    content: (
-      <h2>
+        <hr />
+        <b>What we're looking for:</b>
         <ol>
           <li>
             Currently enrolled in a computer science, statistics, Management &
@@ -200,65 +103,196 @@ const paragraphs = [
     ),
   },
   {
-    title: "VP, Public Relations (x1)",
+    title: "Consultant, IT & Data Analytics (3)",
     content: (
       <h2>
-        The Vice President of Public Relations will develop and oversee MCG’s
-        brand, operations, and promotional strategies. You will create a strong
-        presence for the group and ensure cohesive communication channels.
-        Planning and executing strategic initiatives that increase the awareness
-        and interest in MCG will be a regular function of your role. Your
-        responsibilities will also include monitoring and measuring the
-        effectiveness of marketing campaigns to ensure brand consistency. The
-        VP, Public Relations will also support the group’s goal to provide
-        students with a realistic glimpse of what consulting is like through
-        efficient logistical support for MCG led events.
-      </h2>
-    ),
-  },
-  {
-    title: "What we’re looking for:",
-    content: (
-      <h2>
+        As an IT & Data Analytics Consultant, your work will primarily focus on
+        providing data-driven strategies to aid in the consulting projects
+        through technology transformation. Working with our Senior Partners, you
+        will learn how to use specific tools to analyze datasets or other forms
+        of information provided by the clients. You will also work with clients
+        to learn about their specific case needs, and develop the necessary
+        frameworks and languages to create solutions and strategies. This
+        position will help you gain exposure to more technical related tools,
+        including advanced Excel (VBA, Pivot Tables), Tableau, HTML, C++ and/or
+        Power BI.
+        <hr />
+        <b>What we're looking for:</b>
         <ol>
           <li>
-            Supervise and coordinate with Directors and other team executives,
-            along with external partners to ensure that MCG’s operations run
-            effectively.
+            A keen interest in Computer Science, Data Analytics, Business
+            Intelligence or related fields.
           </li>
           <li>
-            Strong leadership skills demonstrated through past leadership
-            opportunities.
+            Proficient in Excel and motivated to learn new functionalities using
+            new frameworks and languages.
           </li>
-          <li>Excellent written and verbal communication skills.</li>
-          <li>Problem solver with the ability to take initiative.</li>
           <li>
-            Strong time management skills in order to keep up with upcoming
-            deadlines for events. Previous experience with handling and
-            organizing multiple deadlines and priorities is considered an asset.
+            Supreme strategic problem-solving skills, analytical thinking and
+            research abilities.
+          </li>
+          <li>
+            Demonstrated high standard of communication skills and experience
+            working within teams is an asset.
+          </li>
+          <li>
+            Experiences with frontend development and agile development is an
+            asset.
           </li>
         </ol>
       </h2>
     ),
   },
   {
-    title: "Director, Operations (x1):",
+    title: "Analyst, IT & Data Analytics (1)",
     content: (
       <h2>
-        As an Operations Director, your role will include establishing MCG's
-        brand within the student community as well as externally. Your goal is
-        to provide students with practical and relevant skills applicable in a
-        real-world setting. If you are interested in using your creativity and
-        project management experience to provide students with a realistic
-        understanding of consulting and bridge the gap between students and
-        corporate environments, this is the role for you!
+        The Data Analytics Analyst will primarily focus on providing data-driven
+        strategies to aid in the consulting projects. Working with the Data
+        Analytics consultant, you will learn how to use tools such as Excel or
+        Power BI to analyze datasets or other forms of information provided by
+        the clients. You will gain exposure towards evaluating the success of a
+        particular strategy through your research and findings in order to
+        assist the teams. This position will help you gain exposure to more
+        technical related tools, including advanced Excel (VBA, Pivot Tables),
+        Tableau and/or Power BI.
+        <hr />
+        <b>What we're looking for:</b>
+        <ol>
+          <li>Knowledge of HTML, CSS, JavaScript, or Python.</li>
+          <li>
+            Good understanding of web development to design and modify layout
+            and functionality of our website.
+          </li>
+          <li>Communication (oral and written) and organizational skills.</li>
+          <li>Strong attention to detail and willingness to learn.</li>
+          <li>
+            Ability to conceptualize ideas and translate visions onto the
+            digital space.
+          </li>
+          <li>
+            Self-motivated with the ability to produce innovative and creative
+            ideas.
+          </li>
+        </ol>
       </h2>
     ),
   },
   {
-    title: "What we’re looking for:",
+    title: "Analyst, Marketing (1)",
     content: (
       <h2>
+        As the Marketing Strategy Analyst, you will create and develop strategic
+        plans to assist the clients from a marketing perspective. Your role will
+        mainly focus on conducting market research, customer segmentation, and
+        industry/competitive analyses to provide creative and strategic
+        solutions. You will gain exposure to solving a variety of problems
+        commonly seen within marketing departments. This includes creating
+        advertising, branding, and/or go-to-market strategies, in addition to
+        evaluating the success of a project based on your research and the
+        support of the other functions.
+        <hr />
+        <b>What we're looking for:</b>
+        <ol>
+          <li>
+            Good understanding of social media analytics and implementation of
+            social media strategies.
+          </li>
+          <li>
+            Knowledge of design. (experience with PhotoShop, Canva, etc. is a
+            plus!)
+          </li>
+          <li>
+            Strong interpersonal skills to work closely within the club and
+            external stakeholders.
+          </li>
+          <li>Confident to bring new ideas and strategies to the table.</li>
+          <li>Communication (oral and written) and presentation skills.</li>
+          <li>
+            Strong willingness to learn and enthusiasm about the branding of the
+            organization.
+          </li>
+        </ol>
+      </h2>
+    ),
+  },
+  {
+    title: "Consultant, Financial Strategy (1)",
+    content: (
+      <h2>
+        As a Financial Strategy Consultant, you will assist the Partner in
+        developing financial models to aid in the consulting projects. Models
+        may include - revenue forecasting, cost analyses for a given
+        strategy/project and prudent financial budgeting/planning. These models
+        might include revenue forecasting for a client’s future earnings and
+        expansions, cost.
+        <hr />
+        <b>What we're looking for:</b>
+        <ol>
+          <li>
+            A keen interest in Finance, Accounting, Tax, or similar Business
+            disciplines and high academic achievement in Accounting and Finance
+            courses is an asset.
+          </li>
+          <li>
+            Proficient in Excel and motivated to learn new functionalities.
+          </li>
+          <li>
+            Supreme strategic problem-solving skills and analytical thinking.
+          </li>
+          <li>
+            Demonstrated high standard of communication skills and experience
+            working within teams is an asset.
+          </li>
+        </ol>
+      </h2>
+    ),
+  },
+  {
+    title: "Consultant, Marketing (1)",
+    content: (
+      <h2>
+        As a Marketing Strategy Consultant, you will assist the Partner in
+        conducting market research, customer segmentation, competitors and
+        industry analysis. You will gain exposure to solving a variety of
+        problems commonly seen within marketing departments. This includes
+        creating advertising, branding, and/or go-to-market strategies, in
+        addition to evaluating the success of a project based on your research
+        and the support of the other functions.
+        <hr />
+        <b>What we're looking for:</b>
+        <ol>
+          <li>
+            Creative ability to innovate and implement a new marketing strategy
+            to exploit commercial opportunities.
+          </li>
+          <li>
+            Passionate about Marketing related concepts and best practices.
+          </li>
+          <li>Proficient in MS Office. (PowerPoint and Excel)</li>
+          <li>Ability to think strategically and analytically.</li>
+          <li>
+            Demonstrated high standard of communication skills and experience
+            working within teams is an asset.
+          </li>
+        </ol>
+      </h2>
+    ),
+  },
+  {
+    title: "Associate, Operations (1)",
+    content: (
+      <h2>
+        As an Operations Associate, your role will include establishing MCG's
+        brand within the student community as well as externally. You will
+        assist with the logistical side of the execution of MCG’s initiatives
+        and help out with miscellaneous duties when it comes to event planning.
+        If you are interested in using your creativity and project management
+        experience to provide students with a realistic understanding of
+        consulting and bridge the gap between students and corporate
+        environments, this is the role for you!
+        <hr />
+        <b>What we're looking for:</b>
         <ol>
           <li>
             Detail oriented - Capable of recognizing minor details to
@@ -281,21 +315,19 @@ const paragraphs = [
     ),
   },
   {
-    title: "Director, Marketing (x1):",
+    title: "Associate, Marketing (1)",
     content: (
       <h2>
-        As a Marketing Director, your role will include establishing MCG's brand
-        and advertising strategies through all communication channels. You will
-        be working closely with the department in developing content and
-        marketing campaigns for the club. If you are passionate about digital
-        media and passionate about marketing, this role is for you!
-      </h2>
-    ),
-  },
-  {
-    title: "What we’re looking for:",
-    content: (
-      <h2>
+        As a Marketing Associate, your role will include assisting establishment
+        of MCG's brand and advertising strategies through all communication
+        channels, under the guidance of the Marketing Director and VP of Public
+        relations. You will be working closely with the PR department in
+        developing content and researching for them. Additionally you will be
+        expected to brainstorm and assist marketing campaigns for the club. If
+        you are passionate about digital media and passionate about marketing,
+        this role is for you!
+        <hr />
+        <b>What we're looking for:</b>
         <ol>
           <li>
             Good understanding of social media analytics and implementation of
@@ -313,7 +345,40 @@ const paragraphs = [
           <li>Communication (oral and written) and presentation skills.</li>
           <li>
             Strong willingness to learn and enthusiasm about the branding of the
-            organization.
+            organization
+          </li>
+        </ol>
+      </h2>
+    ),
+  },
+  {
+    title: "Associate, IT (1)",
+    content: (
+      <h2>
+        As an IT Associate, you will be responsible for meeting the technical
+        needs of the team under the guidance of the Director of IT. You will
+        have the opportunity to develop, manage, and oversee MCG’s brand through
+        our website and improve its funcionality. You will assist website
+        maintenance. Additionally, you will be responsible for the management,
+        redesign and optimization of existing communication pipelines and
+        technical fronts.
+        <hr />
+        <b>What we're looking for:</b>
+        <ol>
+          <li>Knowledge of HTML, CSS, JavaScript, or Python.</li>
+          <li>
+            Good understanding of web development to design and modify layout
+            and functionality of our website.
+          </li>
+          <li>Communication (oral and written) and organizational skills.</li>
+          <li>Strong attention to detail and willingness to learn.</li>
+          <li>
+            Ability to conceptualize ideas and translate visions onto the
+            digital space.
+          </li>
+          <li>
+            Self-motivated with the ability to produce innovative and creative
+            ideas.
           </li>
         </ol>
       </h2>
@@ -409,7 +474,7 @@ function Career(props) {
       <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="career-block">{text}</div>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfMzrV_hU9M_7OATsZ8lnc-48-24graV-OPr2rNOvZy0KjKzQ/viewform?usp=sf_link"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSddCwne_po4kkRS9iR_CzQSCGpAwoqgxHwrB7jCR5xhjqsdJA/viewform?usp=sf_link"
           target="_blank"
           rel="noreferrer"
         >
