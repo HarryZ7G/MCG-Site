@@ -8,6 +8,9 @@ import PageTitle from "../../components/PageTitle/PageTitle.js";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
 
+// media
+import ConsultingDay from "../../media/ConsultingDay.jpg";
+
 function Events(props) {
   return (
     <div className="root">
@@ -16,41 +19,15 @@ function Events(props) {
       <PageTitle title="Events" />
       <div className="event-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="event-block">
-          <h1 className="event-month purple-font">Aug</h1>
           <Event
-            day="7th - 8th"
-            date={{ day: 8, month: 8, year: 2021 }}
-            weekday="Weekend"
-            title="Acumin Information Session"
-            start="1:00 PM"
-            end="4:00 PM"
-            location="Online"
-          />
-          <Event
-            // day="TBD"
-            weekday="TBD"
-            title="Impact Consulting Information Session"
-            start="TBD"
-            end="TBD"
-            location="TBD"
-          />
-          <h1 className="event-month purple-font">Oct</h1>
-          <Event
-            // day="TBD"
-            weekday="TBD"
-            title="P&G Information Session"
-            start="TBD"
-            end="TBD"
-            location="TBD"
-          />
-          <h1 className="event-month purple-font">Nov</h1>
-          <Event
-            // day="TBD"
-            weekday="TBD"
-            title="Accenture Information Session"
-            start="TBD"
-            end="TBD"
-            location="TBD"
+            day="October 5th"
+            date={{ day: 5, month: 10, year: 2022 }}
+            image={ConsultingDay}
+            title="Consulting Day"
+            start="6:00 PM"
+            end="8:00 PM"
+            location="IC Atrium"
+            link="https://docs.google.com/forms/d/e/1FAIpQLSeCDp6XewmTo-U4Bv4O3NAFMUHqhZZoScMRzefuEXRdqy9bgA/viewform?usp=sf_link"
           />
         </div>
       </div>

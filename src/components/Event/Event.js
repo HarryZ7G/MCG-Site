@@ -21,30 +21,29 @@ function Event(props) {
         (props.date.year === year) &
         (props.date.month === month) &
         (props.date.day < day)
-      )
+      ) {
         setPassed(true);
         setText("Passed");
+      }
     }
   }, []);
 
   return (
     <div className="event-element animate__animated animate__fadeIn animate__delay-1s">
-      <div className="event-left">
-        <div className="event-date">
-          <h2>{props.day}</h2>
-          <h2>{props.weekday}</h2>
-        </div>
-        <div className="event-image" />
-      </div>
+      <img className="event-image" src={props.image} />
       <div className="event-information">
         <h2>{props.title}</h2>
         <div className="event-time">
-          <h3>Start: {props.start}</h3>
-          <h3>End: {props.end}</h3>
+          <h3>Date: {props.day}</h3>
+          <h3>Time: {props.start + " - " + props.end}</h3>
+          <h3>Location: {props.location}</h3>
         </div>
-        <h3 className="event-location">Location: {props.location}</h3>
       </div>
-      <button className="register-button" disabled={passed}>
+      <button
+        className="register-button"
+        disabled={passed}
+        onClick={() => window.open(props.link)}
+      >
         <h3 className="white-font">{text}</h3>
       </button>
     </div>

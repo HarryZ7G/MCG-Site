@@ -1,5 +1,6 @@
 .event-blur {
   display: flex;
+  height: stretch;
   width: 100%;
   justify-content: center;
   backdrop-filter: blur(7px);

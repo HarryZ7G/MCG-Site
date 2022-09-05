@@ -4,8 +4,10 @@
   align-items: center;
   justify-content: center;
   height: 180px;
+  min-height: 180px;
   width: 100%;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
+  /* padding: 5px 0; */
   backdrop-filter: blur(8px);
   background-color: black;
 }
