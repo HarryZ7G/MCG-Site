@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import "./LegacyMember.css";
+import "./File.css";
 
 // Media
-import Profile from "../../../media/Profile.svg";
+import Profile from "../../media/Profile.svg";
 
-function LegacyMember(props) {
+function File(props) {
 
   const [picture, setPicture] = React.useState(Profile);
   const [empty, setEmpty] = React.useState(null);
@@ -15,14 +15,17 @@ function LegacyMember(props) {
 
   return (
     <div
-      className={`legacy-member-container`}
+      className={`file-container`}
       onClick={() => window.open(props.link)}
     >
+      <div className="label">
+        {props.label}
+      </div>
+      <div className="folder"/>
       <img className={`${empty}`} src={picture} alt="" />
       <h2>{props.name}</h2>
-      <h3>{props.title}</h3>
     </div>
   );
 }
 
-export default React.memo(LegacyMember);
+export default React.memo(File);
