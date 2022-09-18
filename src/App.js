@@ -8,6 +8,7 @@ import About from './pages/About/About.js';
 import Team from './pages/Team/Team.js';
 import Events from './pages/Events/Events.js';
 import Career from './pages/Career/Career.js';
+import Research from './pages/Research/Research.js';
 import Resources from './pages/Resources/Resources.js';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/team" component={Team} />
         <Route exact path="/hiring" component={Career} />
         <Route exact path="/events" component={Events} />
+        <Route exact path="/research" component={Research} />
         <Route exact path="/resources" component={Resources} />
       </Switch>
     </Router>

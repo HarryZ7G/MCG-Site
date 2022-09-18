@@ -49,6 +49,9 @@ function TopBar(props) {
         <a href="/hiring">
           <h2 className="section-link">Hiring</h2>
         </a>
+        <a href="/research">
+          <h2 className="section-link">Research</h2>
+        </a>
         <a href="/resources">
           <h2 className="section-link">Resources</h2>
         </a>
@@ -65,6 +68,9 @@ function TopBar(props) {
         </a>
         <a href="/hiring">
           <h2 className="section-link">Hiring</h2>
+        </a>
+        <a href="/research">
+          <h2 className="section-link">Research</h2>
         </a>
         <a href="/resources">
           <h2 className="section-link">Resources</h2>

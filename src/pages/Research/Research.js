@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Resources.css";
+import "./Research.css";
 import Berkeley from "../../media/UC Berkeley - Haas 2019.pdf";
 import Rotman from "../../media/Rotman Case Book.pdf";
 import Columbia from "../../media/Columbia Casebook - 2002.pdf";
@@ -13,39 +13,31 @@ import Background from "../../components/Background/Background.js";
 import TopBar from "../../components/TopBar/TopBar.js";
 import PageTitle from "../../components/PageTitle/PageTitle.js";
 import Footer from "../../components/Footer/Footer.js";
-import Paragraph from "../../components/Paragraph/Paragraph.js";
+import File from "../../components/File/File.js";
+
+import Rohan from "../../media/AlumniHeadshots/Rohan Chadha.jpg";
 
 const intro = [
   'Research papers'
 ];
 
+const files = [
+  <File
+    key={0}
+    name="Insurance"
+    picture={Rohan}
+    link="https://www.linkedin.com/in/rohanchadhaa/"
+  />
+]
+
 function Research(props) {
-  const [text, setText] = React.useState(null);
-
-  useEffect(() => {
-    renderParagraphs();
-  }, []);
-
-  const renderParagraphs = () => {
-    let finalText = [];
-    for (let i = 0; i < paragraphs.length; i++) {
-      finalText.push(
-        <Paragraph
-          title={paragraphs[i].title}
-          content={paragraphs[i].content}
-        />
-      );
-    }
-    setText(finalText);
-  };
-
   return (
     <div className="root">
-      <TopBar />
       <Background />
-      <PageTitle title="Consulting Resources" intro={intro} />
-      <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
-        <div className="career-block">{text}</div>
+      <TopBar />
+      <PageTitle title="Our Team" intro={intro} />
+      <div className="members-wrapper animate__animated animate__fadeIn animate__delay-1s">
+        <div className="members-grid">{files}</div>
       </div>
       <Footer />
     </div>
