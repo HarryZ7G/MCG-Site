@@ -15,7 +15,7 @@ function LegacyMember(props) {
 
   return (
     <div
-      className={`legacy-member-container animate__animated animate__fadeIn`}
+      className={`legacy-member-container`}
       onClick={() => window.open(props.link)}
     >
       <img className={`${empty}`} src={picture} alt="" />

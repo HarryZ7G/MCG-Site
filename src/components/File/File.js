@@ -15,9 +15,13 @@ function File(props) {
 
   return (
     <div
-      className={`file-container animate__animated animate__fadeIn`}
+      className={`file-container`}
       onClick={() => window.open(props.link)}
     >
+      <div className="label">
+        {props.label}
+      </div>
+      <div className="folder"/>
       <img className={`${empty}`} src={picture} alt="" />
       <h2>{props.name}</h2>
     </div>
