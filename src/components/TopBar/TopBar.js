@@ -23,13 +23,6 @@ function TopBar(props) {
     }
   }
 
-  const scrollToBottom = () =>{ 
-    window.scrollTo({ 
-      top: document.documentElement.scrollHeight, 
-      behavior: 'smooth'
-    }); 
-  };
-
   return (
     <div className="top-bar animate__animated animate__fadeIn animate__delay-05s">
       <a href="/">

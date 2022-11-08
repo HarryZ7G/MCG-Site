@@ -55,7 +55,7 @@ function Member(props) {
             </div>
           </div>
           <h3>{props.intro}</h3>
-          <img className="logo" src={LinkedinAlt} onClick={() => window.open(props.link)} />
+          <img className="logo" src={LinkedinAlt} onClick={() => window.open(props.link)} alt="LinkedIn" />
         </div>
       </div>
     </div>
