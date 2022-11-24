@@ -13,6 +13,10 @@ import Insurance from "../../media/Insurance.pdf";
 import InsuranceCover from "../../media/Insurance Cover.jpg";
 import Metaverse from "../../media/Metaverse.pdf";
 import MetaverseCover from "../../media/Metaverse Cover.jpg";
+import ITData from "../../media/ITData Analytics Report.pdf";
+import ITDataCover from "../../media/ITData Analytics Report Cover.jpg";
+import GenZAwareness from "../../media/Gen Z Awareness.pdf";
+import GenZAwarenessCover from "../../media/Gen Z Awareness Cover.jpg";
 
 const intro = [
   ''
@@ -30,6 +34,18 @@ const files = [
     label="Marketing"
     picture={MetaverseCover}
     link={Metaverse}
+  />,
+  <File
+    key={2}
+    label="Analytics"
+    picture={ITDataCover}
+    link={ITData}
+  />,
+  <File
+    key={3}
+    label="Marketing"
+    picture={GenZAwarenessCover}
+    link={GenZAwareness}
   />
 ]
 
