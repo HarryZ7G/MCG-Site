@@ -11,6 +11,7 @@ import Footer from "../../components/Footer/Footer";
 // media
 import ConsultingDay from "../../media/ConsultingDay.jpg";
 import CaseComp from "../../media/CaseComp.jpg";
+import WiC from "../../media/WiC.jpg";
 
 function Events(props) {
   return (
@@ -39,6 +40,16 @@ function Events(props) {
             end="8:30 PM"
             location="The BRIDGE"
             link="https://forms.gle/SGM3XkHxVaJwtV4cA"
+          />
+          <Event
+            day="February 6th"
+            date={{ day: 6, month: 2, year: 2023 }}
+            image={WiC}
+            title="Women in Consulting"
+            start="6:00 PM"
+            end="7:30 PM"
+            location="EV 151-152 Catalyst Center"
+            link="https://forms.gle/MYRDzTdFHydchpHr5"
           />
         </div>
       </div>
