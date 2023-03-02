@@ -6,12 +6,14 @@ import Background from "../../components/Background/Background.js";
 import TopBar from "../../components/TopBar/TopBar.js";
 import PageTitle from "../../components/PageTitle/PageTitle.js";
 import Event from "../../components/Event/Event";
+import RecurringEvent from "../../components/Event/RecurringEvent";
 import Footer from "../../components/Footer/Footer";
 
 // media
 import ConsultingDay from "../../media/ConsultingDay.jpg";
 import CaseComp from "../../media/CaseComp.jpg";
 import WiC from "../../media/WiC.jpg";
+import Buddy from "../../media/BuddyProgram.jpg";
 
 function Events(props) {
   return (
@@ -50,6 +52,12 @@ function Events(props) {
             end="7:30 PM"
             location="EV 151-152 Catalyst Center"
             link="https://forms.gle/MYRDzTdFHydchpHr5"
+          />
+          <RecurringEvent
+            frequency="Bi-Weekly"
+            image={Buddy}
+            title="Consulting Case Buddy Program"
+            link="https://forms.gle/nkmLSRE3Dq5ELyCEA"
           />
         </div>
       </div>
