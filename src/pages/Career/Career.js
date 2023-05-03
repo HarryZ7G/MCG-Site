@@ -376,7 +376,7 @@ function Career(props) {
       <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="career-block">{text}</div>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSddCwne_po4kkRS9iR_CzQSCGpAwoqgxHwrB7jCR5xhjqsdJA/viewform?usp=sf_link"
+          href="https://forms.gle/ThC4WDSpLjE3r8LY8"
           target="_blank"
           rel="noreferrer"
         >
