@@ -234,7 +234,7 @@ const paragraphs = [
           <li>
             Passionate about Marketing related concepts and best practices.
           </li>
-          <li>Proficient in MS Office。 (PowerPoint and Excel)</li>
+          <li>Proficient in MS Office. (PowerPoint and Excel)</li>
           <li>Ability to think strategically and analytically.</li>
           <li>
             Demonstrated high standard of communication skills and experience
