@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./LegacyMember.css";
 
 // Media
@@ -6,12 +6,8 @@ import Profile from "../../../media/Profile.svg";
 
 function LegacyMember(props) {
 
-  const [picture, setPicture] = React.useState(Profile);
-  const [empty, setEmpty] = React.useState(null);
-
-  useEffect(() => {
-    if (props.picture) setPicture(props.picture);
-  }, []);
+  const picture = props.picture ?? Profile;
+  const empty = null;
 
   return (
     <div
