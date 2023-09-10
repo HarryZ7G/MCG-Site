@@ -22,6 +22,7 @@ import PageTitle from "../../components/PageTitle/PageTitle.js";
 import Footer from "../../components/Footer/Footer";
 import TeamData from "./TeamData";
 import AlumniData from "./AlumniData";
+import PageHelmet from "../../components/PageHelmet/PageHelmet";
 
 const intro = [
   `MCG members build on the skills and experience they have gained to join `,
@@ -31,11 +32,11 @@ const intro = [
 
 function Alumni(props) {
   const members = TeamData.map((member, index) => <Member key={`member${index}`} {...member}/>);
-
   const alumni = AlumniData.map((alumni, index) => <LegacyMember key={`alumni${index}`} {...alumni}/>)
 
   return (
     <div className="root">
+      <PageHelmet title='Our Team' description='The student executive team behind our organization.' disableIndexing/>
       <Background />
       <TopBar />
       <PageTitle title="Our Team" intro={intro} />

@@ -221,7 +221,6 @@ const TeamData = [
     title: "Director, IT",
     picture: William,
     link: "https://www.linkedin.com/in/cheng-l-h-83037a213",
-    intro: "William is a student double majoring in Computer Science and Biology. With extensive experience building websites and software for student organizations and academic research, he joined MCG aiming to collaborate with the team to website solutions that better connect students with industry at large. He likes to explore problems from an interdisciplinary approach, and is interested in exploring new technologies to solve business and analytical problems."
   },
   {
     first: "Hillary",
