@@ -15,7 +15,7 @@
 
 @media screen and (min-width: 1300px) {
   .legacy-member-container {
-    height: 342px; 
+    min-height: 342px; 
     width: 270px;
   }
   
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 1300px) and (min-width: 480px) {
   .legacy-member-container {
-    height: 270px;
+    min-height: 270px;
     width: 220px;
   }
 
@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 480px) {
   .legacy-member-container {
-    height: 342px;
+    min-height: 342px;
     width: 270px;
   }
 

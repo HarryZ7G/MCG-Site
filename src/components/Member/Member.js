@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Member.css";
 
 // Media
@@ -6,15 +6,11 @@ import Profile from "../../media/Profile.svg";
 import LinkedinAlt from "../../media/Linkedin_alt.svg";
 
 function Member(props) {
-  const [picture, setPicture] = React.useState(Profile);
-  const [empty, setEmpty] = React.useState(null);
+  const picture = props.picture ?? Profile;
+  const empty = null;
   const [flip, setFlip] = React.useState(null);
   const [expand, setExpand] = React.useState(null);
   const container = React.useRef();
-
-  useEffect(() => {
-    if (props.picture) setPicture(props.picture);
-  }, []);
 
   return (
     <div
