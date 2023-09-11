@@ -6,14 +6,10 @@ import Background from "../../components/Background/Background.js";
 import TopBar from "../../components/TopBar/TopBar.js";
 import PageTitle from "../../components/PageTitle/PageTitle.js";
 import Event from "../../components/Event/Event";
-import RecurringEvent from "../../components/Event/RecurringEvent";
 import Footer from "../../components/Footer/Footer";
 
 // media
-import ConsultingDay from "../../media/ConsultingDay.jpg";
-import CaseComp from "../../media/CaseComp.jpg";
-import WiC from "../../media/WiC.jpg";
-import Buddy from "../../media/BuddyProgram.jpg";
+import NetworkingNight from "../../media/NetworkingNight.jpg";
 
 function Events(props) {
   return (
@@ -23,9 +19,16 @@ function Events(props) {
       <PageTitle title="Events" />
       <div className="event-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="event-block">
-          <h2>
-            Stay tuned for upcoming events!
-          </h2>
+          <Event
+          day="October 3"
+          date={{ day: 3, month: 10, year: 2023}}
+          image={NetworkingNight}
+          title="Power Connect: Career Insights & Recruiter Roundtable"
+          start="6:00 PM"
+          end="8:00 PM"
+          location="IC Atrium"
+          link=""
+          />
         </div>
       </div>
       <Footer />
