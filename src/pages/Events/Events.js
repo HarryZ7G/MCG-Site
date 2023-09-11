@@ -23,42 +23,9 @@ function Events(props) {
       <PageTitle title="Events" />
       <div className="event-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="event-block">
-          <Event
-            day="October 5th"
-            date={{ day: 5, month: 10, year: 2022 }}
-            image={ConsultingDay}
-            title="Consulting Day"
-            start="6:00 PM"
-            end="8:00 PM"
-            location="IC Atrium"
-            link="https://docs.google.com/forms/d/e/1FAIpQLSeCDp6XewmTo-U4Bv4O3NAFMUHqhZZoScMRzefuEXRdqy9bgA/viewform?usp=sf_link"
-          />
-          <Event
-            day="November 30th"
-            date={{ day: 30, month: 11, year: 2022 }}
-            image={CaseComp}
-            title="Consulting Case Competition"
-            start="5:00 PM"
-            end="8:30 PM"
-            location="The BRIDGE"
-            link="https://forms.gle/SGM3XkHxVaJwtV4cA"
-          />
-          <Event
-            day="February 6th"
-            date={{ day: 6, month: 2, year: 2023 }}
-            image={WiC}
-            title="Women in Consulting"
-            start="6:00 PM"
-            end="7:30 PM"
-            location="EV 151-152 Catalyst Center"
-            link="https://forms.gle/MYRDzTdFHydchpHr5"
-          />
-          <RecurringEvent
-            frequency="Bi-Weekly"
-            image={Buddy}
-            title="Consulting Case Buddy Program"
-            link="https://forms.gle/nkmLSRE3Dq5ELyCEA"
-          />
+          <h2>
+            Stay tuned for upcoming events!
+          </h2>
         </div>
       </div>
       <Footer />
