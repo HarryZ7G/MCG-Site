@@ -20,14 +20,15 @@ function Events(props) {
       <div className="event-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="event-block">
           <Event
-          day="October 3"
-          date={{ day: 3, month: 10, year: 2023}}
-          image={NetworkingNight}
-          title="Power Connect: Career Insights & Recruiter Roundtable"
-          start="6:00 PM"
-          end="8:00 PM"
-          location="IC Atrium"
-          link=""
+            day="October 3"
+            date={{ day: 3, month: 10, year: 2023}}
+            image={NetworkingNight}
+            title="Power Connect: Career Insights & Recruiter Roundtable"
+            start="6:00 PM"
+            end="8:00 PM"
+            location="IC Atrium"
+            link=""
+            status="Registration not yet open."
           />
         </div>
       </div>

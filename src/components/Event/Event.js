@@ -39,13 +39,20 @@ function Event(props) {
           <h3>Location: {props.location}</h3>
         </div>
       </div>
-      <button
-        className="register-button"
-        disabled={passed}
-        onClick={() => window.open(props.link)}
-      >
-        <h3 className="white-font">{text}</h3>
-      </button>
+      {
+        props.link &&
+        <button
+          className="register-button"
+          disabled={passed}
+          onClick={() => window.open(props.link)}
+        >
+          <h3 className="white-font">{text}</h3>
+        </button>
+      }
+      {
+        props.status &&
+        <h3 className="update-text">{props.status}</h3>
+      }
     </div>
   );
 }
