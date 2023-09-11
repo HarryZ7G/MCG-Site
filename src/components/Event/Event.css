@@ -34,7 +34,7 @@
     font-size: min(27px, 6vw);
   }
 
-  .register-button {
+  .register-button, .update-text {
     width: 86px;
   }
 
@@ -84,7 +84,7 @@
     font-size: 30px;
   }
 
-  .register-button {
+  .register-button, .update-text {
     width: 105px;
   }
 
@@ -137,6 +137,12 @@
   padding: 10px 15px;
   cursor: pointer;
   transition: 0.2s;
+}
+
+.update-text {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 15px;
 }
 
 .passed {
