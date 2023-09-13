@@ -85,7 +85,7 @@ const paragraphs = [
     content: <img src={OrganizationalChart} width="100%" alt="org-chart" />,
   },
   {
-    title: "Marketing Associate (2 openings)",
+    title: "Marketing Associate, (2 openings)",
     content: (
       <>
         <h2>
@@ -195,6 +195,8 @@ const paragraphs = [
           interpersonal skills looking to gain experience
           in external relations.
         </h2>
+        <hr/>
+        <b>What we're looking for:</b>
         <ol>
           <li>
             Assist in the development and maintenance of previous guests.
@@ -305,15 +307,6 @@ function Career(props) {
       <PageTitle title="Hiring" />
       <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="career-block">{text}</div>
-        <a
-          href="https://forms.gle/ThC4WDSpLjE3r8LY8"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button>
-            <h2 className="white-font">Apply now</h2>
-          </button>
-        </a>
       </div>
       <Footer />
     </div>
