@@ -41,7 +41,7 @@ function Events(props) {
             link="https://docs.google.com/forms/d/e/1FAIpQLSd56nah037PWA7JrnsMe_7SPca8R6IXNe4wBWnqNgaRY95o1g/viewform?usp=sharing"
           />
           <Event
-            day="October 3th"
+            day="October 3rd"
             date={{ day: 3, month: 10, year: 2023}}
             image={NetworkingNight}
             title="Power Connect: Career Insights & Recruiter Roundtable"
