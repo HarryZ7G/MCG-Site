@@ -20,29 +20,28 @@ function Events(props) {
       <PageTitle title="Events" />
       <div className="event-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="event-block">
-          <Event
-            day="October 5th"
-            date={{ day: 5, month: 10, year: 2022 }}
-            image={ConsultingDay}
-            title="Consulting Day"
-            start="6:00 PM"
-            end="8:00 PM"
-            location="IC Atrium"
-            link="https://docs.google.com/forms/d/e/1FAIpQLSeCDp6XewmTo-U4Bv4O3NAFMUHqhZZoScMRzefuEXRdqy9bgA/viewform?usp=sf_link"
+          <Event 
+            day="September 18th"
+            date={{day: 18, month: 9, year: 2023}}
+            image={BridgeFinanceLab}
+            title="Industry Research Workshop with Mariana from TheBRIDGE"
+            start="1:30 PM"
+            end="2:30 PM"
+            location="IC Building, Finance Lab"
+            link="https://docs.google.com/forms/d/e/1FAIpQLSe6W6obWzjbVkYhj6Yq9s9T77cwXWL6-Owks4ACR2Mob83txA/viewform"
           />
           <Event 
-            day="September 28"
+            day="September 28th"
             date={{day: 28, month: 9, year: 2023}}
             image={BridgeFinanceLab}
             title="Case Analysis Workshop with Maria Shibaeva"
             start="5:00 PM"
             end="8:00 PM"
             location="IC Building, Finance Lab"
-            link=""
-            status="Registration opens soon."
+            link="https://docs.google.com/forms/d/e/1FAIpQLSd56nah037PWA7JrnsMe_7SPca8R6IXNe4wBWnqNgaRY95o1g/viewform?usp=sharing"
           />
           <Event
-            day="October 3"
+            day="October 3th"
             date={{ day: 3, month: 10, year: 2023}}
             image={NetworkingNight}
             title="Power Connect: Career Insights & Recruiter Roundtable"
