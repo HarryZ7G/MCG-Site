@@ -139,6 +139,11 @@
   transition: 0.2s;
 }
 
+.update-text {
+  text-decoration: none;
+  text-align: center;
+}
+
 .passed {
   background-color: #4b58c6;
 }
