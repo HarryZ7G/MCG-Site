@@ -34,7 +34,7 @@
     font-size: min(27px, 6vw);
   }
 
-  .register-button {
+  .register-button, .update-text {
     width: 86px;
   }
 
@@ -84,7 +84,7 @@
     font-size: 30px;
   }
 
-  .register-button {
+  .register-button, .update-text {
     width: 105px;
   }
 
