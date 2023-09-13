@@ -11,6 +11,12 @@ import Paragraph from "../../components/Paragraph/Paragraph.js";
 
 const paragraphs = [
   {
+    title: "Come join MCG!",
+    content: (
+      <h2>New openings at MCG allow new students to join our teams, with most hiring occurring at the end of Winter and the start of Fall. Openings are posted below.</h2>
+    )
+  },
+  {
     title: "About Us",
     content: (
       <h2>
@@ -79,214 +85,138 @@ const paragraphs = [
     content: <img src={OrganizationalChart} width="100%" alt="org-chart" />,
   },
   {
-    title: "Director, Operations:",
+    title: "Marketing Associate (2 openings)",
     content: (
-      <h2>
-        As an Operations Director, your role will include establishing MCG's
-        brand within the student community as well as externally. Your goal is
-        to provide students with practical and relevant skills applicable in a
-        real-world setting. If you are interested in using your creativity and
-        project management experience to provide students with a realistic
-        understanding of consulting and bridge the gap between students and
-        corporate environments, this is the role for you!
+      <>
+        <h2>
+          As a Marketing Associate, you will play a crucial role in supporting
+          our marketing efforts to promote our products/services and enhance
+          brand visibility. You will work closely with the marketing team to
+          execute campaigns, analyze data, and contribute to the development
+          of marketing strategies. This role requires strong communication
+          and organizational skills, as well as a creative mindset to drive
+          our marketing initiatives forward.
+        </h2>
         <hr />
         <b>What we're looking for:</b>
         <ol>
           <li>
-            Detail oriented - Capable of recognizing minor details to
-            effectively organize a smoothly operated event.
-          </li>
-          <li>Collaboration and interpersonal skills - a great team player.</li>
-          <li>
-            Communication (oral and written) and presentation skills - in order
-            to reach out to with industry professionals and fellow students.
+            Good understanding of social media analytics and
+            implementation of social media strategies.
           </li>
           <li>
-            Ability to plan and execute comprehensive logistics for an event.
+            Knowledge of design. (experience with Photoshop,
+            Canva, etc. is a plus!)
           </li>
           <li>
-            Strong negotiation, and persuasive skills. (experience with sales is
-            a bonus!)
+            Strong interpersonal skills to work closely within
+            the club and external stakeholders.
+          </li>
+          <li>
+            Confident to bring new ideas and strategies to the table.
+          </li>
+          <li>
+            Communication (oral and written) and presentation skills.
+          </li>
+          <li>
+            Strong willingness to learn and enthusiasm about the
+            branding of the organization.
+          </li>
+          <li>
+            Support social media management and content creation
+            efforts.
+          </li>
+          <li>
+            Coordinate marketing events and promotions.
+          </li>
+          <li>
+            Provide administrative support to the marketing
+            department as needed.
           </li>
         </ol>
-      </h2>
+      </>
     ),
   },
   {
-    title: "Director, Marketing:",
+    title: "External Relations, Director (1 opening)",
     content: (
-      <h2>
-        As a Marketing Director, your role will include establishing MCG's brand
-        and advertising strategies through all communication channels. You will
-        be working closely with the department in developing content and
-        marketing campaigns for the club. If you are passionate about digital
-        media and passionate about marketing, this role is for you!
+      <>
+        <h2>
+          As an External Relations Director, you will lead our
+          organization's efforts to build and maintain strategic
+          relationships with external stakeholders, including
+          partners, donors, government agencies, and community
+          organizations. You will develop and execute
+          comprehensive external relations strategies to
+          support the organization's mission and objectives.
+          This role requires strong leadership, communication,
+          and negotiation skills.
+        </h2>
         <hr />
         <b>What we're looking for:</b>
         <ol>
           <li>
-            Good understanding of social media analytics and implementation of
-            social media strategies.
+            Develop and implement an external relations strategy
+            to enhance the organization's visibility and influence.
           </li>
           <li>
-            Knowledge of design. (experience with Photoshop, Canva, etc. is a
-            plus!)
+            Lead fundraising and donor engagement initiatives.
           </li>
           <li>
-            Strong interpersonal skills to work closely within the club and
-            external stakeholders.
+            Represent the organization at external events, conferences,
+            and meetings.
           </li>
-          <li>Confident to bring new ideas and strategies to the table.</li>
-          <li>Communication (oral and written) and presentation skills.</li>
           <li>
-            Strong willingness to learn and enthusiasm about the branding of the
-            organization.
+            Collaborate with internal teams to align external relations
+            efforts with organizational goals.
+          </li>
+          <li>
+            Monitor and report on key external relations metrics.
+          </li>
+          <li>
+            Manage a team of external relations associates.
           </li>
         </ol>
-      </h2>
-    ),
+      </>
+    )
   },
   {
-    title: "Director, IT:",
+    title: "External Relations, Associate (1 opening)",
     content: (
-      <h2>
-        As an IT Director, you will be responsible for meeting the technical
-        needs of the team. You will have the opportunity to develop, manage, and
-        oversee MCG’s brand through our website and improve its functionality.
-        The IT Director will further be responsible for the management, redesign
-        and optimization of existing communication pipelines and hiring process
-        for efficiency.
-        <hr />
-        <b>What we're looking for:</b>
-        <ol>
-          <li>Knowledge/Experience with HTML, CSS, JavaScript, and React.</li>
-          <li>
-            Good understanding of web development to design and modify layout
-            and functionality of our website.
-          </li>
-          <li>Communication (oral and written) and organizational skills.</li>
-          <li>Strong attention to detail and willingness to learn.</li>
-          <li>
-            Ability to conceptualize ideas and translate visions onto the
-            digital space.
-          </li>
-          <li>
-            Self-motivated with the ability to produce innovative and creative
-            ideas.
-          </li>
-        </ol>
-      </h2>
-    ),
-  },
-  {
-    title: "Consultant, Financial Strategy:",
-    content: (
-      <h2>
-        As a Financial Strategy Consultant, you will assist the Partner in
-        developing financial models to aid in the consulting projects. Models
-        may include - revenue forecasting, cost analyses for a given
-        strategy/project and prudent financial budgeting/planning. These models
-        might include revenue forecasting for a client’s future earnings and
-        expansions, cost analyses for a given strategy or project, and financial
-        budgeting/planning. You will develop strategies to help meet a client’s
-        financial goals, such as cost reductions or profit maximization for
-        their businesses.
-        <hr />
-        <b>What we're looking for:</b>
+      <>
+        <h2>
+          As an External Relations Associate, you will support
+          the External Relations Director in building and
+          maintaining relationships with external stakeholders.
+          Your role will involve research, communication, and
+          coordination efforts to strengthen the organization's
+          network and partnerships. This is a great opportunity
+          for someone with strong organizational and
+          interpersonal skills looking to gain experience
+          in external relations.
+        </h2>
         <ol>
           <li>
-            A keen interest in Finance, Accounting, Tax, or similar Business
-            disciplines and high academic achievement in Accounting and Finance
-            courses is an asset.
+            Assist in the development and maintenance of previous guests.
           </li>
           <li>
-            Proficient in Excel and motivated to learn new functionalities.
+            Coordinate meetings and communication with external parties.
           </li>
           <li>
-            Supreme strategic problem-solving skills and analytical thinking.
+            Prepare materials and reports for external relations activities.
           </li>
           <li>
-            Demonstrated high standard of communication skills and experience
-            working within teams is an asset.
+            Collaborate with the External Relations team to execute strategies.
+          </li>
+          <li>
+            Help organize events and engagements with external guests.
           </li>
         </ol>
-      </h2>
-    ),
+      </>
+    )
   },
-  {
-    title: "Consultant, Marketing Strategy",
-    content: (
-      <h2>
-        As a Marketing Strategy Consultant, you will assist the Partner in
-        conducting market research, customer segmentation, competitors and
-        industry analysis. You will gain exposure to solving a variety of
-        problems commonly seen within marketing departments. This includes
-        creating advertising, branding, and/or go-to-market strategies, in
-        addition to evaluating the success of a project based on your research
-        and the support of the other functions.
-        <hr />
-        <b>What we're looking for:</b>
-        <ol>
-          <li>
-            Creative ability to innovate and implement a new marketing strategy
-            to exploit commercial opportunities.
-          </li>
-          <li>
-            Passionate about Marketing related concepts and best practices.
-          </li>
-          <li>Proficient in MS Office. (PowerPoint and Excel)</li>
-          <li>Ability to think strategically and analytically.</li>
-          <li>
-            Demonstrated high standard of communication skills and experience
-            working within teams is an asset.
-          </li>
-        </ol>
-      </h2>
-    ),
-  },
-  {
-    title: "Consultant, Technology Consulting",
-    content: (
-      <h2>
-        As a Technology Consultant, your work will primarily focus on providing
-        support in delivering technology recommendation and vendor selection to
-        aid in the consulting projects through technology transformation.
-        Working with our Senior Partners, you will learn how to leverage
-        technology to achieve business goals. You will also work with clients to
-        learn about their specific case needs, assess their technology
-        infrastructure and provide solutions for improvement. This position will
-        help you gain exposure to a variety of areas, including software
-        development, cybersecurity, data analytics, cloud computing, artificial
-        intelligence, etc.
-        <hr />
-        <b>What we're looking for:</b>
-        <ol>
-          <li>
-            A keen interest in Technology, Data Analytics, Business Intelligence
-            or related fields.
-          </li>
-          <li>
-            Proficient in Excel and motivated to learn new functionalities using
-            new frameworks and technical tools.
-          </li>
-          <li>
-            Supreme strategic problem-solving skills, analytical thinking and
-            research abilities.
-          </li>
-          <li>
-            Demonstrated high standard of communication skills and experience
-            working within teams is an asset.
-          </li>
-          <li>
-            Experiences with technology consulting and vendor selection is an
-            asset.
-          </li>
-        </ol>
-      </h2>
-    ),
-  },
-  {
-    title: "Frequently Asked Questions",
+{
+  title: "Frequently Asked Questions",
     content: (
       <h2>
         <b>
@@ -298,7 +228,7 @@ const paragraphs = [
         <br />
         &emsp;&nbsp;Non-Profit – Created a digital transformation plan to migrate a business online in lieu of COVID-19.
         <br />
-        &emsp;&nbsp;Healthy Foods – Created a marketing plan to help a company improve their market share. 
+        &emsp;&nbsp;Healthy Foods – Created a marketing plan to help a company improve their market share.
         <br />
         &emsp;&nbsp;Entertainment – Created a marketing & sales strategy along with financial improvements.
         <hr />
