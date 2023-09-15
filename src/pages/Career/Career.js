@@ -307,6 +307,15 @@ function Career(props) {
       <PageTitle title="Hiring" />
       <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="career-block">{text}</div>
+        <a
+          href="https://forms.gle/QMkNaVnbSVUeGVmK9"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>
+            <h2 className="white-font">Apply now</h2>
+          </button>
+        </a>
       </div>
       <Footer />
     </div>
