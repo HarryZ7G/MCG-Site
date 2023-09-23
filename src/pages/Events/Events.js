@@ -48,8 +48,7 @@ function Events(props) {
             start="6:00 PM"
             end="8:00 PM"
             location="IC Atrium"
-            link=""
-            status="Registration not yet open."
+            link="https://docs.google.com/forms/d/e/1FAIpQLSeRuTVSdltlrmgGoqzwTDBIvP3Q-49nsKHRgfc6t5d2_8H1VQ/viewform?usp=sf_link"
           />
         </div>
       </div>
