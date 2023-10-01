@@ -13,7 +13,10 @@ const paragraphs = [
   {
     title: "Come join MCG!",
     content: (
-      <h2>New openings at MCG allow new students to join our teams, with most hiring occurring at the end of Winter and the start of Fall. Openings are posted below.</h2>
+      <>
+      <h2>New openings at MCG allow new students to join our teams, with most hiring occurring at the end of Winter and the start of Fall.</h2>
+      <h2>Unfortunately, there are no positions currently open.</h2>
+      </>
     )
   },
   {
@@ -83,139 +86,6 @@ const paragraphs = [
   {
     title: "Organizational Chart (as of Fall 2022):",
     content: <img src={OrganizationalChart} width="100%" alt="org-chart" />,
-  },
-  {
-    title: "Marketing Associate, (2 openings)",
-    content: (
-      <>
-        <h2>
-          As a Marketing Associate, you will play a crucial role in supporting
-          our marketing efforts to promote our products/services and enhance
-          brand visibility. You will work closely with the marketing team to
-          execute campaigns, analyze data, and contribute to the development
-          of marketing strategies. This role requires strong communication
-          and organizational skills, as well as a creative mindset to drive
-          our marketing initiatives forward.
-        </h2>
-        <hr />
-        <b>What we're looking for:</b>
-        <ol>
-          <li>
-            Good understanding of social media analytics and
-            implementation of social media strategies.
-          </li>
-          <li>
-            Knowledge of design. (experience with Photoshop,
-            Canva, etc. is a plus!)
-          </li>
-          <li>
-            Strong interpersonal skills to work closely within
-            the club and external stakeholders.
-          </li>
-          <li>
-            Confident to bring new ideas and strategies to the table.
-          </li>
-          <li>
-            Communication (oral and written) and presentation skills.
-          </li>
-          <li>
-            Strong willingness to learn and enthusiasm about the
-            branding of the organization.
-          </li>
-          <li>
-            Support social media management and content creation
-            efforts.
-          </li>
-          <li>
-            Coordinate marketing events and promotions.
-          </li>
-          <li>
-            Provide administrative support to the marketing
-            department as needed.
-          </li>
-        </ol>
-      </>
-    ),
-  },
-  {
-    title: "External Relations, Director (1 opening)",
-    content: (
-      <>
-        <h2>
-          As an External Relations Director, you will lead our
-          organization's efforts to build and maintain strategic
-          relationships with external stakeholders, including
-          partners, donors, government agencies, and community
-          organizations. You will develop and execute
-          comprehensive external relations strategies to
-          support the organization's mission and objectives.
-          This role requires strong leadership, communication,
-          and negotiation skills.
-        </h2>
-        <hr />
-        <b>What we're looking for:</b>
-        <ol>
-          <li>
-            Develop and implement an external relations strategy
-            to enhance the organization's visibility and influence.
-          </li>
-          <li>
-            Lead fundraising and donor engagement initiatives.
-          </li>
-          <li>
-            Represent the organization at external events, conferences,
-            and meetings.
-          </li>
-          <li>
-            Collaborate with internal teams to align external relations
-            efforts with organizational goals.
-          </li>
-          <li>
-            Monitor and report on key external relations metrics.
-          </li>
-          <li>
-            Manage a team of external relations associates.
-          </li>
-        </ol>
-      </>
-    )
-  },
-  {
-    title: "External Relations, Associate (1 opening)",
-    content: (
-      <>
-        <h2>
-          As an External Relations Associate, you will support
-          the External Relations Director in building and
-          maintaining relationships with external stakeholders.
-          Your role will involve research, communication, and
-          coordination efforts to strengthen the organization's
-          network and partnerships. This is a great opportunity
-          for someone with strong organizational and
-          interpersonal skills looking to gain experience
-          in external relations.
-        </h2>
-        <hr/>
-        <b>What we're looking for:</b>
-        <ol>
-          <li>
-            Assist in the development and maintenance of previous guests.
-          </li>
-          <li>
-            Coordinate meetings and communication with external parties.
-          </li>
-          <li>
-            Prepare materials and reports for external relations activities.
-          </li>
-          <li>
-            Collaborate with the External Relations team to execute strategies.
-          </li>
-          <li>
-            Help organize events and engagements with external guests.
-          </li>
-        </ol>
-      </>
-    )
   },
 {
   title: "Frequently Asked Questions",
@@ -307,15 +177,9 @@ function Career(props) {
       <PageTitle title="Hiring" />
       <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
         <div className="career-block">{text}</div>
-        <a
-          href="https://forms.gle/QMkNaVnbSVUeGVmK9"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button>
-            <h2 className="white-font">Apply now</h2>
-          </button>
-        </a>
+        <p>
+          There are no positions currently open.
+        </p>
       </div>
       <Footer />
     </div>
