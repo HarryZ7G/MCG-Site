@@ -7,6 +7,7 @@ import ResearchPreview from "../../components/ResearchPreview/ResearchPreview";
 import styles from './Research.module.css'
 import ResearchIntroIcon from "../../components/ResearchPreview/ResearchIntroIcon/ResearchIntroIcon";
 import Layout from "../../components/Layout/Layout";
+import CenteredGrid from "../../components/CenteredGrid/CenteredGrid";
 
 function Research(props) {
 
@@ -24,12 +25,9 @@ function Research(props) {
       description: "Gain exposure to new and emerging technologies in software automation, AI, VR, and blockchain that are aiming to improve productivity, revolutionize industries and create new markets."
     },
     {
-      title: "Market Strategy",
+      title: "Marketing Plans",
       description: "Better understand your addressable market and current consumer demographics by using research to inform your product design and marketing strategy."
     },
-    {
-      title: ""
-    }
   ]
 
   return (
@@ -41,11 +39,7 @@ function Research(props) {
               Research articles at MCG are written by undergraduates to inform clients and fellow students about current and future market trends in the industry of interest. We strive to deliver professional and comprehensive reports so that readers can take actionable steps towards implementing new strategies and technologies.
             </h3>
           </div>
-          <div className={styles.iconContainer}>
-            <div className={styles.iconParent}>
-              {introIcons.map(icon => <ResearchIntroIcon key={icon.title} {...icon}/>)}
-            </div>
-          </div>
+          <CenteredGrid Component={ResearchIntroIcon} props={introIcons} gridKey='research'/>
         </div>
         <ResearchPreview/>
     </Layout>

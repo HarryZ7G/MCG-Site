@@ -10,6 +10,7 @@ import Events from './pages/Events/Events.js';
 import Career from './pages/Career/Career.js';
 import Research from './pages/Research/Research.js';
 import Resources from './pages/Resources/Resources.js';
+import Consults from './pages/Consults/Consults';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/hiring" component={Career} />
         <Route exact path="/events" component={Events} />
         <Route exact path="/research" component={Research} />
+        <Route exact path="/consults" component={Consults} />
         <Route exact path="/resources" component={Resources} />
       </Switch>
     </Router>
