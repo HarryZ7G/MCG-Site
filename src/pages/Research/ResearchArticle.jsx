@@ -1,37 +1,47 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import styles from "./ResearchArticle.css";
-import marked from 'marked';
-import { BrowserRouter as Router, Switch, Route, useParams } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown'
+import { useParams } from 'react-router-dom';
 
-//media
-import insurance_industry from "../../media/Research Articles/insurance-industry.md";
-import metaverse from "../../media/Research Articles/metaverse.md";
-import data_automization from "../../media/Research Articles/data-automization.md";
-import gen_z_awareness from "../../media/Research Articles/generation-z-generation-z-awareness.md"
+import Background from '../../components/Background/Background';
+import TopBar from '../../components/TopBar/TopBar';
+import Footer from '../../components/Footer/Footer';
+import PageTitle from '../../components/PageTitle/PageTitle';
 
-const ResearchArticle = () => {
-    const {page}=useParams();
-    let file;
+function ResearchArticle() {
+    const { page } = useParams();
+    return <Content page={page} />
+}
 
-    if (page==='insurance-industry'){
-        file = fetch(insurance_industry);
-    }
-    else if (page==='metaverse') {
-        file = fetch(metaverse);
-    }
-    else if(page==='data-automization') {
-        file = fetch(data_automization);
-    }
-    else if(page==='generation-z-awareness') {
-        file=fetch(gen_z_awareness);
+class Content extends React.Component {
+    constructor(props) {
+        super(props)
+        this.page = props.page;
+        this.state = { markdown: 'Loading page data ... ' }
     }
 
-    return (
-        <div className={styles.body}>
-            {document.getElementById('content').innerHTML =
-            marked.parse('# Marked in the browser\n\nRendered by **marked**.')}
+    componentWillMount() {
+        const pagePath = `/Research Articles/${this.page}.md`
+        console.log(this.page)
+        fetch(pagePath).then((response) => response.text()).then((text) => {
+            this.setState({ markdown: text })
+        })
+    }
+
+
+    render() {
+        return(
+        <div className="root">
+            <Background />
+            <TopBar />
+            <PageTitle title="" />
+            <div className={styles.body}>
+                <ReactMarkdown children={this.state.markdown} />
+            </div>
+            <Footer />
         </div>
-    )
+        )
+    }
 }
 
 export default ResearchArticle;

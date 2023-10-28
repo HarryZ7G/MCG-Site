@@ -11,6 +11,7 @@
   /* padding: min(30px, 3vw) min(60px, 3vw) 0px min(30px, 3vw); */
   padding: 30px min(60px, 6vw) 0px 30px;
   z-index: 5;
+  display: flex;
 }
 
 .sections-popup {
