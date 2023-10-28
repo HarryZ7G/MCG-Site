@@ -1,0 +1,90 @@
+.layout {
+    width: min(800px, 100%);
+    padding: 25px;
+}
+
+.layout, .left, .right {
+    display: flex;
+}
+
+.left, .right {
+    flex-direction: column;
+}
+
+.right {
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0px 15px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+}
+
+.source div {
+    display: inline-block;
+}
+
+.companyImage img, .personImage img {
+    height: 100px;
+}
+
+.quote {
+    font-size: 1.25em;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+.leftQuote img, .rightQuote img {
+    width: 2em;
+    height: 2em;
+}
+
+.rightQuote {
+    justify-content: end;
+}
+
+.source {
+    margin-top: 15px;
+}
+
+.personImage {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+}
+
+.personInfo {
+    margin-left: 15px;
+}
+
+@media (min-width: 1100px) {
+    .layout {
+        flex-direction: row;
+    }
+    .left {
+        width: 45%;
+    }
+    .right {
+        width: 50%;
+    }
+    .companyImage {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .layout {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+    }
+    .companyImage {
+        max-width: 400px;
+        width: 100%;
+    }
+}

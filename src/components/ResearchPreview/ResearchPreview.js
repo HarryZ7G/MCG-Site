@@ -2,8 +2,8 @@ import { articles } from '../../data/article';
 import ResearchCard from './ResearchCard/ResearchCard';
 import styles from './ResearchPreview.module.css'
 
-export default () => {
-
+const ResearchPreview = () => {
+ 
     return(
         <div className={styles.parent}>
             <div className={styles.grid}>
@@ -14,3 +14,5 @@ export default () => {
         </div>
     )
 }
+
+export default ResearchPreview;

@@ -5,6 +5,10 @@ import NumberedLayout from "../../components/NumberedLayout/NumberedLayout";
 import ResearchIntroIcon from "../../components/ResearchPreview/ResearchIntroIcon/ResearchIntroIcon";
 import styles from './Consults.module.css'
 
+// Clients
+import CitedMedia from '../../media/Consults/cited-media.jpg'
+import ConsultCard from "../../components/ConsultCard/ConsultCard";
+
 function Consults(props) {
 
     const serviceCategories = [
@@ -80,6 +84,48 @@ function Consults(props) {
         }
     ]
 
+    const experience = [
+        {
+            company: {
+                name: 'Cited Media',
+                image: CitedMedia
+            },
+            testimonial: {
+                name: 'Gordon Katic',
+                image: CitedMedia,
+                role: 'CEO, Cited Media',
+                quote: 'The market research here is impressive and helpful, and I found some of the client lists really useful. I was impressed by your team and its ability to understand a hyper-specialized, niche, and emerging industry.'
+            },
+            description: 'During Winter 2023, a Senior Partner at MCG led a group of 9 to present the Cited Media with market scale and in-depth industry research, data-driven strategies and customized marketing plans within budget. The client was able to expand their reach among targeted audiences and improve cost efficiency.'
+        },
+        {
+            company: {
+                name: 'Meds for Less',
+                image: CitedMedia,
+            },
+            testimonial: {
+                name: 'Aliya Ali',
+                role: 'CEO, Meds for Less',
+                image: CitedMedia,
+                quote: "A consultation by the MCG is a great way to get things rolling. MCG understood our challenges and provided strategies to overcome them, conducted intense market research, provided customer acquisition strategies, an advertising budget, and an in-depth financial model."
+            },
+            description: 'A MCG group of 7 provided both qualitative and quantitative analysis of the market and strategic recommendations on market entry. We informed the client of potential regulation and business risks to enter the new market and justified our conclusion with a five-year financial forecast.'
+        },
+        {
+            company: {
+                name: 'Everyteam',
+                image: CitedMedia,
+            },
+            testimonial: {
+                name: 'Evan Davidson',
+                role: 'CEO, Everyteam',
+                image: CitedMedia,
+                quote: "Your team was involved, responsive, and provided valuable insights and recommendations that will help us to improve and succeed. I believe that the consultation has had a positive impact on the future of Everyteam."
+            },
+            description: 'Everyteam is a team communication platform for workspace connectivity. During our Fall 2022 consult, MCG helped the company approach long-lasting and sustainable change for clients to maximize their operational efficiency. Our team provided research-backed recommendations for understaning market capacity, trends, growth, and changes in consumer preferences.'
+        }
+    ]
+
     return (
         <Layout title='Consults'>
             <div className={styles.intro}>
@@ -91,12 +137,16 @@ function Consults(props) {
                 </div>
                 <CenteredGrid Component={ResearchIntroIcon} props={serviceCategories} gridKey='consults' />
             </div>
+            <div className={styles.clients}>
+            {experience.map(exp => <ConsultCard {...exp} />)}
+            </div>
             <div className={styles.intro}>
                 <div className={styles.introLeft}>
-                <h2 className="purple-font">Our Project Workflow</h2>
+                    <h2 className="purple-font">Our Project Workflow</h2>
                 </div>
                 <NumberedLayout Component={ResearchIntroIcon} props={steps} />
-                </div>
+            </div>
+
         </Layout>
     );
 }
