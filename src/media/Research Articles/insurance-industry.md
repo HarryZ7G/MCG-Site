@@ -38,7 +38,7 @@ After having analyzed the customer segments we have to take into consideration h
 
 According to a market research study by Facts and Factors, the demand analysis of Global Corporate Travel Insurance Market size and share is expected to grow over USD 10,274.23 million by 2028, at a CAGR of approximately 18.40% between 2022 and 2028.
 
-![Pie chart depicting compounded annual rate of growth of global corporate travel insurance market](<Insurance Pie Chart.png>)
+![Pie chart depicting compounded annual rate of growth of global corporate travel insurance market. The compounded annual rate is 18.40%.](<Insurance Pie Chart.png>)
 
 The key success drivers in the insurance industry are: risk selection, risk management, risk acquisition, and investment operations. It is key to identify what are the risks that the business is willing to take, in other words, being efficient at underwriting and pricing. Also, managing risk must be dominated as reinsuring unwanted risk and managing claims effectively. The next step is being able to subscribe to insurance, using sales channels, and connect with the clients. In order to continue to operate in the market, it is important to assure the business is earning good returns on the reserves. Five of the main challenges and constraints the insurance industry is facing are:
 
@@ -66,7 +66,7 @@ For insurance more specifically relating to automobiles, insurance companies hav
 
 In the **Next-Level automation technology** trend, increasing investments have been made in robotic process automation to increase efficiency in back-office operations compared to previous years. One risk with this would be that since there are new technologies, insurance companies would have to periodically think about their products and services and would have to change their automation processes.
 
-![Bar graph depicting annual trends between the adoption and investment rate of robotic process automation](<Insurance Trend.png>)
+![Bar graph depicting annual trends between the adoption and investment rate of robotic process automation, covering years 2019-2021. Exhibits relatively larger increase in adoption rate in 2021 and the same annual incremental increase of investment rate of about 2-3%.](<Insurance Trend.png>)  
 *Source: Computer Economics, 2020*
 
 Last but not least, **Trust architecture**. As customers have to provide sensitive personal information to companies, newer technologies will have to be able to handle large sets of information and must limit risks regarding it such as information leaks. One recommended process for handling customer data in a safe way is to use blockchain as it becomes more adopted due to the growth of cryptocurrency. Many insurance companies are at a very early stage of adopting these trends and are at risk of being overtaken by competitors. It is highly recommended to executives in the insurance industry to hire consultants to examine and understand how these trends will affect their main products and services and provide recommendations which will be helpful in guiding the company in future years.
