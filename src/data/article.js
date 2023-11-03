@@ -6,7 +6,7 @@ import GenZ from '../media/Research/smartphone-use.jpg'
 export const articles = [
         {
             "title": "How technological trends transform the insurance industry",
-            "slug": "how-technological-trends-transform-the-insurance-industry",
+            "slug": "insurance-industry",
             "credits": "Written by Camilly Fuentes, Vraj Thakkar\nEdited by Sooraj Ruparella, Safwan Patel",
             "date": "September 2022",
             "picture": OfficeLaptop,
@@ -14,7 +14,7 @@ export const articles = [
         },
         {
             "title": "Is the Metaverse good for marketers?",
-            "slug": "is-the-metaverse-good-for-marketers",
+            "slug": "metaverse",
             "credits": "Written by Bobby Huang, Tom Nguyen, Justin Ng\nEdited by Sooraj Ruparella, Safwan Patel",
             "date": "September 2022",
             "picture": VirtualReality,
@@ -22,7 +22,7 @@ export const articles = [
         },
         {
             "title": "What are the basics to automating and visualizing your company's data with Python?",
-            "slug": "basics-automating-and-visualizing-your-companys-data-with-python",
+            "slug": "data-automation",
             "credits": "Written by Vincent Zhang\nAdvisory by Sooraj Ruparella, Safwan Patel",
             "date": "November 2022",
             "picture": StockGraph,
@@ -30,7 +30,7 @@ export const articles = [
         },
         {
             "title": "MCG Gen Z awareness matrix - How to successfully gain Gen Z's awareness?",
-            "slug": "mcg-gen-z-awareness-matrix",
+            "slug": "generation-z-awareness",
             "credits": "Written by Bobby Huang, Tom Nguyen, Justin Ng, Katelyn Tam, Spencer Chang\nEdited by Sooraj Ruparella, Safwan Patel",
             "date": "November 2022",
             "picture": GenZ,

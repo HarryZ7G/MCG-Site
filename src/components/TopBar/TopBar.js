@@ -24,7 +24,7 @@ function TopBar(props) {
   }
 
   return (
-    <div className="top-bar animate__animated animate__fadeIn animate__delay-05s">
+    <div className="top-bar">
       <a href="/">
         <img src={MCG_Logo} className="mcg-logo" alt="MCG Logo"/>
       </a>

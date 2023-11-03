@@ -1,8 +1,13 @@
+.research-article-page {
+    min-height: 100vh;
+}
+
 .research-article-body {
     padding: 10px 20%;
     padding: 0 auto;
     max-width: 100%;
     display: block;
+    min-height: 100vh;
 }
 
 .research-article-body h1 {

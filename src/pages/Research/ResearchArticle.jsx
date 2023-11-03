@@ -5,8 +5,8 @@ import { useParams } from 'react-router-dom';
 
 import TopBar from '../../components/TopBar/TopBar';
 import Footer from '../../components/Footer/Footer';
-import PageTitle from '../../components/PageTitle/PageTitle';
 import PagePadding from '../../components/PagePadding/PagePadding';
+import rehypeRaw from 'rehype-raw'
 
 function ResearchArticle() {
     const { page } = useParams();
@@ -24,7 +24,7 @@ class Content extends React.Component {
     constructor(props) {
         super(props)
         this.page = props.page;
-        this.state = { markdown: 'Loading page data ... ' }
+        this.state = { markdown: null }
     }
 
     componentWillMount() {
@@ -39,14 +39,22 @@ class Content extends React.Component {
         }
     }
 
-
     render() {
+        let article = undefined
+        if (typeof this.state.markdown === 'undefined') {
+            article = '## This page does not exist.'
+        } else if (this.state.markdown === null) {
+            article = 'Loading your page ...'
+        } else {
+            article = this.state.markdown
+        }
+        article = <ReactMarkdown rehypePlugins={[rehypeRaw]} children={this.state.markdown} />
         return(
-        <div className="root">
+        <div className="research-article-page">
             <TopBar />
             <PagePadding/>
             <div className='research-article-body'>
-                <ReactMarkdown children={this.state.markdown} />
+            {article}
             </div>
             <Footer />
         </div>

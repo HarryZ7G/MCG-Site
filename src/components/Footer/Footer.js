@@ -21,7 +21,7 @@ function Footer(props) {
   };
 
   return (
-    <div className="footer animate__animated animate__fadeIn animate__delay-1s">
+    <div className="footer">
       <h2 className={`white-font ${size}`}>{title}</h2>
       <div className="contact-block">
         <button onClick={CopyEmail}>

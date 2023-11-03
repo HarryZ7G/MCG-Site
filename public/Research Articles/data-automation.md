@@ -1,10 +1,8 @@
 # What are the basics to automating and visualizing your company’s data with Python?
 
-Author: Vincent Zhang, *Senior Partner of IT & Data Analytics*
-
-Advisor: Sooraj Ruparelia, *Managing Partner*
-
-Advisor: Safwan Patel, *Managing Partner*
+Author: Vincent Zhang, *Senior Partner of IT & Data Analytics* <br/>
+Advisor: Sooraj Ruparelia, *Managing Partner* <br/>
+Advisor: Safwan Patel, *Managing Partner* <br/>
 
 November, 2022
 

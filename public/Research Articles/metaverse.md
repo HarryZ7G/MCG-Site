@@ -1,10 +1,8 @@
 # Is the Metaverse good for marketers?
 
-*Written By: Bobby Huang, Tom Nguyen, Justin Ng*
-
-*Edited By: Sooraj Ruparelia, Safwan Patel*
-
-*September, 2022*
+*Written By: Bobby Huang, Tom Nguyen, Justin Ng* <br/>
+*Edited By: Sooraj Ruparelia, Safwan Patel* <br/>
+*September, 2022* <br/>
 
 ## Introduction to Metaverse
 

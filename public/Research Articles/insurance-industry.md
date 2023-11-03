@@ -1,10 +1,8 @@
 # How Technological Trends Transform the Insurance Industry
 
-*Written By: Camilly Fuentes, Vraj Thakkar*
-
-*Edited By: Sooraj Ruparelia, Safwan Patel*
-
-*September, 2022*
+*Written By: Camilly Fuentes, Vraj Thakkar* <br/>
+*Edited By: Sooraj Ruparelia, Safwan Patel* <br/>
+*September, 2022* <br/>
 
 ## Executive Summary
 * Insurance companies are undergoing a digitalization process providing their users with chatbots, mobile applications, omnichannel claims capabilities, and AI-generated quotes. Speed, consumer convenience, and efficiency and will also help to create unique product experiences.
