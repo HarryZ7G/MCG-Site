@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import 'animate.css';
 import './App.css';
 
@@ -9,23 +9,24 @@ import Team from './pages/Team/Team.js';
 import Events from './pages/Events/Events.js';
 import Career from './pages/Career/Career.js';
 import Research from './pages/Research/Research.js';
+import ResearchArticle from './pages/Research/ResearchArticle.jsx';
 import Resources from './pages/Resources/Resources.js';
 import Consults from './pages/Consults/Consults';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/team" component={Team} />
-        <Route exact path="/hiring" component={Career} />
-        <Route exact path="/events" component={Events} />
-        <Route exact path="/research" component={Research} />
-        <Route exact path="/consults" component={Consults} />
-        <Route exact path="/resources" component={Resources} />
-      </Switch>
-    </Router>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/team" element={<Team/>} />
+        <Route path="/hiring" element={<Career/>} />
+        <Route path="/events" element={<Events/>} />
+        <Route path="/research/:page" element={<ResearchArticle/>} />
+        <Route path="/research" element={<Research/>} />
+        <Route path="/resources" element={<Resources/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

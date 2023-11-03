@@ -1,8 +1,3 @@
-div {
-  display: flex;
-}
-
-
 .animate__animated.animate__delay-05s {
   -webkit-animation-delay: calc(1s * 0.5);
   animation-delay: calc(1s * 0.5);

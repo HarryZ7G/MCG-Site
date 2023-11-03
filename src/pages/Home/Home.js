@@ -73,4 +73,4 @@ function Home(props) {
   )
 }
 
-export default React.memo(Home);
+export default Home;
