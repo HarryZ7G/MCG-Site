@@ -248,7 +248,7 @@ function Resources(props) {
       <TopBar />
       <Background />
       <PageTitle title="Consulting Resources" intro={intro} />
-      <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
+      <div className="animate__animated animate__fadeIn animate__delay-1s">
         <div className="career-block">{text}</div>
       </div>
       <Footer />

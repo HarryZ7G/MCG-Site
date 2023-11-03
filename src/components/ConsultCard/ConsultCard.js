@@ -27,7 +27,7 @@ export default ({ company, testimonial, description }) => {
                     </div>
                     <div className={styles.source}>
                         <div className={styles.personImage}>
-                            <img alt={`${personName} image`} src={personImage} />
+                            {personImage && <img alt={`${personName} image`} src={personImage} />}
                         </div>
                         <div className={styles.personInfo}>
                             <span className={styles.personName}>{personName}</span>

@@ -175,7 +175,7 @@ function Career(props) {
       <TopBar />
       <Background />
       <PageTitle title="Hiring" />
-      <div className="career-blur animate__animated animate__fadeIn animate__delay-1s">
+      <div className="animate__animated animate__fadeIn animate__delay-1s">
         <div className="career-block">{text}</div>
         <p>
           There are no positions currently open.

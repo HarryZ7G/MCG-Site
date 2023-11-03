@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 1100px) {
   .top-bar h2 {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   .mcg-logo {
@@ -100,7 +100,7 @@
 @media screen and (min-width: 1100px) {
   @media screen and (min-width: 1300px) {
     .top-bar h2 {
-      font-size: 28px;
+      font-size: 20px;
     }
 
     .sections-group {
@@ -113,7 +113,7 @@
   }
   @media screen and (max-width: 1300px) {
     .top-bar h2 {
-      font-size: 24px;
+      font-size: 20px;
     }
 
     .sections-group {

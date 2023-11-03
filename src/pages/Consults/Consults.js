@@ -7,6 +7,8 @@ import styles from './Consults.module.css'
 
 // Clients
 import CitedMedia from '../../media/Consults/cited-media.jpg'
+import MedsForLess from '../../media/Consults/meds-for-less.jpg'
+import Everyteam from '../../media/Consults/everyteam.jpg'
 import ConsultCard from "../../components/ConsultCard/ConsultCard";
 
 function Consults(props) {
@@ -92,21 +94,21 @@ function Consults(props) {
             },
             testimonial: {
                 name: 'Gordon Katic',
-                image: CitedMedia,
+                image: null,
                 role: 'CEO, Cited Media',
                 quote: 'The market research here is impressive and helpful, and I found some of the client lists really useful. I was impressed by your team and its ability to understand a hyper-specialized, niche, and emerging industry.'
             },
-            description: 'During Winter 2023, a Senior Partner at MCG led a group of 9 to present the Cited Media with market scale and in-depth industry research, data-driven strategies and customized marketing plans within budget. The client was able to expand their reach among targeted audiences and improve cost efficiency.'
+            description: 'During Winter 2023, a Senior Partner at MCG led a group of 9 to present Cited Media with market scale and in-depth industry research, data-driven strategies and customized marketing plans within budget. The client was able to expand their reach among targeted audiences and improve cost efficiency.'
         },
         {
             company: {
                 name: 'Meds for Less',
-                image: CitedMedia,
+                image: MedsForLess,
             },
             testimonial: {
                 name: 'Aliya Ali',
                 role: 'CEO, Meds for Less',
-                image: CitedMedia,
+                image: null,
                 quote: "A consultation by the MCG is a great way to get things rolling. MCG understood our challenges and provided strategies to overcome them, conducted intense market research, provided customer acquisition strategies, an advertising budget, and an in-depth financial model."
             },
             description: 'A MCG group of 7 provided both qualitative and quantitative analysis of the market and strategic recommendations on market entry. We informed the client of potential regulation and business risks to enter the new market and justified our conclusion with a five-year financial forecast.'
@@ -114,12 +116,12 @@ function Consults(props) {
         {
             company: {
                 name: 'Everyteam',
-                image: CitedMedia,
+                image: Everyteam,
             },
             testimonial: {
                 name: 'Evan Davidson',
                 role: 'CEO, Everyteam',
-                image: CitedMedia,
+                image: null,
                 quote: "Your team was involved, responsive, and provided valuable insights and recommendations that will help us to improve and succeed. I believe that the consultation has had a positive impact on the future of Everyteam."
             },
             description: 'Everyteam is a team communication platform for workspace connectivity. During our Fall 2022 consult, MCG helped the company approach long-lasting and sustainable change for clients to maximize their operational efficiency. Our team provided research-backed recommendations for understaning market capacity, trends, growth, and changes in consumer preferences.'
@@ -127,7 +129,7 @@ function Consults(props) {
     ]
 
     return (
-        <Layout title='Consults'>
+        <Layout title='Consults' useBackground>
             <div className={styles.intro}>
                 <div className={styles.introLeft}>
                     <h2 className="purple-font">Our Services</h2>
@@ -137,6 +139,7 @@ function Consults(props) {
                 </div>
                 <CenteredGrid Component={ResearchIntroIcon} props={serviceCategories} gridKey='consults' />
             </div>
+            <h2 className={styles.clientHeader}>Hear from our satisfied clients!</h2>
             <div className={styles.clients}>
             {experience.map(exp => <ConsultCard {...exp} />)}
             </div>
