@@ -1,7 +1,9 @@
 # MCG Gen Z Awareness Matrix - How to successfully gain Gen Z’s awareness?
 
-*Written By: Bobby Huang, Tom Nguyen, Justin Ng, Katelyn Tam, Spencer Chang*</br>
-*Edited By: Sooraj Ruparelia, Safwan Patel*</br>
+*Written By: Bobby Huang, Tom Nguyen, Justin Ng, Katelyn Tam, Spencer Chang*
+
+*Edited By: Sooraj Ruparelia, Safwan Patel*
+
 *November, 2022*
 
 ## Awareness Among Generation Z
@@ -40,7 +42,7 @@ Another brand that is able to resonate well among Gen Z is Nike, which is becomi
 
 ## MCG Gen Z Matrix and its components
 
-![Gen Z marketing matrix, charting relationship between company social media use and emphasis on values, personalization, and sustainability](<GenZ Awareness Matrix.png>)
+![Gen Z Awareness marketing matrix, charting relationship between company social media use on x-axis, and emphasis on values, personalization, and sustainability on the y-axis. Patagonia is charted as Low social media use and Low-Mid emphasis on traits Gen Z is passionate about. Ryanair is above Patagonia, Low-Mid media use and Mid-High emphasis on values. Nike above the last 2, Mid-High social media use with very High emphasis on values. Duolingo is very High in social media use and Mid-High in terms of value emphasis.](/Research%20Articles/GenZ%20Awareness%20Matrix.png)
 
 MCG created a marketing matrix based on our findings after analyzing factors that influence Gen Z's awareness and successful marketing models from renowned companies such as Duolingo and Ryanair. The awareness matrix's primary goal is to assist businesses that want to capture a wider influx of Generation Z as their targeted consumer and provide guidance on how to increase brand awareness.
 
@@ -63,7 +65,7 @@ Seeing as having a positioning matrix alone may not be enough for businesses to 
 1. Understanding the compatibility of your brand with Gen Z
 
     a. Before initiating the campaign, any business must evaluate if their company objective, product offering, and target audience match Gen Z’s behavior, values, and needs.
-</br></br>
+
 
 2. Choose the most appropriate social media platform(s) to promote
 
@@ -76,7 +78,7 @@ Seeing as having a positioning matrix alone may not be enough for businesses to 
     d. Facebook - is most used for connecting with friends, their families, and co-workers. The app also provides an opportunity to utilize its digital marketplace for private and public sellers to push a product or purchase a product that they can use.
 
     e. YouTube - the most useful app for reviews and recommendations. A brand can utilize the platform to reach individuals through short films or personalized ads that correspond with select videos to reach a more targeted audience.
-</br></br>
+
 
 3. Identify your (and your competitors) positioning on Gen Z Matrix
 
@@ -85,7 +87,7 @@ Seeing as having a positioning matrix alone may not be enough for businesses to 
     &nbsp;&nbsp;&nbsp;&nbsp;i. Red, Yellow, Blue & Purple
 
     b. What is the current awareness that it is achieving?
-</br></br>
+
 
 4. Evaluate your strength, weaknesses, and areas of improvement
 
@@ -96,7 +98,7 @@ Seeing as having a positioning matrix alone may not be enough for businesses to 
     c. Orange = High awareness: focus on the remaining axis and
 
     d. Green = Perfect awareness: how to maintain the level of awareness?
-</br></br>
+
 
 5. Tackle the areas of improvement and the firm wants to achieve
 

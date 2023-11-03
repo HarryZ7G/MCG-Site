@@ -1,9 +1,12 @@
 # What are the basics to automating and visualizing your company’s data with Python?
 
-Author: Vincent Zhang, *Senior Partner of IT & Data Analytics*</br>
-Advisor: Sooraj Ruparelia, *Managing Partner*</br>
-Advisor: Safwan Patel, *Managing Partner*</br>
-November, 2022</br>
+Author: Vincent Zhang, *Senior Partner of IT & Data Analytics*
+
+Advisor: Sooraj Ruparelia, *Managing Partner*
+
+Advisor: Safwan Patel, *Managing Partner*
+
+November, 2022
 
 ## Abstract
 
@@ -24,7 +27,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 ```
 
-The first line imports “yfinance”, a third-party library developed to extract stock data from Yahoo finance. The “pandas” library features a DataFrame object that stores data like an excel sheet. “matplotlib” helps us graph the data. “datetime” includes many convenient tools to manipulate date and time.</br>
+The first line imports “yfinance”, a third-party library developed to extract stock data from Yahoo finance. The “pandas” library features a DataFrame object that stores data like an excel sheet. “matplotlib” helps us graph the data. “datetime” includes many convenient tools to manipulate date and time.
 
 *Industry Insight*: your supervisor may task you with analyzing financial data at work which involves a multi-step process that includes retrieving data, cleaning data, and analyzing data; while the core task may be the analysis, collecting the correct data could become an arduous odyssey. Knowledge of existing libraries, such as "yfinance" for stocks, could improve efficiency at work by maximizing the time spent on the core steps of an assignment.
 
@@ -71,10 +74,10 @@ The “plot()” function generalizes the graphing process for data within the �
 
 ## Graphed Results
 
-![Graph depicting company opening prices from 2020-2023](<Data Opening Prices.png>)  
+![Graph depicting company opening prices from 2020-2023](/Research%20Articles/Data%20Opening%20Prices.png)  
 Figure 1: graph of the opening prices of AMZN, GOOG, and TSLA stocks from 2020.
 
-![Graph depicting company stock volumes from 2020-2023](<Data Stock Volume.png>)  
+![Graph depicting company stock volumes from 2020-2023](/Research%20Articles/Data%20Stock%20Volume.png)  
 Figure 2: graph of the volume of AMZN, GOOG, and TSLA stocks from 2020.
 
 *Industry Insight*: your supervisor may task you with creating graphs or charts of data. Finding the right balance between information and clarity ensures that the salient aspects are complemented and highlighted while clutter is avoided. In our stocks chart, the most important details are the title, legend, and axis labels.
@@ -89,11 +92,11 @@ Python’s wealth of libraries and its simplicity in programming facilitate monu
 
 ## Conclusion
 
-This short introduction to automated analysis of data with Python shows the power and value Python data analysis can bring to your company.</br></br>
+This short introduction to automated analysis of data with Python shows the power and value Python data analysis can bring to your company.
 
-# Appendix A – Full Code & installation Guide
+## Appendix A – Full Code & installation Guide
 
-## Full Code
+### Full Code
 
 ```
 import yfinance as yf
@@ -119,14 +122,14 @@ def main():
 if __name__=="__main__":main()
 ```
 
-## Installing Python
+### Installing Python
 
 Visit the following links according to your operating system and download a suitable installer for your machine. For Windows user, ensure to select “add to PATH” at end of the installation.  
-Windows: https://www.python.org/downloads/windows/</br>
-Linux/Unix: https://www.python.org/downloads/source/</br>
-macOS: https://www.python.org/downloads/macos/
+- Windows: https://www.python.org/downloads/windows/
+- Linux/Unix: https://www.python.org/downloads/source/
+- macOS: https://www.python.org/downloads/macos/
 
-## Package 
+### Package 
 
 For any package installations, run the following command in a terminal or command prompt.
 
@@ -140,10 +143,10 @@ For example, to install “matplotlib” used in the code above, run the followi
 python -m pip install matplotlib
 ```
 
-## Running the Program
+### Running the Program
 
 After saving the full code in a “.py” file, open a terminal and use the “cd” command to navigate to the directory where the file is saved and run the command, python filename.py
 
-## Installation Alternative
+### Installation Alternative
 
 To run the program with the installations done for you, visit an online python complier such as “Replit” which will automatically install packages when you run a python program after you sign up for an account.
