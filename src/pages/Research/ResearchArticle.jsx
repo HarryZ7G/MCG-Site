@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from 'react';
-import styles from "./ResearchArticle.module.css";
+import "./ResearchArticle.css";
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom';
 
@@ -45,7 +45,7 @@ class Content extends React.Component {
         <div className="root">
             <TopBar />
             <PagePadding/>
-            <div className={styles.body}>
+            <div className='research-article-body'>
                 <ReactMarkdown children={this.state.markdown} />
             </div>
             <Footer />
