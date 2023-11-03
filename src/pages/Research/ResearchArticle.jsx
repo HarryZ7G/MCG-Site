@@ -1,17 +1,24 @@
 import React, { useLayoutEffect } from 'react';
-import styles from "./ResearchArticle.css";
+import styles from "./ResearchArticle.module.css";
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom';
 
-import Background from '../../components/Background/Background';
 import TopBar from '../../components/TopBar/TopBar';
 import Footer from '../../components/Footer/Footer';
 import PageTitle from '../../components/PageTitle/PageTitle';
+import PagePadding from '../../components/PagePadding/PagePadding';
 
 function ResearchArticle() {
     const { page } = useParams();
     return <Content page={page} />
 }
+
+const publicArticles = [
+    'data-automation',
+    'insurance-industry',
+    'generation-z-awareness',
+    'metaverse'
+]
 
 class Content extends React.Component {
     constructor(props) {
@@ -21,20 +28,23 @@ class Content extends React.Component {
     }
 
     componentWillMount() {
-        const pagePath = `/Research Articles/${this.page}.md`
-        console.log(this.page)
-        fetch(pagePath).then((response) => response.text()).then((text) => {
-            this.setState({ markdown: text })
-        })
+        // check path against whitelist before fetching it
+        if (!publicArticles.includes(this.page)) {
+            this.setState({markdown: undefined})
+        } else {
+            const pagePath = `/Research Articles/${this.page}.md`
+            fetch(pagePath).then((response) => response.text()).then((text) => {
+                this.setState({ markdown: text })
+            })
+        }
     }
 
 
     render() {
         return(
         <div className="root">
-            <Background />
             <TopBar />
-            <PageTitle title="" />
+            <PagePadding/>
             <div className={styles.body}>
                 <ReactMarkdown children={this.state.markdown} />
             </div>
