@@ -2,6 +2,7 @@
 
 *Written By: Bobby Huang, Tom Nguyen, Justin Ng, Katelyn Tam, Spencer Chang* <br/>
 *Edited By: Sooraj Ruparelia, Safwan Patel* <br/>
+
 *November, 2022* <br/>
 
 ## Awareness Among Generation Z

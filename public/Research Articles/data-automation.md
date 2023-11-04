@@ -4,7 +4,7 @@ Author: Vincent Zhang, *Senior Partner of IT & Data Analytics* <br/>
 Advisor: Sooraj Ruparelia, *Managing Partner* <br/>
 Advisor: Safwan Patel, *Managing Partner* <br/>
 
-November, 2022
+November, 2022<br/>
 
 ## Abstract
 

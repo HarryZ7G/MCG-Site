@@ -1,7 +1,8 @@
 # How Technological Trends Transform the Insurance Industry
 
 *Written By: Camilly Fuentes, Vraj Thakkar* <br/>
-*Edited By: Sooraj Ruparelia, Safwan Patel* <br/>
+*Edited By: Sooraj Ruparelia, Safwan Patel*<br/>
+
 *September, 2022* <br/>
 
 ## Executive Summary

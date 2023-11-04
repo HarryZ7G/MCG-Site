@@ -22,16 +22,21 @@
     font-size: 27px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
+    margin-top:1.2rem;
 }
 
 .research-article-body h3 {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
+    margin-top:1.2rem;
 }
 
 .research-article-body p {
     font-size:16px;
+    margin-top: 1.5rem;
+    margin-bottom:1.5rem;
+    line-height:1.5rem;
 }
 
 .research-article-body a {

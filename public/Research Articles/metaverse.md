@@ -1,7 +1,8 @@
 # Is the Metaverse good for marketers?
 
 *Written By: Bobby Huang, Tom Nguyen, Justin Ng* <br/>
-*Edited By: Sooraj Ruparelia, Safwan Patel* <br/>
+*Edited By: Sooraj Ruparelia, Safwan Patel*<br/>
+
 *September, 2022* <br/>
 
 ## Introduction to Metaverse
@@ -64,4 +65,4 @@ We live in an attention economy. Advertisers will follow wherever the attention 
 
 <a id="Footnote 4"><a href="#FN 4"><sup>4</sup></a> Virtual real estate is a land property owned by an individual or organization but instead of within the real world, it’s in a metaverse.
 
-<a id="Footnote 5"><a href="#FN 5"><sup>5</sup></a> https://www.forbes.com/sites/jonathanponciano/2022/05/12/the-worlds-largest-technology-companies-in-2022-apple-still-dominates-as-brutal-market-selloff-wipes-trillions-in-market-value/?sh=709469b53448
+<a id="Footnote 5"><a href="#FN 5"><sup>5</sup></a> [https://www.forbes.com/sites/jonathanponciano/2022/05/12/the-worlds-largest-technology-companies-in-2022-apple-still-dominates-as-brutal-market-selloff-wipes-trillions-in-market-value/?sh=709469b53448](https://www.forbes.com/sites/jonathanponciano/2022/05/12/the-worlds-largest-technology-companies-in-2022-apple-still-dominates-as-brutal-market-selloff-wipes-trillions-in-market-value/?sh=709469b53448)
