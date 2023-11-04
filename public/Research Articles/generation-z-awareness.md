@@ -1,8 +1,7 @@
 # MCG Gen Z Awareness Matrix - How to successfully gain Gen Z’s awareness?
 
-*Written By: Bobby Huang, Tom Nguyen, Justin Ng, Katelyn Tam, Spencer Chang*
-
-*Edited By: Sooraj Ruparelia, Safwan Patel*
+*Written By*: Bobby Huang, Tom Nguyen, Justin Ng, Katelyn Tam, Spencer Chang  
+*Edited By*: Sooraj Ruparelia, Safwan Patel  
 
 *November, 2022*
 
