@@ -28,7 +28,7 @@ function Home(props) {
         </h2>
       </div>
 
-      <div className="service-blur animate__animated animate__fadeIn animate__delay-05s">
+      <div className="animate__animated animate__fadeIn animate__delay-05s">
         <div className="service-container">
           <h1 className="purple-font animate__animated animate__fadeIn animate__delay-1s">
             Services
@@ -73,4 +73,4 @@ function Home(props) {
   )
 }
 
-export default React.memo(Home);
+export default Home;

@@ -26,7 +26,7 @@ function Event(props) {
         setText("Passed");
       }
     }
-  }, []);
+  }, [props.date]);
 
   return (
     <div className="event-element animate__animated animate__fadeIn animate__delay-1s">

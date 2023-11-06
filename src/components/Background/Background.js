@@ -11,7 +11,7 @@ function Background(props) {
         background: {
           color: {
             // value: "#000",
-            value: "#fff",
+            value: "#ffffff00",
           },
         },
         fpsLimit: 60,

@@ -24,7 +24,7 @@ function TopBar(props) {
   }
 
   return (
-    <div className="top-bar animate__animated animate__fadeIn animate__delay-05s">
+    <div className="top-bar">
       <a href="/">
         <img src={MCG_Logo} className="mcg-logo" alt="MCG Logo"/>
       </a>
@@ -39,8 +39,8 @@ function TopBar(props) {
         <a href="/events">
           <h2 className="section-link">Events</h2>
         </a>
-        <a href="/hiring">
-          <h2 className="section-link">Hiring</h2>
+        <a href="/consults">
+          <h2 className="section-link">Services</h2>
         </a>
         <a href="/research">
           <h2 className="section-link">Research</h2>
@@ -50,6 +50,9 @@ function TopBar(props) {
         </a>
         <a href="/team">
           <h2 className="section-link">Our Team</h2>
+        </a>
+        <a href="/hiring">
+          <h2 className="section-link">Hiring</h2>
         </a>
       </div>
       <div className="sections-group">
@@ -59,8 +62,8 @@ function TopBar(props) {
         <a href="/events">
           <h2 className="section-link">Events</h2>
         </a>
-        <a href="/hiring">
-          <h2 className="section-link">Hiring</h2>
+        <a href="/consults">
+          <h2 className="section-link">Services</h2>
         </a>
         <a href="/research">
           <h2 className="section-link">Research</h2>
@@ -70,6 +73,9 @@ function TopBar(props) {
         </a>
         <a href="/team">
           <h2 className="section-link">Our Team</h2>
+        </a>
+        <a href="/hiring">
+          <h2 className="section-link">Hiring</h2>
         </a>
       </div>
     </div>
