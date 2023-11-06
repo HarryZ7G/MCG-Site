@@ -9,7 +9,7 @@ export default ({ company, testimonial, description }) => {
     return (
         <div className={styles.layout}>
             <div className={styles.left}>
-                <h2 className={styles.companyName}>{companyName}</h2>
+                {/* <h2 className={styles.companyName}>{companyName}</h2> */}
                 <div className={styles.companyImage}>
                     <img alt={`${companyName} logo`} src={companyImage} />
                 </div>

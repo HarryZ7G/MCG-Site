@@ -1,5 +1,6 @@
 .body {
     display: flex;
+    max-width: 100%;
     flex-direction: column;
 }
 

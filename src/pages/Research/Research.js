@@ -8,7 +8,6 @@ import styles from './Research.module.css'
 import ResearchIntroIcon from "../../components/ResearchPreview/ResearchIntroIcon/ResearchIntroIcon";
 import Layout from "../../components/Layout/Layout";
 import CenteredGrid from "../../components/CenteredGrid/CenteredGrid";
-import Background from "../../components/Background/Background";
 
 function Research(props) {
 
