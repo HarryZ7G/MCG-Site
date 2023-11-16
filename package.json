@@ -20,10 +20,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts --max_old_space_size=256 start",
+    "build": "react-scripts --max_old_space_size=256 build",
+    "test": "react-scripts --max_old_space_size=256 test",
+    "eject": "react-scripts --max_old_space_size=256 eject"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +45,6 @@
   },
   "engines": {
     "node": "18.12.1",
-    "npm": "8.1.2"
+    "npm": "8.19.2"
   }
 }

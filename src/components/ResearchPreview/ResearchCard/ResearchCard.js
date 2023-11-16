@@ -10,7 +10,7 @@ const ResearchCard = ({ article }) => {
         <div className={styles.card}>
             <a className={styles.link} href={`/research/${slug}`} />
             <div className={styles.container} >
-                <img src={picture}/>
+                <img src={picture} alt={`Preview image for ${title}`}/>
             </div>
             <p className={styles.date}>{date}</p>
             <h3 className={styles.title}>{title}</h3>

@@ -9,9 +9,9 @@ const NumberedLayout = ({ Component, props, gridKey, containerClass, parentClass
             <div className={`${styles.iconParent} ${parentClass}`}>
                 {props.map((prop, index) => {
                     return(
-                        <div className={styles.element}>
+                        <div className={styles.element} key={`${gridKey}${index}`}>
                             <span className={styles.number}>{index+1}</span>
-                            <Component key={`${gridKey}${index}`} {...prop}/>
+                            <Component {...prop}/>
                         </div>
                     )
                 })}
