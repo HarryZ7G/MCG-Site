@@ -6,7 +6,6 @@ import { useParams } from 'react-router-dom';
 import TopBar from '../../components/TopBar/TopBar';
 import Footer from '../../components/Footer/Footer';
 import PagePadding from '../../components/PagePadding/PagePadding';
-import rehypeRaw from 'rehype-raw'
 
 function ResearchArticle() {
     const { page } = useParams();
@@ -48,7 +47,7 @@ class Content extends React.Component {
         } else {
             article = this.state.markdown
         }
-        article = <ReactMarkdown rehypePlugins={[rehypeRaw]} children={this.state.markdown} />
+        article = <ReactMarkdown children={this.state.markdown} />
         return(
         <div className="research-article-page">
             <TopBar />

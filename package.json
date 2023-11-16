@@ -1,12 +1,8 @@
 {
-  "homepage": ".",
   "name": "mcg-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
     "animate.css": "^4.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -19,11 +15,16 @@
     "rehype-raw": "^7.0.0",
     "web-vitals": "^1.1.2"
   },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3"
+  },
   "scripts": {
-    "start": "react-scripts --max_old_space_size=256 start",
-    "build": "react-scripts --max_old_space_size=256 build",
-    "test": "react-scripts --max_old_space_size=256 test",
-    "eject": "react-scripts --max_old_space_size=256 eject"
+    "start": "react-scripts start",
+    "build": "react-scripts --optimize_for_size --max_old_space_size=460 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
