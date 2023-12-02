@@ -32,7 +32,7 @@ function Event(props) {
     <div className="event-element animate__animated animate__fadeIn animate__delay-1s">
       <img className="event-image" src={props.image} />
       <div className="event-information">
-        <h2>{props.title}</h2>
+        <h2 className={`purple-font`}>{props.title}</h2>
         <div className="event-time">
           <h3>Date: {props.day}</h3>
           <h3>Time: {props.start + " - " + props.end}</h3>

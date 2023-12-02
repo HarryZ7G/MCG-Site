@@ -3,20 +3,16 @@ import quoteLeft from './quote-left.svg'
 import quoteRight from './quote-right.svg'
 
 export default ({ company, testimonial, description }) => {
-    const { image: companyImage, name: companyName } = company;
+    const { name: companyName } = company;
     const { image: personImage, name: personName, role, quote } = testimonial;
 
     return (
         <div className={styles.layout}>
             <div className={styles.left}>
-                {/* <h2 className={styles.companyName}>{companyName}</h2> */}
-                <div className={styles.companyImage}>
-                    <img alt={`${companyName} logo`} src={companyImage} />
-                </div>
+                <h2 className={styles.companyName}>{companyName}</h2>
                 <p className={styles.description}>{description}</p>
             </div>
             <div className={styles.right}>
-
                 <div className={styles.testimonial}>
                     <div className={styles.leftQuote}>
                         <img alt='Quote icon left' src={quoteLeft}/>

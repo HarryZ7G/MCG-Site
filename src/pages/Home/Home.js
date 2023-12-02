@@ -12,12 +12,17 @@ import Background from '../../components/Background/Background.js';
 import TopBar from '../../components/TopBar/TopBar.js';
 import ServiceElement from '../../components/ServiceElement/ServiceElement.js';
 import Footer from '../../components/Footer/Footer';
+import { Helmet } from 'react-helmet';
 
 function Home(props) {
   return (
     <div className="root">
       <Background/>
       <TopBar/>
+      <Helmet>
+        <title>UTSC - MCG</title>
+        <meta type='description' content="Making meaningful impacts — one consultation at a time — we are University of Toronto Scarborough's premier consulting group."/>
+      </Helmet>
 
       <div className="landing-screen">
         <h1 className="landing-title animate__animated animate__fadeIn animate__delay-05s">

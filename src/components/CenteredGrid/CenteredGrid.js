@@ -7,7 +7,9 @@ const CenteredGrid = ({ Component, props, gridKey, containerClass, parentClass }
     return (
         <div className={`${styles.iconContainer} ${containerClass}`}>
             <div className={`${styles.iconParent} ${parentClass}`}>
-                {props.map((prop, index) => <Component key={`${gridKey}${index}`} {...prop}/>)}
+                {props.map((prop, index) => <div style={{margin: 'auto'}}>
+                    <Component key={`${gridKey}${index}`} {...prop} />
+                </div>)}
             </div>
         </div>
     )
