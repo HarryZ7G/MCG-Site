@@ -18,7 +18,7 @@ function Events(props) {
       <TopBar />
       <Background />
       <PageTitle title="Events" />
-      <div className="event-blur animate__animated animate__fadeIn animate__delay-1s">
+      <div className="animate__animated animate__fadeIn animate__delay-1s">
         <div className="event-block">
           <Event 
             day="September 18th"
