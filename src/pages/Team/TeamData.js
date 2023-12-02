@@ -1,6 +1,5 @@
 import Bobby from "../../media/Headshots/Bobby.jpg";
 import Chloe from "../../media/Headshots/Chloe.jpg";
-import Katelyn from "../../media/Headshots/Katelyn.jpeg";
 import Maiesha from "../../media/Headshots/Maiesha.jpg";
 import Michael from "../../media/Headshots/Michael.jpg";
 import Rachel from "../../media/Headshots/Rachel.jpg";
@@ -8,7 +7,6 @@ import Spencer from "../../media/Headshots/Spencer.jpg";
 import Vincent from "../../media/Headshots/Vincent.jpg";
 import Vraj from "../../media/Headshots/Vraj.jpg";
 import Hillary from "../../media/Headshots/Hillary.jpg";
-import Kian from "../../media/Headshots/Kian.jpg";
 import Cristine from "../../media/Headshots/Cristine.jpg";
 import Sunny from "../../media/Headshots/Sunny.jpg";
 import Amanda from "../../media/Headshots/Amanda.png";
@@ -55,14 +53,6 @@ const TeamData = [
     picture: Spencer,
     link: "https://www.linkedin.com/in/Spencer-chang1/",
     intro: "Spencer is a second-year Co-op Management student specializing in International Business. He has previously founded and managed startups in the Toronto area which have been based on customer relations and providing services that are focused on developing sustainable and efficient communities. His ventures in entrepreneurship have led him to becoming a freelance consultant for BNI, as well as providing services for over 100 families. Spencer's commitment to business has led him to becoming a strategy marketing analyst for the MCG at the University of Toronto, and he looks forward to developing and furthering his knowledge in the world of business. "
-  },
-  {
-    first: "Kian",
-    last: "Tadjbakhsh",
-    title: "Consultant, Marketing Strategy",
-    picture: Kian,
-    link: "https://www.linkedin.com/in/kian-tadjbakhsh/",
-    intro: "Kian is a third-year student majoring in Political Science with a minor in Economics and Public law. He has experience as a Business analyst intern with Mars & Wrigley and as a Marketing And sales Intern at Samsung Canada. In becoming a part of MCG, Kian hopes to bring his gained skills to serve MCGs clientele better, while also educating the UTSC student body on the possibilities within consulting. Kian is an avid motorsports fan, often found tinkering with any number of mechanical things. Or in his spare time seen cooking a new recipe."
   },
   {
     first: "Alia",
@@ -134,14 +124,6 @@ const TeamData = [
     title: "Consultant, Financial Strategy",
     picture: Maiesha,
     link: "https://www.linkedin.com/in/maieshazahir/",
-  },
-  {
-    first: "Katelyn",
-    last: "Tam",
-    title: "Consultant, Financial Strategy",
-    picture: Katelyn,
-    link: "https://www.linkedin.com/in/katelyntkm/",
-    intro: "Katelyn is a third-year BBA student specialising in Management and Finance. She has experience as a Data Analyst intern at a government department in Macao. She is passionate about marketing and finance and she hopes her communication skills and problem solving skills will help our clients to improve their business. Katelyn joined MCG to gain hands-on experience in consulting and learn more about the consulting industry. Katelyn is interested in sports and music."
   },
   {
     first: "Scott",
