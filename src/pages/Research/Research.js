@@ -2,14 +2,13 @@ import React from "react";
 import "./Research.module.css";
 
 // Components
-
 import ResearchPreview from "../../components/ResearchPreview/ResearchPreview";
 import styles from './Research.module.css'
 import ResearchIntroIcon from "../../components/ResearchPreview/ResearchIntroIcon/ResearchIntroIcon";
 import Layout from "../../components/Layout/Layout";
 import CenteredGrid from "../../components/CenteredGrid/CenteredGrid";
 
-function Research(props) {
+function Research() {
 
   const introIcons = [
     {
@@ -33,14 +32,13 @@ function Research(props) {
   return (
     <Layout title='Research' useBackground>
       <div className={styles.intro}>
-        <div className={styles.introLeft}>
-          <h2 className="purple-font">What is Research at MCG?</h2>
-          <h3>
-            Research articles at MCG are written by undergraduates to inform clients and fellow students about current and future market trends in the industry of interest. We strive to deliver professional and comprehensive reports so that readers can take actionable steps towards implementing new strategies and technologies.
-          </h3>
-        </div>
+        <h2 className={`purple-font ${styles.introTitle}`}>What is Research at MCG?</h2>
+        <p>
+          Research articles at MCG are written by undergraduates to inform clients and fellow students about current and future market trends in the industry of interest. We strive to deliver professional and comprehensive reports so that readers can take actionable steps towards implementing new strategies and technologies.
+        </p>
         <CenteredGrid Component={ResearchIntroIcon} props={introIcons} gridKey='research' />
       </div>
+      <h2 className={`purple-font ${styles.introTitle}`}>Articles</h2>
       <ResearchPreview />
     </Layout>
   );

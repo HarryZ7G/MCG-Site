@@ -1,5 +1,5 @@
 import React from 'react';
-import MCG_Logo from '../../media/MCG_Logo_B.png';
+import MCG_Logo from '../../media/MCG_Logo.png';
 import './TopBar.css';
 
 function TopBar(props) {

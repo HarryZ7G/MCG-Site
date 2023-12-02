@@ -24,13 +24,7 @@ import TeamData from "./TeamData";
 import AlumniData from "./AlumniData";
 import PageHelmet from "../../components/PageHelmet/PageHelmet";
 
-const intro = [
-  `MCG members build on the skills and experience they have gained to join `,
-  <mark className="purple">top companies and institutions</mark>,
-  ` across all industries after graduation.`,
-];
-
-function Alumni(props) {
+function Alumni() {
   const members = TeamData.map((member, index) => <Member key={`member${index}`} {...member}/>);
   const alumni = AlumniData.map((alumni, index) => <LegacyMember key={`alumni${index}`} {...alumni}/>)
 
@@ -39,7 +33,7 @@ function Alumni(props) {
       <PageHelmet title='Our Team' description='The student executive team behind our organization.' disableIndexing/>
       <Background />
       <TopBar />
-      <PageTitle title="Our Team" intro={intro} />
+      <PageTitle title="Our Team" intro=''/>
       <div className="members-wrapper animate__animated animate__fadeIn animate__delay-1s">
         <h1 className={`purple-font title`}>Members</h1>
         <div className="members-grid">{members}</div>

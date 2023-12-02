@@ -12,6 +12,7 @@
   padding: 30px min(60px, 6vw) 0px 30px;
   z-index: 5;
   display: flex;
+  background-color: white;
 }
 
 .sections-popup {
@@ -109,6 +110,7 @@
       align-items: center;
       justify-content: space-between;
       gap: 40px;
+      margin: auto 0;
     }
   }
   @media screen and (max-width: 1300px) {
@@ -122,6 +124,7 @@
       align-items: center;
       justify-content: space-between;
       gap: 30px;
+      margin: auto 0;
     }
   }
 
