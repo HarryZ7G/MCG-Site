@@ -68,7 +68,7 @@ function Home(props) {
         
         <div className="landing-words">
           <h1>4 <mark className="purple">Practice Areas</mark></h1>
-          <h1>6 Annual <mark className="purple">Clients</mark></h1>
+          <h1>4 Annual <mark className="purple">Clients</mark></h1>
           <h1>8 Years of <mark className="purple">Experience</mark></h1>
         </div>
       </div>
