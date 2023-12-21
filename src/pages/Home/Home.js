@@ -12,24 +12,22 @@ import Background from '../../components/Background/Background.js';
 import TopBar from '../../components/TopBar/TopBar.js';
 import ServiceElement from '../../components/ServiceElement/ServiceElement.js';
 import Footer from '../../components/Footer/Footer';
-import { Helmet } from 'react-helmet';
+import PageHelmet from '../../components/PageHelmet/PageHelmet';
 
-function Home(props) {
+function Home() {
   return (
     <div className="root">
-      <Background/>
-      <TopBar/>
-      <Helmet>
-        <title>UTSC - MCG</title>
-        <meta type='description' content="Making meaningful impacts — one consultation at a time — we are University of Toronto Scarborough's premier consulting group."/>
-      </Helmet>
-
+      <Background />
+      <TopBar />
+      <PageHelmet title='Management Consulting Group (MCG)'
+        description="Making meaningful impacts — one consultation at a time — we are University of Toronto Scarborough's premier consulting group.">
+      </PageHelmet>
       <div className="landing-screen">
         <h1 className="landing-title animate__animated animate__fadeIn animate__delay-05s">
           Making <mark className="purple">meaningful impacts</mark> in the community — one consultation at a time
         </h1>
         <h2 className="animate__animated animate__fadeIn animate__delay-05s">
-          We are University of Toronto Scarborough’s premier consulting group.
+          We are University of Toronto Scarborough's premier consulting group.
         </h2>
       </div>
 
@@ -65,15 +63,13 @@ function Home(props) {
             </div>
           </div>
         </div>
-        
         <div className="landing-words">
           <h1>4 <mark className="purple">Practice Areas</mark></h1>
           <h1>4 Annual <mark className="purple">Clients</mark></h1>
           <h1>8 Years of <mark className="purple">Experience</mark></h1>
         </div>
       </div>
-
-      <Footer/>
+      <Footer />
     </div>
   )
 }

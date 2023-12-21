@@ -3,19 +3,24 @@ import TopBar from "../../components/TopBar/TopBar.js";
 import PageTitle from "../../components/PageTitle/PageTitle.js";
 import Footer from "../../components/Footer/Footer.js";
 import Background from '../Background/Background';
+import PageHelmet from '../PageHelmet/PageHelmet';
 
-export default ({children, title, intro, useBackground = false}) => {
-    
-    const displayIntro = intro ?? '';
+export default function Layout ({ children, headerTitle, headerIntro, title, description, disableIndexing, canonical, useBackground = false }) {
+
+    const displayIntro = headerIntro ?? '';
+    if (!title) {
+        throw Error("Expected a page meta title in Layout.js.")
+    }
 
     return (
         <div className="root">
             <TopBar />
-            {title && <PageTitle title={title} intro={displayIntro} />}
+            {headerTitle && <PageTitle title={headerTitle} intro={displayIntro} />}
+            <PageHelmet {...{ title, description, disableIndexing, canonical }} />
             <div className={`${styles.body} animate__animated animate__fadeIn animate__delay-1s`}>
                 {children}
             </div>
-            {useBackground && <Background/>}
+            {useBackground && <Background />}
             <Footer />
         </div>
     )

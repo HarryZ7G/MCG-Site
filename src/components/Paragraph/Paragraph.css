@@ -5,6 +5,7 @@
   width: min(1400px, 90vw);
   margin-bottom: 35px;
   line-height: 1.5;
+  max-width: 100%;
 }
 
 .paragraph a {

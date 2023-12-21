@@ -1,18 +1,92 @@
-.top-bar {
+.banner {
+  width: 100%;
+  background-color: var(--primary_light);
+  color: white;
+  position: relative;
+  display: inline-flex;
+}
+
+.banner-content {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+}
+
+@media (min-width: 500px) {
+  .banner-content {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner-content {
+    flex-direction: column;
+  }
+}
+
+.banner-link-button a {
+  opacity: 1;
+  text-decoration: none;
+  background-color: var(--primary_dark);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: auto 10px;
+  white-space: nowrap;
+}
+
+.banner-link-button a:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.287) 0 0);
+}
+
+.banner-link-button {
+  margin: auto;
+  padding: 10px 0;
+}
+
+.banner > a {
+  margin-left: 1em;
+}
+
+.banner-close-button { 
+  display: flex;
+  width: 50px;
+}
+
+.banner-close-button button {
+  margin: auto;
+  color: white;
+  background-color: var(--primary);
+  border: none;
+}
+
+.banner-close-button button:hover {
+  background-color: var(--primary_dark);
+  cursor: pointer;
+}
+
+.nav-bar {
+  position: relative;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+  display: flex;
+  box-sizing: border-box;
+  /* padding: min(30px, 3vw) min(60px, 3vw) 0px min(30px, 3vw); */
+  background-color: white;
+  height: min-content;
+  padding: 30px min(60px, 6vw) 0px 30px;
+}
+
+.top-bar {
+  z-index: 5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: transparent;
-  height: 70px;
-  width: stretch;
-  /* padding: min(30px, 3vw) min(60px, 3vw) 0px min(30px, 3vw); */
-  padding: 30px min(60px, 6vw) 0px 30px;
-  z-index: 5;
-  display: flex;
-  background-color: white;
 }
 
 .sections-popup {
@@ -83,7 +157,7 @@
   .sections-popup {
     display: flex;
     margin-top: 60px;
-    padding: 60px 0;
+    padding: 15px 0 60px 0;
     top: min(70px, 10vw);
     left: 50%;
     width: 100%;

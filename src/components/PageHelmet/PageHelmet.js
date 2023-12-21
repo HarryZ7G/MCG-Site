@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 function PageHelmet({title, description, disableIndexing, canonical}) {
 
     const pageDescription = description ?? '';
-    const pageTitle = title ?? 'UTSC - MCG'
+    const pageTitle = (title ?? 'MCG UTSC') + ' | Management Consulting Group'
 
     return (
         <Helmet>

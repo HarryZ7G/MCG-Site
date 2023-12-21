@@ -29,12 +29,14 @@ function Research() {
     },
   ]
 
+  const pageDescription = 'Research articles at MCG inform clients and aspiring consultants about current and future market trends in the industries of interest.'
+
   return (
-    <Layout title='Research' useBackground>
+    <Layout headerTitle='Research' title='Research' description={pageDescription} useBackground>
       <div className={styles.intro}>
         <h2 className={`purple-font ${styles.introTitle}`}>What is Research at MCG?</h2>
         <p>
-          Research articles at MCG are written by undergraduates to inform clients and fellow students about current and future market trends in the industry of interest. We strive to deliver professional and comprehensive reports so that readers can take actionable steps towards implementing new strategies and technologies.
+          Research articles at MCG are written to inform clients and aspiring consultants about current and future market trends in the industries of interest. We strive to deliver professional and comprehensive reports so that readers can take actionable steps towards implementing new strategies and technologies.
         </p>
         <CenteredGrid Component={ResearchIntroIcon} props={introIcons} gridKey='research' />
       </div>

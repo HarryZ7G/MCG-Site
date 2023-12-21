@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  backdrop-filter: blur(7px);
+  /* backdrop-filter: blur(7px); */
   border-radius: 20px 20px 0 0;
   padding-bottom: 100px;
 }
