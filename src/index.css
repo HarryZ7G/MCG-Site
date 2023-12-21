@@ -1,8 +1,12 @@
 :root {
   --primary: #6a537b;
-  --primary_light: #6a537b;
+  --primary_light: #69537C;
   --primary_dark: #3D1F55;
-  --text_purple: #6070FF
+  --text_purple: #6070FF;
+  --button_normal: #6070FF;
+  --button_disabled: #232c81;
+  --button_hover_enabled: #2939cc;
+  --button_active_enabled: #2939cc;
 }
 
 body {

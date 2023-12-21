@@ -43,24 +43,30 @@ a:active {
 
 button {
   cursor: pointer;
+  background-color: var(--button_normal);
   transition: 0.2s;
 }
 
 button:hover:enabled {
-  opacity: 0.8;
+  background-color: var(--button_hover_enabled);
+  /* opacity: 0.8; */
 }
 
 button:active:enabled {
-  opacity: 0.6;
+  background-color: var(--button_active_enabled);
+  /* opacity: 0.6; */
 }
 
 button:hover:disabled {
-  opacity: 1;
+  background-color: var(--button_disabled);
+  filter: brightness(50%);
+  /* opacity: 1; */
 }
 
 button:disabled {
   cursor: default;
   filter: brightness(50%);
+  background-color: var(--button_disabled);
 }
 
 mark.purple {
