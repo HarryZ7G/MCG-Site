@@ -4,7 +4,7 @@ import "./PageTitle.css";
 function PageTitle(props) {
   return (
     <div className="page-title animate__animated animate__fadeIn">
-      <h1 className="purple-font animate__animated animate__fadeIn animate__delay-05s">
+      <h1 className="purple-font animate__animated animate__fadeIn animate__delay-05s" style={{fontWeight: 'bold'}}>
         {props.title}
       </h1>
       {

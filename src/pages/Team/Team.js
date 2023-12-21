@@ -14,60 +14,54 @@ import Snap from "../../media/Alumni Logos/Snap.png";
 import TD from "../../media/Alumni Logos/TD.png";
 
 // Components
-import Background from "../../components/Background/Background.js";
-import TopBar from "../../components/TopBar/TopBar.js";
 import Member from "../../components/Member/Member.js";
 import LegacyMember from "../../components/Member/LegacyMember/LegacyMember.js";
-import PageTitle from "../../components/PageTitle/PageTitle.js";
-import Footer from "../../components/Footer/Footer";
 import TeamData from "./TeamData";
 import AlumniData from "./AlumniData";
-import PageHelmet from "../../components/PageHelmet/PageHelmet";
+import Layout from "../../components/Layout/Layout";
 
 function Alumni() {
-  const members = TeamData.map((member, index) => <Member key={`member${index}`} {...member}/>);
-  const alumni = AlumniData.map((alumni, index) => <LegacyMember key={`alumni${index}`} {...alumni}/>)
+  const members = TeamData.map((member, index) => <Member key={`member${index}`} {...member} />);
+  const alumni = AlumniData.map((alumni, index) => <LegacyMember key={`alumni${index}`} {...alumni} />)
 
   return (
-    <div className="root">
-      <PageHelmet title='Our Team' description='The student executive team behind our organization.' disableIndexing/>
-      <Background />
-      <TopBar />
-      <PageTitle title="Our Team" intro=''/>
-      <div className="members-wrapper animate__animated animate__fadeIn animate__delay-1s">
-        <h1 className={`purple-font title`}>Members</h1>
-        <div className="members-grid">{members}</div>
-        <h1 className="purple-font title">Alumni</h1>
-        <div className="members-grid">{alumni}</div>
+    <Layout
+      headerTitle='Our Team'
+      description="The student executive team behind our organization."
+      title="Our Team"
+      disableIndexing
+      useBackground>
+      <h1 className={`purple-font title`}>Members</h1>
+      <div className="members-grid">{members}</div>
+      <h1 className="purple-font title">Alumni</h1>
+      <div className="members-grid">{alumni}</div>
 
-        <h1 className="purple-font alumni-achievement">Alumni Achievement</h1>
-        <div className="alumni-wrapper">
-          <div className="alumni-row">
-            <div className="alumni-subrow">
-              <img src={BCG} alt="BCG" />
-              <img src={Caseware} alt="Caseware" />
-            </div>
-            <div className="alumni-subrow">
-              <img src={Citi} alt="Citi" />
-              <img src={IBM} alt="IBM" />
-              <img src={KPMG} alt="KPMG" />
-            </div>
+      <h1 className="purple-font alumni-achievement">Alumni Achievement</h1>
+      <div className="alumni-wrapper">
+        <div className="alumni-row">
+          <div className="alumni-subrow">
+            <img src={BCG} alt="BCG" />
+            <img src={Caseware} alt="Caseware" />
           </div>
-          <div className="alumni-row">
-            <div className="alumni-subrow">
-              <img src={Microsoft} alt="Microsoft" />
-              <img src={RBC} alt="RBC" />
-            </div>
-            <div className="alumni-subrow">
-              <img src={Scotiabank} alt="Scotiabank" />
-              <img src={Snap} alt="Snap" />
-              <img src={TD} alt="TD" />
-            </div>
+          <div className="alumni-subrow">
+            <img src={Citi} alt="Citi" />
+            <img src={IBM} alt="IBM" />
+            <img src={KPMG} alt="KPMG" />
+          </div>
+        </div>
+        <div className="alumni-row">
+          <div className="alumni-subrow">
+            <img src={Microsoft} alt="Microsoft" />
+            <img src={RBC} alt="RBC" />
+          </div>
+          <div className="alumni-subrow">
+            <img src={Scotiabank} alt="Scotiabank" />
+            <img src={Snap} alt="Snap" />
+            <img src={TD} alt="TD" />
           </div>
         </div>
       </div>
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 

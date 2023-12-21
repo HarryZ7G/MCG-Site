@@ -14,7 +14,7 @@ function Consults() {
         </div>
 
     return (
-        <Layout title='Consults' useBackground>
+        <Layout headerTitle='Consults' title='Consults' description='MCG provides pro-bono consulting services across four service categories. Hear from past clients and learn about our workflow.' useBackground>
             <div className={styles.intro}>
                 <h2 className={`purple-font ${styles.introTitle}`}>Our Services</h2>
                 <p>

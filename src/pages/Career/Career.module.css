@@ -23,3 +23,7 @@
 .organizationalChart {
   width: min(1000px, 100%);
 }
+
+.applyButton {
+  width: min-content;
+}

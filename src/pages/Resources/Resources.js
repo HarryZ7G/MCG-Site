@@ -9,11 +9,8 @@ import Structure from "../../media/MCG Project Structure.pdf";
 import Contract from "../../media/MCG Client Contract.pdf";
 
 // Components
-import Background from "../../components/Background/Background.js";
-import TopBar from "../../components/TopBar/TopBar.js";
-import PageTitle from "../../components/PageTitle/PageTitle.js";
-import Footer from "../../components/Footer/Footer.js";
 import Paragraph from "../../components/Paragraph/Paragraph.js";
+import Layout from "../../components/Layout/Layout";
 
 const intro = [
   `Please note, this resource list is not exhaustive. It is to be `,
@@ -22,11 +19,13 @@ const intro = [
   `presented on through these websites/articles/books.`,
 ];
 
+const pageDescription = "Explore valuable resources that serve as a beginner's guide to understanding the essentials of consulting and mastering case interviews.";
+
 const paragraphs = [
   {
     title: "Consultation Documents:",
     content: (
-      <h2>
+      <p>
         <ol className="links">
           <li>
             <a href={Partnership} target="_blank" rel="noreferrer">
@@ -44,13 +43,13 @@ const paragraphs = [
             </a>
           </li>
         </ol>
-      </h2>
+      </p>
     ),
   },
   {
     title: "Consulting Industry Overview:",
     content: (
-      <h2>
+      <p>
         <ol className="links">
           <li>
             <a href={Berkeley} target="_blank" rel="noreferrer">
@@ -58,13 +57,13 @@ const paragraphs = [
             </a>
           </li>
         </ol>
-      </h2>
+      </p>
     ),
   },
   {
     title: "Consulting Preparation Basics:",
     content: (
-      <h2>
+      <p>
         <ol className="links">
           <li>
             <a
@@ -94,13 +93,13 @@ const paragraphs = [
             </a>
           </li>
         </ol>
-      </h2>
+      </p>
     ),
   },
   {
     title: "Case Interview Specific Resources:",
     content: (
-      <h2>
+      <p>
         <ol className="links">
           <li>
             <a
@@ -139,13 +138,13 @@ const paragraphs = [
             </a>
           </li>
         </ol>
-      </h2>
+      </p>
     ),
   },
   {
     title: "Case Books:",
     content: (
-      <h2>
+      <p>
         <ol className="links">
           <li>
             <a href={Rotman} target="_blank" rel="noreferrer">
@@ -163,13 +162,13 @@ const paragraphs = [
             </a>
           </li>
         </ol>
-      </h2>
+      </p>
     ),
   },
   {
     title: "Case Interview Videos:",
     content: (
-      <h2>
+      <p>
         <ol className="links">
           <li>
             <a
@@ -218,7 +217,7 @@ const paragraphs = [
             </a>
           </li>
         </ol>
-      </h2>
+      </p>
     ),
   },
 ];
@@ -244,15 +243,9 @@ function Resources(props) {
   };
 
   return (
-    <div className="root">
-      <TopBar />
-      <Background />
-      <PageTitle title="Consulting Resources" intro={intro} />
-      <div className="animate__animated animate__fadeIn animate__delay-1s">
+    <Layout headerTitle='Consulting Resources' headerIntro={intro} title='Consulting Resources' description={pageDescription}>
         <div className="career-block">{text}</div>
-      </div>
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 

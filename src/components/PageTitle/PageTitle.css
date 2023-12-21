@@ -1,7 +1,7 @@
 @media screen and (min-width: 1300px) {
   .page-title {
     display: flex;
-    min-height: 300px;
+    /* min-height: 300px; */
     width: 100%;
     flex-direction: column;
     padding-top: 100px;
@@ -26,10 +26,10 @@
 @media screen and (max-width: 1300px) {
   .page-title {
     display: flex;
-    min-height: 200px;
+    /* min-height: 200px; */
     width: 100%;
     flex-direction: column;
-    padding-top: 75px;
+    padding-top: 150px;
     align-items: center;
   }
 

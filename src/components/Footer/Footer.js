@@ -45,7 +45,7 @@ function Footer(props) {
           <img src={LinkedIn} alt="LinkedIn" />
         </button>
       </div>
-      <h3 className="white-font">© 2022 MCG - Management Consulting Group</h3>
+      <h3 className="white-font">© 2023 MCG - Management Consulting Group</h3>
     </div>
   );
 }
