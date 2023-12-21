@@ -160,7 +160,6 @@ function Career(props) {
           </button>
         </a>
       </div>
-      
     </Layout>
   );
 }
