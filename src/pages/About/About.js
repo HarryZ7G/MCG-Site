@@ -4,6 +4,7 @@ import "./About.css";
 // Components
 import Paragraph from "../../components/Paragraph/Paragraph.js";
 import Layout from "../../components/Layout/Layout";
+import AboutSummary from "../../components/AboutSummary/AboutSummary";
 
 const about = [
   `Since its inception in 2015, MCG has worked with a variety of businesses `,
@@ -102,7 +103,8 @@ function About(props) {
 
   return (
     <Layout headerTitle='About' headerIntro={about} title='About' description={pageDescription} useBackground>
-      <div className="about-blur animate__animated animate__fadeIn animate__delay-1s">
+      <div className="animate__animated animate__fadeIn animate__delay-1s">
+        <AboutSummary/>
         <div className="about-block">{text}</div>
       </div>
     </Layout>
