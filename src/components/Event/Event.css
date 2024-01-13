@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+.event-element h2 {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1100px) {
   .event-element {
     display: flex;
@@ -43,7 +47,7 @@
   }
 
   .event-element p {
-    font-size: 15px;
+    font-size: 16px;
   }
   
   .event-time {
@@ -93,7 +97,7 @@
   }
 
   .event-element p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .event-time {
