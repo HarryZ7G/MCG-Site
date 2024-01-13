@@ -19,6 +19,38 @@ const paragraphs = [
     )
   },
   {
+    title: "Open Positions",
+    content: (
+      <>
+        <hr />
+        <h2 className="purple-font">Senior Partner</h2>
+        <p>As a Senior Partner (Vice President) at MCG, you will communicate with founders/executives directly and lead a team of highly skilled consultants and analysts to develop financial models to aid in the consulting projects. You will structure the case and develop strategies to help meet a client's short and long-term goals, such as profit maximization, cost optimization, market penetration, etc. Your role will guide the market research, customer segmentation, and industry/competitive analyses to provide creative and strategic solutions. Also, you will guide students' proposals and point them to the right resources to advance their business projects on an ongoing basis. You will gain exposure to solving a variety of problems commonly seen within marketing departments.</p>
+        <em>What we're looking for:</em>
+        <ol>
+          <li>Supreme strategic problem-solving skills and structured, analytical thinking shown in your previous client-facing/consulting experience.</li>
+          <li>Creative ability to innovate and implement a new strategy to exploit commercial opportunities, in addition to being well-versed with industry trends.</li>
+          <li>Experience in finance/marketing/technology and demonstrated high level of professionalism and sense of responsibility.</li>
+          <li>Proficient in excel and ppt, proficiency in python, R, or other data analysis tools will an asset and motivated to learn new functionalities.</li>
+          <li>Demonstrated high standard of communication skills and experience facing clients and  leading/working within management clubs is an asset.</li>
+          <li>Be willing to dedicate at least 25 hours in a project.</li>
+        </ol>
+        <hr />
+        <h2 className="purple-font">Analyst Consultant</h2>
+        <p>As an analyst at MCG, you will support the team to complete high-quality consultations. You will conduct market research and provide critical insights to help meet a client's short and long-term goals, such as profit maximization, cost optimization, market penetration, etc. You will be involved in client meetings and internal discussions to understand the business situations and deliver recommendations. Also, you will be provided with the opportunities to present to the clients and receive feedback and guidance.</p>
+        <em>What we're looking for: </em>
+        <ol>
+          <li>Strong problem-solving skills and structured, analytical thinking.</li>
+          <li>Proven research skills and be able to leverage professional/library resource to analyze business situations.</li>
+          <li>Proficient in excel and ppt, proficiency in Python, R, or other data analysis tools will an asset and motivated to learn new functionalities.</li>
+          <li>Demonstrated good communication and teamwork skills and experience working within management clubs is an asset.</li>
+          <li>Be willing to dedicate at least 20 hours in a project.</li>
+        </ol>
+        <hr />
+        <br />
+      </>
+    ),
+  },
+  {
     title: "About Us",
     content: (
       <p>
