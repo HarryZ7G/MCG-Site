@@ -34,9 +34,8 @@ function Event(props) {
       <div className="event-information">
         <h2 className={`purple-font`}>{props.title}</h2>
         <div className="event-time">
-          <p>Date: {props.day}</p>
-          <p>Time: {props.start + " - " + props.end}</p>
-          <p>Location: {props.location}</p>
+          <p>{props.day}, {props.start + " - " + props.end}</p>
+          <p>{props.location}</p>
         </div>
       </div>
       {

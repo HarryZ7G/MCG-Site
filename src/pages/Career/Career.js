@@ -14,7 +14,7 @@ const paragraphs = [
     content: (
       <>
         <p>New openings at MCG allow new students to join our teams, with most hiring occurring at the end of Winter and the start of Fall.</p>
-        <em>We are currently hiring for the roles of Senior Partner and Analyst Consultant. Submissions are due January 7th, 2024 at 11:59pm.</em>
+        <b>Unfortunately, we are not currently hiring for any positions.</b>
       </>
     )
   },
@@ -149,16 +149,6 @@ function Career(props) {
     <Layout headerTitle='Hiring' title='Hiring Board' description='View descriptions and application links for open positions at Management Consulting Group.' useBackground>
       <div className={styles.careerBlock}>
         {text}
-        <a
-          href="https://docs.google.com/forms/d/1QkK7_OXCK2SMPBKxy_EDXJdaU7Rv7G8fcbyPl5SaVeU"
-          target="_blank"
-          rel="noreferrer"
-          className={styles.applyButton}
-        >
-          <button>
-            <h2 className="white-font">Apply now</h2>
-          </button>
-        </a>
       </div>
     </Layout>
   );
