@@ -48,8 +48,6 @@ function Home() {
                 description="Provide insight and suggestion for coding and statistics"
                 image={IT}
               />
-            </div>
-            <div className="service-row">
               <ServiceElement
                 title="Marketing Strategy"
                 description="Provide marketing strategy solutions and identify industry trends"
@@ -62,11 +60,20 @@ function Home() {
               />
             </div>
           </div>
-        </div>
+        </div> 
         <div className="landing-words">
-          <h1>4 <mark className="purple">Practice Areas</mark></h1>
-          <h1>4 Annual <mark className="purple">Clients</mark></h1>
-          <h1>8 Years of <mark className="purple">Experience</mark></h1>
+          <div className="landing-words-column">
+            <h1>4</h1>
+            <p><mark className="purple">Practice Areas</mark></p>
+          </div>
+          <div className="landing-words-column">
+            <h1>4</h1>
+            <p>Annual <mark className="purple">Clients</mark></p>
+          </div>
+          <div className="landing-words-column">
+            <h1>9</h1>
+            <p>Years of <mark className="purple">Experience</mark></p>
+          </div>
         </div>
       </div>
       <Footer />
