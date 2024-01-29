@@ -76,6 +76,34 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <div className="animate__animated animate__fadeIn animate__delay-05s">
+        <div className="event-container">
+          <h1>Founded in 2015, Management Consulting Group provides a variety of offerings</h1>
+          <div className="event-grid">
+            <div className="event">
+              <h2>Workshops</h2>
+            </div>
+            <div className="event">
+              <h2>Networking Events</h2>
+            </div>
+            <div className="event">
+              <h2>Case Competitions</h2>
+            </div>
+            <div className="event">
+              <h2>Consults</h2>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <div className="resource-container">
+          <h1>Interested in a career in consulting?</h1>
+        </div>
+      </div>
+
       <Footer />
     </div>
   )

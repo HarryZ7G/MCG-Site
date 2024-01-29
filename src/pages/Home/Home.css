@@ -136,3 +136,44 @@
     width: 100%;
   }
 }
+
+.event-container {
+  background-color: #818BEC;
+  margin: 0 auto;
+  width: min(1300px, 90%);
+  align-items: center;
+  
+  width: 100vw;
+  height: 45vh;
+  justify-content: center;
+}
+
+.event-container h1 {
+  font-size: min(35px, 8vw);
+  text-align: center;
+  align-self: center;
+  padding: 28px;
+  color: rgb(84, 84, 84);
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  height: 35vh;
+  width: 70vw;
+}
+.event {
+  color: rgb(84, 84, 84);
+  text-align: center;
+  padding: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .event-grid {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    position: relative;
+  }
+}
