@@ -169,6 +169,11 @@
   padding: 14px;
 }
 
+.event h2 {
+  font-size: min(27px, 8vw);
+
+}
+
 @media screen and (max-width: 600px) {
   .event-grid {
     display: flex;
@@ -177,3 +182,11 @@
     position: relative;
   }
 }
+
+/*
+<div>
+        <div className="resource-container">
+          <h1>Interested in a career in consulting?</h1>
+        </div>
+      </div>
+*/

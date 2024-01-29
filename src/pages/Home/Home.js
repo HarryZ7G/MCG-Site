@@ -97,13 +97,6 @@ function Home() {
 
         </div>
       </div>
-
-      <div>
-        <div className="resource-container">
-          <h1>Interested in a career in consulting?</h1>
-        </div>
-      </div>
-
       <Footer />
     </div>
   )
