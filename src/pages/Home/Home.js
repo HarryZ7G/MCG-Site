@@ -13,6 +13,9 @@ import TopBar from '../../components/TopBar/TopBar.js';
 import ServiceElement from '../../components/ServiceElement/ServiceElement.js';
 import Footer from '../../components/Footer/Footer';
 import PageHelmet from '../../components/PageHelmet/PageHelmet';
+import HomeEvent from '../../components/HomeModules/HomeEvent/HomeEvent.js';
+import HomeResources from '../../components/HomeModules/HomeResources/HomeResources.js'
+import HomeStats from '../../components/HomeModules/HomeStats/HomeStats.js';
 
 function Home() {
   return (
@@ -30,7 +33,6 @@ function Home() {
           We are University of Toronto Scarborough's premier consulting group.
         </h2>
       </div>
-
       <div className="animate__animated animate__fadeIn animate__delay-05s">
         <div className="service-container">
           <h1 className="purple-font animate__animated animate__fadeIn animate__delay-1s">
@@ -61,42 +63,10 @@ function Home() {
             </div>
           </div>
         </div> 
-        <div className="landing-words">
-          <div className="landing-words-column">
-            <h1>4</h1>
-            <p><mark className="purple">Practice Areas</mark></p>
-          </div>
-          <div className="landing-words-column">
-            <h1>4</h1>
-            <p>Annual <mark className="purple">Clients</mark></p>
-          </div>
-          <div className="landing-words-column">
-            <h1>9</h1>
-            <p>Years of <mark className="purple">Experience</mark></p>
-          </div>
-        </div>
+        <HomeEvent />
+        <HomeStats />
       </div>
-
-      <div className="animate__animated animate__fadeIn animate__delay-05s">
-        <div className="event-container">
-          <h1>Founded in 2015, Management Consulting Group provides a variety of offerings</h1>
-          <div className="event-grid">
-            <div className="event">
-              <h2>Workshops</h2>
-            </div>
-            <div className="event">
-              <h2>Networking Events</h2>
-            </div>
-            <div className="event">
-              <h2>Case Competitions</h2>
-            </div>
-            <div className="event">
-              <h2>Consults</h2>
-            </div>
-          </div>
-
-        </div>
-      </div>
+      <HomeResources />
       <Footer />
     </div>
   )
