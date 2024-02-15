@@ -13,6 +13,7 @@ import TopBar from '../../components/TopBar/TopBar.js';
 import ServiceElement from '../../components/ServiceElement/ServiceElement.js';
 import Footer from '../../components/Footer/Footer';
 import PageHelmet from '../../components/PageHelmet/PageHelmet';
+import ResearchArticlesPreview from '../../components/ResearchArticlesPreview/ResearchArticlesPreview';
 
 function Home() {
   return (
@@ -30,6 +31,8 @@ function Home() {
           We are University of Toronto Scarborough's premier consulting group.
         </h2>
       </div>
+
+      <ResearchArticlesPreview/>
 
       <div className="animate__animated animate__fadeIn animate__delay-05s">
         <div className="service-container">
@@ -69,7 +72,7 @@ function Home() {
           <h1>8 Years of <mark className="purple">Experience</mark></h1>
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   )
 }
