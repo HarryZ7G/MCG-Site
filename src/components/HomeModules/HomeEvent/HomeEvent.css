@@ -1,15 +1,13 @@
 .event-container {
-  background-color: #aab1ea;
-  width: 100%; /* Fills the width of the screen */
+  background-color: #aab1eabd;
   min-width: 100vw;
+  padding: 3% 350px;
 }
 
-.event-container h1 {
-  font-size: min(32px, 8vw);
+.event-container .title {
   text-align: center;
   align-self: center;
-  padding: 35px 350px;
-
+  padding: 20px 30%;
   color: black;
 }
 
@@ -21,6 +19,7 @@
   width: 70%;
   padding-bottom: 35px;
 }
+
 .event {
   color: rgb(84, 84, 84);
   text-align: center;
@@ -30,7 +29,7 @@
 .event h2 {
   font-size: min(27px, 50px);
   color: black;
-
+  margin: 25px;
 }
 
 @media screen and (max-width: 600px) {

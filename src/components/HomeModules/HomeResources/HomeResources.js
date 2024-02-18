@@ -6,8 +6,8 @@ const HomeResources = () => {
         <div className="animate__animated animate__fadeIn animate__delay-05s">
         <div className="animate__animated animate__fadeIn animate__delay-05s">
           <div className="resource-container">
-            <h2>Interested in a career in consulting?</h2>
-            <a href="/resources"><button class="resource-button"><h3>Browse our resources here</h3></button></a>
+            <h2>Are you interested in a career in consulting?</h2>
+            <a href="/resources" class="resource-link"><button class="resource-button">Browse our resources here</button></a>
           </div> 
         </div>
       </div>

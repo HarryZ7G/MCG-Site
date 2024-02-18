@@ -39,7 +39,6 @@ function Home() {
             Services
           </h1>
           <div className="service-block animate__animated animate__fadeIn animate__delay-1s">
-            <div className="service-row">
               <ServiceElement
                 title="Financial Strategy"
                 description="Analyze financial infrastructure of clients to optimize financial efficiency"
@@ -60,7 +59,6 @@ function Home() {
                 description="Increase awareness about the club on campus and develop long lasting relationships with clients"
                 image={PR}
               />
-            </div>
           </div>
         </div> 
         <HomeEvent />

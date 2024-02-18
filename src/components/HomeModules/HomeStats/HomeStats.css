@@ -1,5 +1,5 @@
 .landing-words {
-    margin: 60px auto;
+    margin: 6% auto;
     width: min(1500px, 80%);
     justify-content: space-between;
     column-count: 3;
@@ -15,7 +15,7 @@
   }
   
   .landing-words-column p {
-    font-size: min(40px, 8vw);
+    font-size: min(27px, 8vw);
     text-align: center;
   }
   
@@ -29,7 +29,6 @@
   
   @media screen and (max-width: 1000px) {
     .landing-words {
-      margin-top: 30px;
       display: flex;
       width: fill;
       flex-direction: column;

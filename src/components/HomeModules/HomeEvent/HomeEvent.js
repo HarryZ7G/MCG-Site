@@ -4,7 +4,7 @@ import './HomeEvent.css'
 const HomeEvent = () => {
     return (
         <div className="event-container">
-        <h1>Founded in 2015, Management Consulting Group is the premier student consulting organization at the University of Toronto Scarborough</h1>
+        <h2 className="title">We coordinate between students, faculty and industry connections to organize</h2>
         <div className="event-grid">
           <div className="event">
             <h2><mark className="purple">Workshops</mark></h2>
