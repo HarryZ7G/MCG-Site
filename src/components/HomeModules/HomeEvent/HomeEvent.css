@@ -1,10 +1,10 @@
 .event-container {
-  background-color: #aab1eabd;
-  min-width: 100vw;
-  padding: 3% 350px;
+  background-color: var(--primary_background);
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.event-container .title {
+.home-event-title, .home-event-description {
   text-align: center;
   align-self: center;
   padding: 20px 30%;
@@ -32,11 +32,20 @@
   margin: 25px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
   .event-grid {
     display: flex;
     flex-direction: column;
     overflow: visible;
     position: relative;
+  }
+  .event-container {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 760px) {
+  .event-container {
+    padding: 15px 200px;
   }
 }

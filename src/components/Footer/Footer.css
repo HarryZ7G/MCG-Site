@@ -1,32 +1,64 @@
 .footer {
+  box-sizing: border-box;
+  padding: 50px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 180px;
-  min-height: 180px;
   width: 100%;
-  /* padding-bottom: 5px; */
-  /* padding: 5px 0; */
   backdrop-filter: blur(8px);
-  background-color: black;
+  background-color: rgb(21, 21, 21)
+}
+
+.footer-logo-image {
+  filter: drop-shadow(0px 7px 30px #0005);
+  transition: 0.2s;
+  /* margin: -10px; */
+}
+
+.footer-logo {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  color: white;
+  display: inline-block;
+}
+
+.footer-links-text {
+  color: white;
+}
+
+.footer-links-text > * {
+  font-weight: normal;
+  margin: 0;
 }
 
 .footer .small {
   font-size: min(27px, 6vw);
 }
 
+.footer-contact {
+  width: 100%;
+}
+
 .contact-block {
-  margin: 10px 0 30px 0;
+  float: right;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: min(400px, 80vw);
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .contact-block img {
-  width: min(40px, 8vw);
+  width: min(20px, 8vw);
+  margin: 0 0 0 10px;
 }
 
 .contact-block button {
@@ -44,4 +76,50 @@
 
 .footer h3 {
   font-size: min(18px, 4vw);
+}
+
+.footer-copyright {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .footer-links {
+    flex-direction: column;
+  }
+  .footer-content, .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-logo-image {
+    width: 100px;
+  }
+  .footer-links-text > * {
+    margin-bottom: 1.0em;
+  }
+}
+
+@media (min-width: 800px) {
+  .footer-logo-image {
+    width: 100px;
+  }
+  .footer-links {
+    flex-direction: row;
+    float: right;
+  }
+  .footer-links-text {
+    margin-left: 30px;
+  }
+  .footer-content {
+    flex-direction: row;
+  }
+  .footer-logo {
+    width: 200px;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+  }
 }

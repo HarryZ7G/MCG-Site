@@ -16,10 +16,11 @@ import PageHelmet from '../../components/PageHelmet/PageHelmet';
 import HomeEvent from '../../components/HomeModules/HomeEvent/HomeEvent.js';
 import HomeResources from '../../components/HomeModules/HomeResources/HomeResources.js'
 import HomeStats from '../../components/HomeModules/HomeStats/HomeStats.js';
+import ResearchArticlesPreview from '../../components/ResearchArticlesPreview/ResearchArticlesPreview';
 
 function Home() {
   return (
-    <div className="root">
+    <div className="home-container">
       <Background />
       <TopBar />
       <PageHelmet title='Management Consulting Group (MCG)'
@@ -33,6 +34,7 @@ function Home() {
           We are University of Toronto Scarborough's premier consulting group.
         </h2>
       </div>
+
       <div className="animate__animated animate__fadeIn animate__delay-05s">
         <div className="service-container">
           <h1 className="purple-font animate__animated animate__fadeIn animate__delay-1s">
@@ -61,9 +63,10 @@ function Home() {
               />
           </div>
         </div> 
-        <HomeEvent />
-        <HomeStats />
       </div>
+      <HomeEvent />
+      <HomeStats />
+      <ResearchArticlesPreview/>
       <HomeResources />
       <Footer />
     </div>
