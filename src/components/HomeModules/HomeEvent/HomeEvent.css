@@ -1,0 +1,51 @@
+.event-container {
+  background-color: var(--primary_background);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.home-event-title, .home-event-description {
+  text-align: center;
+  align-self: center;
+  padding: 20px 30%;
+  color: black;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  height: 100%;
+  width: 70%;
+  padding-bottom: 35px;
+}
+
+.event {
+  color: rgb(84, 84, 84);
+  text-align: center;
+  padding: 14px;
+}
+
+.event h2 {
+  font-size: min(27px, 50px);
+  color: black;
+  margin: 25px;
+}
+
+@media screen and (max-width: 760px) {
+  .event-grid {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    position: relative;
+  }
+  .event-container {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 760px) {
+  .event-container {
+    padding: 15px 200px;
+  }
+}

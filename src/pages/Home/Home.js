@@ -13,10 +13,14 @@ import TopBar from '../../components/TopBar/TopBar.js';
 import ServiceElement from '../../components/ServiceElement/ServiceElement.js';
 import Footer from '../../components/Footer/Footer';
 import PageHelmet from '../../components/PageHelmet/PageHelmet';
+import HomeEvent from '../../components/HomeModules/HomeEvent/HomeEvent.js';
+import HomeResources from '../../components/HomeModules/HomeResources/HomeResources.js'
+import HomeStats from '../../components/HomeModules/HomeStats/HomeStats.js';
+import ResearchArticlesPreview from '../../components/ResearchArticlesPreview/ResearchArticlesPreview';
 
 function Home() {
   return (
-    <div className="root">
+    <div className="home-container">
       <Background />
       <TopBar />
       <PageHelmet title='Management Consulting Group (MCG)'
@@ -37,7 +41,6 @@ function Home() {
             Services
           </h1>
           <div className="service-block animate__animated animate__fadeIn animate__delay-1s">
-            <div className="service-row">
               <ServiceElement
                 title="Financial Strategy"
                 description="Analyze financial infrastructure of clients to optimize financial efficiency"
@@ -48,8 +51,6 @@ function Home() {
                 description="Provide insight and suggestion for coding and statistics"
                 image={IT}
               />
-            </div>
-            <div className="service-row">
               <ServiceElement
                 title="Marketing Strategy"
                 description="Provide marketing strategy solutions and identify industry trends"
@@ -60,15 +61,13 @@ function Home() {
                 description="Increase awareness about the club on campus and develop long lasting relationships with clients"
                 image={PR}
               />
-            </div>
           </div>
-        </div>
-        <div className="landing-words">
-          <h1>4 <mark className="purple">Practice Areas</mark></h1>
-          <h1>4 Annual <mark className="purple">Clients</mark></h1>
-          <h1>8 Years of <mark className="purple">Experience</mark></h1>
-        </div>
+        </div> 
       </div>
+      <HomeEvent />
+      <HomeStats />
+      <ResearchArticlesPreview/>
+      <HomeResources />
       <Footer />
     </div>
   )

@@ -1,4 +1,5 @@
 import React from 'react';
+import links from '../../data/links';
 import MCG_Logo from '../../media/MCG_Logo.png';
 import './TopBar.css';
 
@@ -50,50 +51,18 @@ function TopBar(props) {
           <div className={`inner-line bottom ${botActive}`} />
         </button>
         <div className={`sections-popup ${show}`}>
-          <a href="/about">
-            <h2 className="section-link">About</h2>
-          </a>
-          <a href="/events">
-            <h2 className="section-link">Events</h2>
-          </a>
-          <a href="/consults">
-            <h2 className="section-link">Services</h2>
-          </a>
-          <a href="/research">
-            <h2 className="section-link">Research</h2>
-          </a>
-          <a href="/resources">
-            <h2 className="section-link">Resources</h2>
-          </a>
-          <a href="/team">
-            <h2 className="section-link">Our Team</h2>
-          </a>
-          <a href="/hiring">
-            <h2 className="section-link">Hiring</h2>
-          </a>
+          {
+            links.map(obj => <a href={obj.link}>
+              <h2 className="section-link">{obj.title}</h2>
+            </a>)
+          }
         </div>
         <div className="sections-group">
-          <a href="/about">
-            <h2 className="section-link">About</h2>
-          </a>
-          <a href="/events">
-            <h2 className="section-link">Events</h2>
-          </a>
-          <a href="/consults">
-            <h2 className="section-link">Services</h2>
-          </a>
-          <a href="/research">
-            <h2 className="section-link">Research</h2>
-          </a>
-          <a href="/resources">
-            <h2 className="section-link">Resources</h2>
-          </a>
-          <a href="/team">
-            <h2 className="section-link">Our Team</h2>
-          </a>
-          <a href="/hiring">
-            <h2 className="section-link">Hiring</h2>
-          </a>
+          {
+            links.map(obj => <a href={obj.link}>
+              <h2 className="section-link">{obj.title}</h2>
+            </a>)
+          }
         </div>
       </div>
     </div>

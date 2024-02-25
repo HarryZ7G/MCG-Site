@@ -2,50 +2,48 @@ import React from "react";
 import "./Footer.css";
 
 // Media
+import MCG_Logo from '../../media/MCG_Logo_clean.png';
 import Email from "../../media/Email.svg";
 import FaceBook from "../../media/Facebook.svg";
 import Instagram from "../../media/Instagram.svg";
 import LinkedIn from "../../media/Linkedin.svg";
+import links from "../../data/links";
 
-function Footer(props) {
-  const [title, setTitle] = React.useState("Connect with us");
-  const [size, setSize] = React.useState(null);
-
-  const CopyEmail = () => {
-    setTitle("mcg.utsc@gmail.com");
-    setSize("small");
-    setTimeout(() => {
-      setTitle("Connect with us");
-      setSize(null);
-    }, 10000);
-  };
-
+function Footer() {
   return (
     <div className="footer">
-      <h2 className={`white-font ${size}`}>{title}</h2>
-      <div className="contact-block">
-        <button onClick={CopyEmail}>
-          <img src={Email} alt="Email" />
-        </button>
-        <button
-          onClick={() => window.open("https://www.facebook.com/UTSCMCG/")}
-        >
-          <img src={FaceBook} alt="FaceBook" />
-        </button>
-        <button
-          onClick={() => window.open("https://www.instagram.com/mcg_utsc/")}
-        >
-          <img src={Instagram} alt="Instagram" />
-        </button>
-        <button
-          onClick={() =>
-            window.open("https://www.linkedin.com/company/utscmcg/")
+      <div className="footer-content">
+        <div className="footer-logo">
+          <a href="/">
+            <img src={MCG_Logo} className="footer-logo-image" alt="MCG Logo" />
+          </a>
+        </div>
+        <div className="footer-links">
+          {
+            links.map(obj => <a className="footer-links-text" href={obj.link}>
+              <h4>{obj.title}</h4>
+            </a>)
           }
-        >
-          <img src={LinkedIn} alt="LinkedIn" />
-        </button>
+        </div>
       </div>
-      <h3 className="white-font">© 2023 MCG - Management Consulting Group</h3>
+      <div className="footer-contact">
+        <span className="white-font footer-copyright">©2024 MCG - Management Consulting Group</span>
+      
+        <div className="contact-block">
+          <a href='mailto:mcg.utsc@gmail.com'>
+            <img src={Email} alt="Email" />
+          </a>
+          <a href="https://www.facebook.com/UTSCMCG/">
+            <img src={FaceBook} alt="FaceBook" />
+          </a>
+          <a href="https://www.instagram.com/mcg_utsc/">
+            <img src={Instagram} alt="Instagram" />
+          </a>
+          <a href="https://www.linkedin.com/company/utscmcg/">
+            <img src={LinkedIn} alt="LinkedIn" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
