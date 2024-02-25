@@ -13,7 +13,7 @@ export default function Layout ({ children, headerTitle, headerIntro, title, des
     }
 
     return (
-        <div className="root">
+        <div className="home-container">
             <TopBar />
             {headerTitle && <PageTitle title={headerTitle} intro={displayIntro} />}
             <PageHelmet {...{ title, description, disableIndexing, canonical }} />
