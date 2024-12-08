@@ -5,7 +5,6 @@ import "./Events.css";
 import Event from "../../components/Event/Event";
 
 // media
-import Eclipse2024Logo from "../../media/EclipseCompetition.jpg";
 import NetworkingNight from "../../media/NetworkingNight.jpg";
 import BridgeFinanceLab from "../../media/BridgeFinanceLab.jpg"
 import Layout from "../../components/Layout/Layout";
@@ -19,46 +18,26 @@ function Events(props) {
       useBackground
     >
       <div className="event-block">
-        <Event
-          day="January 27th"
-          date={{ day: 27, month: 1, year: 2024 }}
-          image={Eclipse2024Logo}
-          title="Eclipse Competition"
-          start="9:00 AM"
-          end="6:00 PM"
-          location="The Chelsea Hotel, Toronto (32 Gerrard St W)"
-          link="https://eclipsecompetition.ca"
-        />
-        <Event
-          day="October 3rd"
-          date={{ day: 3, month: 10, year: 2023 }}
+      <Event
+          day="November 28th"
+          date={{ day: 28, month: 11, year: 2024 }}
           image={NetworkingNight}
-          title="Power Connect: Career Insights & Recruiter Roundtable"
-          start="6:00 PM"
+          title="Inside Consulting"
+          start="7:00 PM"
           end="8:00 PM"
           location="IC Atrium"
-          link="https://docs.google.com/forms/d/e/1FAIpQLSeRuTVSdltlrmgGoqzwTDBIvP3Q-49nsKHRgfc6t5d2_8H1VQ/viewform?usp=sf_link"
+          link="https://docs.google.com/forms/d/e/1FAIpQLSdf04HM10bZXIfM6rtN4NQ7nb3GDY11k6BorJpGN5IfxUnlqQ/viewform?usp=sf_link"
         />
-        <Event
-          day="September 28th"
-          date={{ day: 28, month: 9, year: 2023 }}
-          image={BridgeFinanceLab}
-          title="Case Analysis Workshop with Maria Shibaeva"
+      <Event
+          day="September 27th"
+          date={{ day: 27, month: 9, year: 2024 }}
+          image={NetworkingNight}
+          title="Consulting Orientation"
           start="5:00 PM"
-          end="8:00 PM"
-          location="IC Building, Finance Lab"
-          link="https://docs.google.com/forms/d/e/1FAIpQLSd56nah037PWA7JrnsMe_7SPca8R6IXNe4wBWnqNgaRY95o1g/viewform?usp=sharing"
-        />
-        <Event
-          day="September 18th"
-          date={{ day: 18, month: 9, year: 2023 }}
-          image={BridgeFinanceLab}
-          title="Industry Research Workshop with Mariana from TheBRIDGE"
-          start="1:30 PM"
-          end="2:30 PM"
-          location="IC Building, Finance Lab"
-          link="https://docs.google.com/forms/d/e/1FAIpQLSe6W6obWzjbVkYhj6Yq9s9T77cwXWL6-Owks4ACR2Mob83txA/viewform"
-        />
+          end="7:00 PM"
+          location="IC 230"
+          link="https://docs.google.com/forms/d/e/1FAIpQLSdf04HM10bZXIfM6rtN4NQ7nb3GDY11k6BorJpGN5IfxUnlqQ/viewform?usp=sf_link"
+        /> 
       </div>
     </Layout>
   );
