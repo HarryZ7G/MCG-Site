@@ -6,6 +6,7 @@ import Event from "../../components/Event/Event";
 
 // media
 import NetworkingNight from "../../media/NetworkingNight.jpg";
+import Networking from "../../media/Networking.jpg";
 import BridgeFinanceLab from "../../media/BridgeFinanceLab.jpg"
 import Layout from "../../components/Layout/Layout";
 
@@ -18,6 +19,16 @@ function Events(props) {
       useBackground
     >
       <div className="event-block">
+      <Event
+          day="March 28th"
+          date={{ day: 28, month: 3, year: 2025 }}
+          image={Networking}
+          title="Consulting Networking Night"
+          start="6:30 PM"
+          end="9:30 PM"
+          location="IC Atrium"
+          link="https://docs.google.com/forms/d/e/1FAIpQLScWb4fKHwVB1c6y_KhG6fNM1RLlFSSdarSP3Bx19qS5iBabRA/viewform?usp=dialog"
+        />
       <Event
           day="November 28th"
           date={{ day: 28, month: 11, year: 2024 }}
